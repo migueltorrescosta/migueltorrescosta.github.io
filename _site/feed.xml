@@ -5,9 +5,67 @@
     <description>My Personal Website</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Nov 2016 00:22:53 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Nov 2016 00:22:53 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Nov 2016 03:30:41 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Nov 2016 03:30:41 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Quidditch southern cup</title>
+        <description>&lt;h3 id=&quot;the-beggining&quot;&gt;The beggining&lt;/h3&gt;
+
+&lt;p&gt;Shati, with whom I worked over the summer, heard that I used to play Quidditch and they were looking for players, so she asked if I wanted to go. And that’s how, after 2 years of not playing Quidditch (but, instead Handball), I ended up joining OUQC’s (Oxford University Quidditch Club) trip to Southampton for a weekend full of matches and games.&lt;/p&gt;
+
+&lt;p&gt;The first day of matches started at 8am in Southampton, so we had to wake up by 5am. After a late night of work the day before, I did the obvious: I offered cupcakes to anyone who would make sure that I was out of bed by 5am. Thanks Shati and Rob! I got loads of snacks to last the entire weekend, got on my bike to meet them by the Pitt Rivers Museum and we set of to Southampton. It was a quiet trip, with everyone (but the driver! ) falling asleep.&lt;/p&gt;
+
+&lt;h3 id=&quot;old-friends&quot;&gt;Old friends&lt;/h3&gt;
+
+&lt;p&gt;I only played Quidditch during my first year in Oxford (2013/14), so I wasn’t expecting to see so many familiar faces: Luke and his amazing (yet aggressive :P) gameplay tactics. Abby who argued relentlessly about how languages should be allowed to evolve naturally from common use instead of being forced upon everyone by a select few who decide what is proper vocabulary and grammar (thankfully Shakespear agrees with Abby). David who amazed me with his techy robotic arm that he worked on during his time at Oxford. Jan with whom I had the pleasure of teaching high school kids how to play Quidditch (and noticing how teachers try to be cheeky way more often than students), and many others who taught me how to play a long time ago.&lt;/p&gt;
+
+&lt;h3 id=&quot;group-stage&quot;&gt;Group Stage&lt;/h3&gt;
+
+&lt;p&gt;There were 17 teams playing from the South of England, and the top 16 would play in the BQC (British National Cup) alongside the top 16 teams from the Southern Cup. Further, the top 3 teams would also go to the EQC (European Quidditch Cup). Oxford sent 2 teams, the Radcliffe Chimeras (our first team) and the Quidlings (our second team). Both were confident of going to the BQC, but we further wanted to take the Chimeras to the EQC.&lt;/p&gt;
+
+&lt;p&gt;The Quidlings started playing first and for Simon it was bad. He was tackled and fell into the ground, suffering a whiplash. He was subbed immediately and after speaking with him for a while it became obvious that he was suffering from short term memory loss. The first aid came to help him and after a while he was feeling better, recalling all that he had forgotten (not sure if by actual remembering it or by being told what happened), but he wouldn’t be able to play the rest of the tournment, so he watched.&lt;/p&gt;
+
+&lt;p&gt;Still (jumping ahead many events), the Quidlings secured their place in BQC. Regarding the Chimeras: Our first match was against the Werewolves. For those of you unfamiliar with them, they were the only non-University based team in the tournment. Instead, they gathered the best players from London (picking from many Universities) and practiced together during all summer. Still, nothing prepared us for the result: 160*-0 (If you don’t play the game, know that each hoop scored means 10 points and the * indicates who got the snitch catch, worth 30 points).&lt;/p&gt;
+
+&lt;p&gt;After this game you can imagine our spirit wasn’t in top shape. Still, our great captains (particular kudos for Olivia, who always had kind words to share) managed to muster our energies and made sure we wouldn’t go eydown without a fight. Hence we played Exeter and Reading Saturday afternoon and we managed to win them both.&lt;/p&gt;
+
+&lt;h3 id=&quot;knockout-stage&quot;&gt;Knockout Stage&lt;/h3&gt;
+
+&lt;p&gt;Given the scores we ended up 7th overall in the above group stage (given victories/losses and point differences), and Warwick 2nd. Hence we were playing them the following day (quarter finals, winner stays on). We fought well but so did Warwick, and we were outperformed. They were an amazing team (who stole Jesus, one of our players from way back when I played in first year :P ), and they carried on to the semifinals against the London Unspeakables (who, btw, won against SQC in the quarterfinals, an incredible victory given everyone’s high expectactions of SQC this year). They won handly (110* - 0) and went on to the finals against the Werewolves. Having defeated us so badly in our first match, we were expecting to see a tough match for Warwick. It was indeed tough, but Warwick manage to hold until the snitch was released by keeping the score at 10-20. At his point whoever caught the snitch would win and indeed Warwick managed to do the impossible. 3 Hips to Warwick: Hip Hip Hooray! Hip Hip Hooray! Hip Hip Hooray!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/southern_cup.jpg&quot; alt=&quot;Southern_Cup&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Oct 2016 00:00:00 +0100</pubDate>
+        <link>/2016/10/29/Quidditch-Southern-Cup/</link>
+        <guid isPermaLink="true">/2016/10/29/Quidditch-Southern-Cup/</guid>
+        
+        
+        <category>Sports</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll</title>
+        <description>&lt;p&gt;I have been wanting to have an easy to use/CV/Personal Website to use for a long time. I tried different websites, but nothing was really as flexible as it claimed to be. There was always something that the websites lacked, wether it was because they asked you to pay for each extra functionality or just because they made their product according to what they personally needed, and not necessarily something that everyone could use.&lt;/p&gt;
+
+&lt;p&gt;Anyway, today I decided to give a shot to GitHub pages and Jekyll. Since Windows and coding is usually a mess, I installed Ubuntu on my laptop (Dual Boot). Having done it before, that was fast. Then I downloaded Ruby, RubyGem, Jykell and everything turned out to be quite smooth. The hardest part was (since I didn’t want to start a website from scratch) finding a nice template. After looking around for a while I found the one you’re looking at right now. (Thank you &lt;a href=&quot;https://github.com/Gaohaoyang/gaohaoyang.github.io&quot;&gt;Gaohaoyang&lt;/a&gt; ). The only thing that didn’t work as planned were the share buttons. Most of them were based on work done in &lt;a href=&quot;http://www.baidu.com/&quot;&gt;Baidu&lt;/a&gt;. Hence I dived into the HTML and not having worked with HTML before, this sort of edits were fairly easy to make (I found share buttons in English, found where the original share buttons and swapped the code).&lt;/p&gt;
+
+&lt;p&gt;I’ll still try to see how much personalisation I can give to this website (I’ll probably add my CV as a page eventually), but until then I have to say I am completely satisfied with Jekyll. Kudos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/jekyll.png&quot; alt=&quot;Jekyll&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EDIT: Actually there’s one thing which is annoying me greatly: I have yet to figure out how to render the apostrophe’s properly. The spacing is off-puting!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Oct 2016 00:00:00 +0100</pubDate>
+        <link>/2016/10/03/Jekyll/</link>
+        <guid isPermaLink="true">/2016/10/03/Jekyll/</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
     
       <item>
         <title>Egg</title>
@@ -150,6 +208,8 @@
 &lt;p&gt;“An egg.” I answered. “Now it’s time for you to move on to your next life.”&lt;/p&gt;
 
 &lt;p&gt;And I sent you on your way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/egg.jpg&quot; alt=&quot;Egg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Oct 2016 00:00:00 +0100</pubDate>
         <link>/2016/10/03/Egg/</link>
@@ -157,6 +217,72 @@
         
         
         <category>Opinion</category>
+        
+      </item>
+    
+      <item>
+        <title>G Research competition</title>
+        <description>&lt;p&gt;Today Me, Matt and Aiken went for a high-frequency stock exchange competition. It was sponsored by G-Research ( It’s a fairly efficient way of hiring the best employees).
+Unfortunately, we didn’t win (we won last year. Yay), but (as with everything in life) more time would have made a great difference.&lt;/p&gt;
+
+&lt;p&gt;To give some context, the stock exchange market is a place where you have instruments (company shares) and their respective market price. The price is not an absolute thing but defined by the average value at which the shares are being exchanged (and somewhat related to how the company is doing in real-life, but during the competition we didn’t consider that). There was a central mechanism which kept a record of all the transactions and offers in the market, and each participant ( a company in real life) could propose to buy/sell instruments. Whenever there is a match (I sell at a lower price than you buy, or vice-versa), the transaction occurs at the price the first of us set. We also had a ‘Black Box’ which gave us relatively accurate predictions of future prices for the instruments. By the end, the participant who makes the most money wins. The entire code was done in C# (They, G-Research, scripted the structure of the program, and then we had to complete the rest with our own ideas).&lt;/p&gt;
+
+&lt;p&gt;We started with a very simple idea: We take (A) the average of the last transactions, compare it to (B) our black box prediction and decide to buy if A&lt;b or=&quot;&quot; sell=&quot;&quot; if=&quot;&quot; b=&quot;&quot;&gt;A. This was to make sure everything was operational, and then we tried to make a quadratic approximation of the values of the past few seconds in order to predict in a long-ish term how the stock values will change (using the sign of the coefficient of x**2, and then decide to buy/sell using that value (and completely bypassing the black box given to us). Unfortunately when we were implementing it we failed at making it run without bugs during the given time, so we had to run the simpler idea (The maths for the quadratic approximation had all been worked out, but implementing things always takes longer than expected).&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;During the live test, all teams seemed to have a similar behaviour (they all improved at the same time, had the same spikes and, in general, showed the same trends). Even though some correlation is expected (because increasing the value of the instruments increases the amount of money everyone has), usually there are differences in behaviours which were missing, so probably everyone used the same algorithm. This is disappointing in the sense that no original ideas were presented. I’ll have to look into real life trading events to see sophisticated ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/g-research.jpg&quot; alt=&quot;G-Research&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Oct 2015 00:00:00 +0100</pubDate>
+        <link>/2015/10/24/G-Research-Competition/</link>
+        <guid isPermaLink="true">/2015/10/24/G-Research-Competition/</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Start again</title>
+        <description>&lt;p&gt;I´ve been in Oxford for 2 weeks tomorrow, and things are looking pretty good. The routine is all coming back. Lectures officially
+started today, but I have Mondays free so I´ll be starting tomorrow. My room is huge (bigger than any I had before in my life), so I´m even getting a table and 4 chairs. It will be my tiny little living room within my bedroom.&lt;/p&gt;
+
+&lt;p&gt;We had the Fresher´s Bop 2 days ago, and I have to admit I never expected to dance tango to the sound of disco music (Warning: it´s a bad idea, the rhythm gets completely screwed). During that night I met my college grandkids, saw my kids again after a long summer and ‘old´ friends. For those of you wondering what the hell I´m talking about, we have a college system in which fresher´s marry during the first year and when they go into 2nd year they are given kids who they have to look after and make sure they have everything they need in Uni. It´s a nice system for making sure everyone fits in, and it allows for many incest related jokes (my son married his cousin. Disgusting😛 ).
+I started my work as the Handball´s Secretary, and I never expected bureaucracy to be so much work (I know people complain, but still). Hopefully, it will all be done by the end of this month and afterwards things should run more smoothly. Still, we got quite a few good strong players during Fresher´s Fair, so when the matches start it will all have been worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/Oxford.jpg&quot; alt=&quot;Oxford&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2015 00:00:00 +0100</pubDate>
+        <link>/2015/10/12/Start-Again/</link>
+        <guid isPermaLink="true">/2015/10/12/Start-Again/</guid>
+        
+        
+        <category>Others</category>
+        
+      </item>
+    
+      <item>
+        <title>Farfetch</title>
+        <description>&lt;p&gt;This was my first experience working for a company, and overall its an experience I want to repeat.&lt;/p&gt;
+
+&lt;p&gt;My work consisted of using testing the possibility of using Machine Learning to optimise internal operations (I’m afraid I can’t be more specific due to a confidentiality agreement, but I don’t find the operation I was focusing on to be that relevant or, for the matter, important to this post). Machine Learning is a novelty for me, as I’m an Undergrad Maths Student. I started this project having never had a course in Machine Learning, so it was fun going from the knowledge of this buzzword to actually know how it works (i.e. I now know how many algorithms that fall under the “Machine Learning” umbrella work, and I’m able to implement a subset of these using Python packages). Surprisingly it feels less incredible knowing how it works, since it always sounded like the machine was miracously learning by itself. Instead, the main idea (for the subset of algorithms which I looked into) is to map our info into a vector space of some sort and trying to figure out the manifold (or equation for non-binary outputs) which splits the data best, while keeping the manifold as simple as possible (simple being as vague as always, and left to the taste of the coder). It is important that the manifold we find fits the data, but keeping it simple usually gives us more predictive power.&lt;/p&gt;
+
+&lt;p&gt;After self-teaching Python and MySQL I am happy with the results attained, which were continued after I left (because even though I enjoyed the project, finishing my degree is my current priority). Still, if I were to restart the project, I am confident it wouldn’t take me nearly as long to code it all. Hopefully this learning curve will stay this sharp for a long time.&lt;/p&gt;
+
+&lt;p&gt;I couldn’t finish this post without thanking an amazing team who I had the pleasure to work with. Special Thanks to Joao and Carlos, who’ve stopped to help me many times during this 7-week project, and everyone else for their company (we have a bye-bye dinner tomorrow😛 ). Hope to see you all soon🙂&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/farfetch.png&quot; alt=&quot;Farfetch&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Sep 2015 00:00:00 +0100</pubDate>
+        <link>/2015/09/15/Farfetch/</link>
+        <guid isPermaLink="true">/2015/09/15/Farfetch/</guid>
+        
+        
+        <category>Coding</category>
+        
+        <category>Work</category>
+        
+        <category>Machine_Learning</category>
         
       </item>
     
