@@ -5,8 +5,8 @@
     <description>My Personal Website</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Nov 2016 00:43:34 +0000</pubDate>
-    <lastBuildDate>Wed, 16 Nov 2016 00:43:34 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Nov 2016 01:08:08 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 01:08:08 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -25,13 +25,16 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;See the full &lt;a href=&quot;http://icebrain.free.fr/guides/official-manual/&quot;&gt;Manual here&lt;/a&gt; or the &lt;a href=&quot;&quot;&gt;gameplay here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;http://icebrain.free.fr/guides/official-manual/&quot;&gt;Manual here&lt;/a&gt; or &lt;a href=&quot;https://www.youtube.com/watch?v=LdW-IH1Atvs&amp;amp;t=188s&quot;&gt;Gameplay&lt;/a&gt;. It’s easier to learn than it looks at first!&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;The game mechanics are simple to learn,&lt;/p&gt;
+&lt;p&gt;Tell me if you want to play :)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../photos/frozen_synapse.jpg&quot; alt=&quot;Frozen Synapse&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This picture is from Synapse 2 because the graphics look better, but the game is pretty much the same.
+If it is unclear, the red dots in the picture are the enemy’s team, we are the green team and the green squares connected by the white lines is our movement plan.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
         <link>/2016/11/15/Frozen-Synapse/</link>
