@@ -27,6 +27,7 @@ disqus_url: "http://migueltorrescosta.github.io"
 
 # Build settings
 markdown: kramdown
+encoding: UTF-8
 
 # highlight
 # highlighter: pygments

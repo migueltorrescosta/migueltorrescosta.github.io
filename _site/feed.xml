@@ -5,9 +5,63 @@
     <description>My Personal Website</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Nov 2016 03:30:41 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Nov 2016 03:30:41 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Nov 2016 00:43:34 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 00:43:34 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Frozen synapse</title>
+        <description>&lt;p&gt;Today I found this gem from when I was in highschool. Frozen Synapse is a mixture between Call of Duty (or any First Person Shooter) and Chess. This might sound unusual but it is an amazing mixture. YOu are the team’s tactician advising everyone what to do, and the game evolves in turns:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;planning-phase&quot;&gt;Planning Phase&lt;/h3&gt;
+
+&lt;p&gt;You’re the tactician and at the start of the game you order your units to move/send grenades, duck for cover,… as you think is best ( and so does the enemy tactician ). At your disposal you might have soldiers, snipers, grenade launchers, rocket launchers and others, depending on the match you are playing.&lt;/p&gt;
+
+&lt;h3 id=&quot;outcome&quot;&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;5 seconds of battle are played where your strategy is ran against your enemy’s strategy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;See the full &lt;a href=&quot;http://icebrain.free.fr/guides/official-manual/&quot;&gt;Manual here&lt;/a&gt; or the &lt;a href=&quot;&quot;&gt;gameplay here&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The game mechanics are simple to learn,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/frozen_synapse.jpg&quot; alt=&quot;Frozen Synapse&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Nov 2016 00:00:00 +0000</pubDate>
+        <link>/2016/11/15/Frozen-Synapse/</link>
+        <guid isPermaLink="true">/2016/11/15/Frozen-Synapse/</guid>
+        
+        
+        <category>Games</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll</title>
+        <description>&lt;p&gt;I have been wanting to have an easy to use/CV/Personal Website to use for a long time. I tried different websites, but nothing was really as flexible as it claimed to be. There was always something that the websites lacked, wether it was because they asked you to pay for each extra functionality or just because they made their product according to what they personally needed, and not necessarily something that everyone could use.&lt;/p&gt;
+
+&lt;p&gt;Anyway, today I decided to give a shot to GitHub pages and Jekyll. Since Windows and coding is usually a mess, I installed Ubuntu on my laptop (Dual Boot). Having done it before, that was fast. Then I downloaded Ruby, RubyGem, Jykell and everything turned out to be quite smooth. The hardest part was (since I didn’t want to start a website from scratch) finding a nice template. After looking around for a while I found the one you’re looking at right now. (Thank you &lt;a href=&quot;https://github.com/Gaohaoyang/gaohaoyang.github.io&quot;&gt;Gaohaoyang&lt;/a&gt; ). The only thing that didn’t work as planned were the share buttons. Most of them were based on work done in &lt;a href=&quot;http://www.baidu.com/&quot;&gt;Baidu&lt;/a&gt;. Hence I dived into the HTML and not having worked with HTML before, this sort of edits were fairly easy to make (I found share buttons in English, found where the original share buttons and swapped the code).&lt;/p&gt;
+
+&lt;p&gt;I’ll still try to see how much personalisation I can give to this website (I’ll probably add my CV as a page eventually), but until then I have to say I am completely satisfied with Jekyll. Kudos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../photos/jekyll.png&quot; alt=&quot;Jekyll&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;EDIT: Actually there’s one thing which is annoying me greatly: I have yet to figure out how to render the apostrophe’s properly. The spacing is off-puting!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+        <link>/2016/11/03/Jekyll/</link>
+        <guid isPermaLink="true">/2016/11/03/Jekyll/</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
     
       <item>
         <title>Quidditch southern cup</title>
@@ -43,27 +97,6 @@
         
         
         <category>Sports</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll</title>
-        <description>&lt;p&gt;I have been wanting to have an easy to use/CV/Personal Website to use for a long time. I tried different websites, but nothing was really as flexible as it claimed to be. There was always something that the websites lacked, wether it was because they asked you to pay for each extra functionality or just because they made their product according to what they personally needed, and not necessarily something that everyone could use.&lt;/p&gt;
-
-&lt;p&gt;Anyway, today I decided to give a shot to GitHub pages and Jekyll. Since Windows and coding is usually a mess, I installed Ubuntu on my laptop (Dual Boot). Having done it before, that was fast. Then I downloaded Ruby, RubyGem, Jykell and everything turned out to be quite smooth. The hardest part was (since I didn’t want to start a website from scratch) finding a nice template. After looking around for a while I found the one you’re looking at right now. (Thank you &lt;a href=&quot;https://github.com/Gaohaoyang/gaohaoyang.github.io&quot;&gt;Gaohaoyang&lt;/a&gt; ). The only thing that didn’t work as planned were the share buttons. Most of them were based on work done in &lt;a href=&quot;http://www.baidu.com/&quot;&gt;Baidu&lt;/a&gt;. Hence I dived into the HTML and not having worked with HTML before, this sort of edits were fairly easy to make (I found share buttons in English, found where the original share buttons and swapped the code).&lt;/p&gt;
-
-&lt;p&gt;I’ll still try to see how much personalisation I can give to this website (I’ll probably add my CV as a page eventually), but until then I have to say I am completely satisfied with Jekyll. Kudos.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../../photos/jekyll.png&quot; alt=&quot;Jekyll&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;EDIT: Actually there’s one thing which is annoying me greatly: I have yet to figure out how to render the apostrophe’s properly. The spacing is off-puting!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Oct 2016 00:00:00 +0100</pubDate>
-        <link>/2016/10/03/Jekyll/</link>
-        <guid isPermaLink="true">/2016/10/03/Jekyll/</guid>
-        
-        
-        <category>Coding</category>
         
       </item>
     
@@ -227,7 +260,7 @@ Unfortunately, we didn’t win (we won last year. Yay), but (as with everything 
 
 &lt;p&gt;To give some context, the stock exchange market is a place where you have instruments (company shares) and their respective market price. The price is not an absolute thing but defined by the average value at which the shares are being exchanged (and somewhat related to how the company is doing in real-life, but during the competition we didn’t consider that). There was a central mechanism which kept a record of all the transactions and offers in the market, and each participant ( a company in real life) could propose to buy/sell instruments. Whenever there is a match (I sell at a lower price than you buy, or vice-versa), the transaction occurs at the price the first of us set. We also had a ‘Black Box’ which gave us relatively accurate predictions of future prices for the instruments. By the end, the participant who makes the most money wins. The entire code was done in C# (They, G-Research, scripted the structure of the program, and then we had to complete the rest with our own ideas).&lt;/p&gt;
 
-&lt;p&gt;We started with a very simple idea: We take (A) the average of the last transactions, compare it to (B) our black box prediction and decide to buy if A&lt;b or=&quot;&quot; sell=&quot;&quot; if=&quot;&quot; b=&quot;&quot;&gt;A. This was to make sure everything was operational, and then we tried to make a quadratic approximation of the values of the past few seconds in order to predict in a long-ish term how the stock values will change (using the sign of the coefficient of x**2, and then decide to buy/sell using that value (and completely bypassing the black box given to us). Unfortunately when we were implementing it we failed at making it run without bugs during the given time, so we had to run the simpler idea (The maths for the quadratic approximation had all been worked out, but implementing things always takes longer than expected).&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;We started with a very simple idea: We take (A) the average of the last transactions, compare it to (B) our black box prediction and decide to buy if A &amp;lt; B or sell if B &amp;gt; A. This was to make sure everything was operational, and then we tried to make a quadratic approximation of the values of the past few seconds in order to predict in a long-ish term how the stock values will change (using the sign of the coefficient of x**2, and then decide to buy/sell using that value (and completely bypassing the black box given to us). Unfortunately when we were implementing it we failed at making it run without bugs during the given time, so we had to run the simpler idea (The maths for the quadratic approximation had all been worked out, but implementing things always takes longer than expected).&lt;/p&gt;
 
 &lt;p&gt;During the live test, all teams seemed to have a similar behaviour (they all improved at the same time, had the same spikes and, in general, showed the same trends). Even though some correlation is expected (because increasing the value of the instruments increases the amount of money everyone has), usually there are differences in behaviours which were missing, so probably everyone used the same algorithm. This is disappointing in the sense that no original ideas were presented. I’ll have to look into real life trading events to see sophisticated ideas.&lt;/p&gt;
 
@@ -271,7 +304,7 @@ I started my work as the Handball´s Secretary, and I never expected bureaucracy
 
 &lt;p&gt;I couldn’t finish this post without thanking an amazing team who I had the pleasure to work with. Special Thanks to Joao and Carlos, who’ve stopped to help me many times during this 7-week project, and everyone else for their company (we have a bye-bye dinner tomorrow😛 ). Hope to see you all soon🙂&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../../photos/farfetch.png&quot; alt=&quot;Farfetch&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../photos/farfetch.jpg&quot; alt=&quot;Farfetch&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 00:00:00 +0100</pubDate>
         <link>/2015/09/15/Farfetch/</link>
