@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</a>
+        <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> Email</a>
         <span class="point"> · </span>
         {% if site.github_username %}
           <a href="https://github.com/{{ site.github_username }}">
@@ -16,11 +16,11 @@
           </a>
           {% endif %}
           <span class="point"> · </span>
-          <span><a href="{{ site.viewsourceroot }}{{ page.path }}">View source</a></span>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+            LinkedIn
+          </a>
           <span class="point"> · </span>
-          <span><a class="newpost" href="javascript:;">New post</a></span>
-		  <span class="point"> · </span>
-          <span><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></span>
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span>RSS</span></a>
           <span class="point"> · </span>
           <span>&copy; 2016 Miguel</span>
       </div>

@@ -11,6 +11,7 @@ description: My Personal Website
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: migueltorrescosta
+linkedin_username: miguel-costa-b89a938b
 permalink: /:year/:month/:day/:title/
 # this is the url root of the view source link on the footer page.
 viewsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io/blob/master/
@@ -18,8 +19,6 @@ viewsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io
 newsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io/new/master
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: lixizhi
-#duoshuo_url: "http://lixizhi.github.io"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: miguel
 disqus_url: "http://migueltorrescosta.github.io"
