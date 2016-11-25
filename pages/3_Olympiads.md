@@ -99,6 +99,6 @@ permalink: /olympiads/
 
 </table>
 
-<sub>1 - Portuguese Speaking Countries´ Math Olympiad.</sub>
+<sub><sup>1</sup> Portuguese Speaking Countries´ Math Olympiad.</sub>
 
-<sub>2 - Portugal/Brasil joint Math Olympiad.</sub>
+<sub><sup>2</sup> Portugal/Brasil joint Math Olympiad.</sub>
