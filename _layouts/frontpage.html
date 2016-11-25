@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-  <div id="myArticle" class="col-sm-9">
+  <div id="myArticle" class="col-sm-12">
     <div class="post-area post">
       <article>
         {{content}}
@@ -12,10 +12,10 @@ layout: default
 </div>
 <p><br/></p>
 <div id="index" class="row">
-  <div class="col-sm-9">
+  <div class="col-sm-12">
     <div class="post-area ">
 	  <div class="post-list-header">
-	  Latest
+	  Updates
 	  </div>
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
@@ -49,6 +49,8 @@ layout: default
       </div>
     </div>
   </div>
+
+<!-- Removed the categories panel
   <div class="col-sm-3">
     <div class="shadow-corner-curl hidden-xs">
       <div class="categories-list-header">
@@ -65,4 +67,6 @@ layout: default
       {% endfor %}
     </div>
   </div>
+-->
+
 </div>

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 categories: Coding
+published: false
 ---
 
 Today Me, Matt and Aiken went for a high-frequency stock exchange competition. It was sponsored by G-Research ( It’s a fairly efficient way of hiring the best employees).
