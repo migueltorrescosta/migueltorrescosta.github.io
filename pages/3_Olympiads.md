@@ -5,78 +5,87 @@ comments: false
 permalink: /olympiads/
 ---
 
-### Ibero-American Math Olympiad
+<table border="1">
 
-#### Bronze Medal
+<tr>
+<td><b>Olympiad</b></td>
+<td><b>Subject</b></td>
+<td><b>Medal</b></td>
+<td><b>Date</b></td>
+</tr>
 
-September 2013
+<tr>
+<td>Ibero-American</td>
+<td>Math</td>
+<td>Bronze</td>
+<td>September 2013</td>
+</tr>
 
----
+</tr>
+<td>Ibero-American</td>
+<td>Math</td>
+<td>Bronze</td>
+<td>September 2013</td>
+</tr>
 
-### OMCPLP<sup>1</sup>
+<tr>
+<td>OMCPLP<sup>1</sup></td>
+<td>Math</td>
+<td>Gold</td>
+<td>August 2013</td>
+</tr>
 
-#### Gold Medal
+<tr>
+<td>National</td>
+<td>Math</td>
+<td>Silver</td>
+<td>March 2013</td>
+</tr>
 
-August 2013
+<tr>
+<td>Paulist<sup>2</sup></td>
+<td>Math</td>
+<td>Silver</td>
+<td>November 2012</td>
+</tr>
 
----
+<tr>
+<td>OMCPLP<sup>1</sup></td>
+<td>Math</td>
+<td>Silver</td>
+<td>July 2012</td>
+</tr>
 
-### National Math Olympiad
+<tr>
+<td>National</td>
+<td>Math</td>
+<td>Gold</td>
+<td>March 2012</td>
+</tr>
 
-#### Silver Medal
+<tr>
+<td>Paulista<sup>2</sup></td>
+<td>Math</td>
+<td>Bronze</td>
+<td>November 2010</td>
+</tr>
 
-March 2013
+<tr>
+<td>National</td>
+<td>Chemistry</td>
+<td>Silver</td>
+<td>May 2009</td>
+</tr>
 
----
+<tr>
+<td>Regional</td>
+<td>Chemistry</td>
+<td>Gold</td>
+<td>March 2009</td>
+</tr>
 
-### Paulist Math Olympiad<sup>2</sup>
+</table>
 
-#### Silver Medal
+<sub>1 - Portuguese Speaking Countries Math Olympiad.</sub>
 
-November 2012
-
----
-
-### OMCPLP<sup>1</sup>
-
-#### Silver Medal
-
-July 2012
-
----
-
-### National Math Olympiad
-
-#### Gold Medal
-
-March 2012
-
----
-
-### Paulista Math Olympiad<sup>2</sup>
-
-#### Bronze Medal
-
-November 2010
-
----
-
-### National Chemistry Olympiad
-
-#### Silver Medal
-
-May 2009
-
----
-
-### Regional Chemistry Olympiad
-
-#### Gold Medal
-
-March 2009
-
----
-
-<sub>1 - Portuguese Speaking Country Math Olympiad</sub>
-
-<sub>2 - Portugal/Brasil joint Math Olympiad</sub>
+<sub>2 - Portugal/Brasil joint Math Olympiad.</sub>
