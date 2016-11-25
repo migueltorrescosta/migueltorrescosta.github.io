@@ -20,8 +20,8 @@ newsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io/
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: miguel
-disqus_url: "http://migueltorrescosta.github.io"
+# disqus_shortname: miguel
+# disqus_url: "http://migueltorrescosta.github.io"
 #########################################
 
 # Build settings
