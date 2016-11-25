@@ -10,11 +10,9 @@ permalink: /work_experience/
 
 ## Research Project - Computing the average rank of elliptic curves in ordered families
 
-#### Supervisor: Dr Jennifer Balakrishnan
+<b>Supervisor: Dr Jennifer Balakrishnan</b>
 
 Summer 2016
-
----
 
 ### Project Abstract
 
