@@ -8,6 +8,21 @@ permalink: /work_experience/
 * content
 {:toc}
 
+## Research Project - Computing the average rank of elliptic curves in ordered families
+
+<table>
+  <tr>
+  	<td><b>Supervisor: Dr Jennifer Balakrishnan</b></td>
+    <td>Summer 2016</td>
+  </tr>
+</table>
+
+An elliptic curve E is the set of points (x, y) satisfying an equation of the form y^2 = x^3 + ax + b, together with a special point “at infinity”. When the coefficients a, b are rational numbers, it is of interest to study the set of all rational points (x, y) satisfying the equation. It turns out that the rational points on E form a finitely generated abelian group, and an important invariant attached to E is the rank of this group.
+
+This project aimed to explore the “average” rank of various elliptic curves in certain families by using Sage to build a database of millions of elliptic curves, then computing various important number theoretic invariants attached to these curves.
+
+---
+
 ## Farfetch Internship - Apply Machine Learning to the needs of an e-retailer<sup>1</sup>
 
 <table>
@@ -28,18 +43,3 @@ After the algorithm was mostly trained on static data available I started focusi
 The project was continued by another intern (Nuno) who joined farfetch a week before I left. Even though I no longer worked on the project (I went back to University), I followed the work done by Nuno and was happy to see him finish, after 2 months, the project I started over the summer.
 
 <sub><sup>1</sup> <b>Disclaimer:</b> Due to a confidentiality agreement I will not go into much detail</sub>
-
----
-
-## Research Project - Computing the average rank of elliptic curves in ordered families
-
-<table>
-  <tr>
-  	<td><b>Supervisor: Dr Jennifer Balakrishnan</b></td>
-    <td>Summer 2016</td>
-  </tr>
-</table>
-
-An elliptic curve E is the set of points (x, y) satisfying an equation of the form y^2 = x^3 + ax + b, together with a special point “at infinity”. When the coefficients a, b are rational numbers, it is of interest to study the set of all rational points (x, y) satisfying the equation. It turns out that the rational points on E form a finitely generated abelian group, and an important invariant attached to E is the rank of this group.
-
-This project aimed to explore the “average” rank of various elliptic curves in certain families by using Sage to build a database of millions of elliptic curves, then computing various important number theoretic invariants attached to these curves.
