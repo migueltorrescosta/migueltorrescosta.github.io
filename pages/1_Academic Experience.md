@@ -9,11 +9,12 @@ permalink: /academic_experience/
 {:toc}
 
 ## MMath at Oxford University
+
 2013-2017
 
 ---
 
-### First year
+#### First year
 * Groups and Group Actions
 * Linear Algebra
 * Analysis
@@ -24,7 +25,7 @@ permalink: /academic_experience/
 
 ---
 
-### Second year
+#### Second year
 * Linear Algebra
 * Differential Equations 1 and 2
 * Metric Spaces and Complex Analysis
@@ -38,7 +39,7 @@ permalink: /academic_experience/
 
 ---
 
-### Third year (Awarded First Class BA)
+#### Third year (Awarded First Class BA)
 * Topology and Groups
 * Algebraic Curves
 * Algebraic Number Theory
@@ -50,7 +51,7 @@ permalink: /academic_experience/
 
 ---
 
-### Fourth year (current)
+#### Fourth year (current)
 * Algebraic Geometry
 * Stochastic Differential Equations
 * Functional Analysis
