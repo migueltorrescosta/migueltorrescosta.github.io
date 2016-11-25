@@ -30,3 +30,11 @@ permalink: /contact/
 	<b>LinkedIn:</b> linkedin.com/in/{{ site.linkedin_username }}
   </a>
 {% endif %}
+
+
+<a href="https://migueltorrescosta.github.io">
+  <span class="icon">
+    <img src="../../../../photos/favicon16.jpg">
+  </span>
+  <b>Website:</b> migueltorrescosta.github.io
+</a>
