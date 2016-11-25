@@ -5,9 +5,6 @@ comments: false
 permalink: /academia/
 ---
 
-* content
-{:toc}
-
 ## MMath at Oxford University
 
 2013-2017
