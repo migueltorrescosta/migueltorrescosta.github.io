@@ -5,7 +5,7 @@ comments: false
 permalink: /olympiads/
 ---
 
-<table border="1">
+<table>
 
 <tr>
 <td align="right"><b>Olympiad</b></td>

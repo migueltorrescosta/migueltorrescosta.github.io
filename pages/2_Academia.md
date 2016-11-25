@@ -22,7 +22,7 @@ permalink: /academia/
 <td><b></b></td>
 <td><b></b></td>
 <td><b>First Class BA</b></td>
-<td><b>Undergoing</b></td>
+<td><b>Ongoing</b></td>
 </tr>
 
 <tr>
