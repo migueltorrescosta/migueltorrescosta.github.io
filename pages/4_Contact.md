@@ -3,6 +3,7 @@ layout: page
 title: Contact
 comments: false
 permalink: /contact/
+published: false
 ---
 
 <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> <b>Email:</b> {{ site.email }}</a>
