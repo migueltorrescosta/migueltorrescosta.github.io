@@ -17,7 +17,7 @@ permalink: /work_experience/
   </tr>
 </table>
 
-An elliptic curve E is the set of points (x, y) satisfying an equation of the form y^2 = x^3 + ax + b, together with a special point “at infinity”. When the coefficients a, b are rational numbers, it is of interest to study the set of all rational points (x, y) satisfying the equation. It turns out that the rational points on E form a finitely generated abelian group, and an important invariant attached to E is the rank of this group.
+An elliptic curve E is the set of points $$ (x, y) $$ satisfying an equation of the form $$ y^2 = x^3 + ax + b $$, together with a special point “at infinity”. When the coefficients a, b are rational numbers, it is of interest to study the set of all rational points $$ (x, y) $$ satisfying the equation. It turns out that the rational points on E form a finitely generated abelian group, and an important invariant attached to E is the rank of this group.
 
 This project aimed to explore the “average” rank of various elliptic curves in certain families by using Sage to build a database of millions of elliptic curves, then computing various important number theoretic invariants attached to these curves.
 
@@ -34,7 +34,7 @@ This project aimed to explore the “average” rank of various elliptic curves 
 
 I joined Farfetch with the goal of using existing Machine Learning algorithms to solve certain processes within the company.
 
-In the first 2 weeks I learnt how to use SQL and Python´ Pandas library for Machine Learning ( using material provided by coworkers) . I also self-taught the theory behind some Machine Learning algorithms. I used Microsoft Azure Machine Learning Studio to quickly test the efficiency of different algorithms on the specific datasets I had, and spent a couple days implementing the same in R.
+In the first 2 weeks I learnt how to use SQL and Python´s Pandas library for Machine Learning ( using material provided by coworkers) . I also self-taught the theory behind some Machine Learning algorithms. I used Microsoft Azure Machine Learning Studio to quickly test the efficiency of different algorithms on the specific datasets I had, and spent a couple days implementing the same in R.
 
 Having completed tests I settled on an algorithm for initial implementation in Python. After 3 weeks (mostly spent on creating new columns using tips from field experts on the problem I was trying to solve and cleaning the data) the python scripts were working as expected. Adapting the scripts to other algorithms was quick but none of them surpassed the performance of the original algorithm, as expected after the initial testing phase.
 
