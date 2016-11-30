@@ -32,7 +32,7 @@ This project aimed to explore the “average” rank of various elliptic curves 
   </tr>
 </table>
 
-I joined Farfetch with the goal of using existing Machine Learning algorithms to solve certain processes within the company.
+I joined Farfetch with the goal of using existing Machine Learning algorithms to improve/create new processes within the company.
 
 In the first 2 weeks I learnt how to use SQL and Python´s Pandas library for Machine Learning ( using material provided by coworkers) . I also self-taught the theory behind some Machine Learning algorithms. I used Microsoft Azure Machine Learning Studio to quickly test the efficiency of different algorithms on the specific datasets I had, and spent a couple days implementing the same in R.
 
@@ -40,6 +40,6 @@ Having completed tests I settled on an algorithm for initial implementation in P
 
 After the algorithm was mostly trained on static data available I started focusing on building the pipelines for real time use of the trained model and real time training. Since my internship was coming to an halt I decided to invest my time on improving the documentation for the code I've written and writing guidelines for continuation.
 
-The project was continued by another intern (Nuno) who joined farfetch a week before I left. Even though I no longer worked on the project (I went back to University), I followed the work done by Nuno and was happy to see him finish, after 2 months, the project I started over the summer.
+The project was continued by another intern (Nuno) who joined farfetch a week before I left. Even though I no longer worked on the project (I went back to University). I followed the work done by Nuno
 
 <sub><sup>1</sup> <b>Disclaimer:</b> Due to a confidentiality agreement I will not go into much detail</sub>
