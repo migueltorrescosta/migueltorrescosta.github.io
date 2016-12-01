@@ -1,16 +1,11 @@
-I enjoy learning about Machine Learning and Stochastic Caulculus
+I´ve spent the last 4 years in Oxford, and the best gift from it is how many experiences you get to have through the eyes of someone else, how alive the city is with events and ideas being shared constantly. Most of all, I enjoy how in-depth and technical people get when presenting their own work. It allows me to understand how things got done to the last detail.
 
-I am working on my taught Master´s in Mathematics at Oxford University (I´ll be done in July 2017). I have applied Machine Learning techniques during a summer internship. As a pure mathematician I haven´t been exposed to implementations of these ideas during my course, but I have done so during internships.
+I have always enjoyed puzzles (and maths provides me with plenty). Spending hours figuring out how to solve a problem, write a solution, see if it might fail anywhere. I´ve learnt to be aware of my assumptions whenever I tackle a problem so that, if it fails, I know exactly why. For example, as an example of something comonly assumed, did you know that if a vaccine A has a better overall performance (in treating a disease) than vaccine B, we might still have that, by splitting the patients in groups, vaccine B outperforms A in every group?
 
-I am currently trying to find a project to work on for the next few years in order to improve my programming skills. Do <a href="mailto:{{ site.email }}">email me</a> if you have anything in mind.
+Currently I am interested in Machine Learning and Stochastic Calculus. In particular I am interested in developing/improving software that uses techniques in any/both of the above, so that I can mix my fondness of coding with my fondness of maths.
+
+The list of problems below is still fairly short (given how recent this website is), but I will expand it with time.
 
 ---
 
-During my free time I enjoy sports, strategy games and puzzles. Here is one of my favourites:
-
-<b>a)</b> Suppose that you have a biased coin with probability $$ p $$ of getting heads. Can you simulate an unbiased coin?
-
-<b>b)</b> Instead, if you have a unbiased coin and a given $$ p \in [0,1] $$
-, can you simulate a coin with probability $$ p $$ of getting heads?
-
-<b>c)</b> Whenever possible, what is the minimum number of expected coin flips you need for both part <b>a)</b> and <b>b)</b> ?
+When I am not doing any of the above, I enjoy discovering new hobbies which involve either mental acuity or physical activity. These include strategy games (Starcraft, Frozen Synapse), board games (Catan, Mafia), sports (Handball, Quidditch, Basketball, Football) and others (Pool, Tango, etc).
