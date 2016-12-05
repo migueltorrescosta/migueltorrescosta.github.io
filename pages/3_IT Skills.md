@@ -10,7 +10,7 @@ permalink: /it_skills/
 <sub>By order of experience/preference</sub>
 
 #### Python & Jupyter Notebooks
-Quickly testing certain hypothesis (usually small algorithms for)
+This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, matplotlib and scikit-learn for implementing Machine Learning Algorithms. I have also tested many minor algorithms for simple problems
 
 #### Haskell
 It was the main language used for a Functional Analysis course I took in 2014. Even though I haven´t used for a year, I enjoyed how similar it is to math (i.e. the mindset of writing functions only and using list comprehensions the same way we do in math).
@@ -26,21 +26,23 @@ Used it to quickly test different Machine Learning algorithms, so that I could k
 Used it for the same reason as R. It is a surprisingly intuitive out of the box tool to use.
 
 #### SageMath
-It was needed for the Elliptic Curves Project I worked on during the Summer of 2016. I was impressed by the simplicity of the code needed to work with intrincate mathematical objects (namely elliptic curves over arbitrary rings, which I used extensively)
+It was needed for an Elliptic Curves Project at Oxford University during the Summer of 2016. I was impressed by the simplicity of the code needed to work with intrincate mathematical objects (namely elliptic curves over arbitrary rings, which I used extensively).
 
 #### SketchUp
 Spent a lot of time on it during highschool.
 
 #### C++
-I´ve used Python for the last 3 years, but before that I used to play with C++ a lot (convinced by the efficiency arguments). I eventually changed to Python since most of my current coding does not require the speed C++ gives
+I´ve used Python for the last 3 years, but before that I used to play with C++ a lot. I eventually changed to Python since most of my current coding does not require the speed C++ gives, and Python is a lot faster to code.
 
 
-#### C#
-Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events)
+#### C\#
+Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events).
 
 #### Scala
-Used it for 
+Was the language used for <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes.
+
+#### HTML & CSS
+I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited work done by others.
 
 #### Microsoft Office
-
-#### HTML & CSS (I had to use it to make this website)
+I've used Microsoft Excel to build a small ruin theory model.
