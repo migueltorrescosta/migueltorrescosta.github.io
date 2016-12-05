@@ -7,3 +7,7 @@ I like to think about puzzles such as the ones below (Currently the list is a bi
 - Pool
 - Starcraft II
 - Tango
+
+---
+
+If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you.
