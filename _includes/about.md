@@ -10,4 +10,4 @@ I like to think about puzzles such as the ones below (Currently the list is a bi
 
 ---
 
-If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you.
+If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you. This website is work in progress, so email me if you have any suggestions or if you see any typos.
