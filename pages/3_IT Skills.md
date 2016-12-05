@@ -29,7 +29,7 @@ Used it for the same reason as R. It is a surprisingly intuitive out of the box 
 It was needed for an Elliptic Curves Project at Oxford University during the Summer of 2016. I was impressed by the simplicity of the code needed to work with intrincate mathematical objects (namely elliptic curves over arbitrary rings, which I used extensively).
 
 #### SketchUp
-Spent a lot of time on it during highschool.
+Spent a lot of time playing with it during highschool.
 
 #### C++
 I´ve used Python for the last 3 years, but before that I used to play with C++ a lot. I eventually changed to Python since most of my current coding does not require the speed C++ gives, and Python is a lot faster to code.
@@ -45,4 +45,4 @@ Was the language used for <i>Imperative Programming</i> and <i>Design & Analysis
 I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited work done by others.
 
 #### Microsoft Office
-I've used Microsoft Excel to build a small ruin theory model.
+I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Model, compound with a Geometric Distribution.
