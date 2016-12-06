@@ -5,6 +5,7 @@ I like to think about puzzles such as the ones below (Currently the list is a bi
 - [Mafia](https://en.wikipedia.org/wiki/Mafia_(party_game)) (party game)
 - Snooker
 - Quidditch
+- Football
 - Starcraft II
 - Tango
 
