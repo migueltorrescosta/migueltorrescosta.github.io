@@ -8,7 +8,3 @@ I like to think about puzzles such as the ones below (Currently the list is a bi
 - Football
 - Starcraft II
 - Tango
-
----
-
-If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you. This website is work in progress, and I´m very receptive of suggestions for improving it.
