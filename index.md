@@ -4,7 +4,7 @@ layout: frontpage
 
 ## About me
 
-![Jekyll](../../../../photos/profile.jpg){:class="img-responsive" align="right" style="width:350px;margin:10px 10px 10px 10px"}
+![Jekyll](../../../../photos/profile.jpg){:class="img-responsive" align="right" style="height:270px;margin:10px 10px 10px 10px"}
 
 {% include about.md %}
 
