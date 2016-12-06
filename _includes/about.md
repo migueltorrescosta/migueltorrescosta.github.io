@@ -3,11 +3,11 @@ I like to think about puzzles such as the ones below (Currently the list is a bi
 - Playing around with my dogs
 - Catan (and other Board Games)
 - [Mafia](https://en.wikipedia.org/wiki/Mafia_(party_game)) (party game)
+- Snooker
 - Quidditch
-- Pool
 - Starcraft II
 - Tango
 
 ---
 
-If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you. This website is work in progress, so email me if you have any suggestions or if you see any typos.
+If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you. This website is work in progress, and I´m very receptive of suggestions for improving it.
