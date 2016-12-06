@@ -10,7 +10,7 @@ permalink: /it_skills/
 <sub>By order of experience/preference</sub>
 
 #### Python & Jupyter Notebooks
-This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, matplotlib and scikit-learn for implementing Machine Learning Algorithms. I have also tested many minor algorithms for simple problems
+This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, scikit-learn for implementing Machine Learning algorithms and matplotlib for presenting the results. I have also tested many minor algorithms for simpler problems.
 
 #### Haskell
 It was the main language used for a Functional Analysis course I took in 2014. Even though I haven´t used for a year, I enjoyed how similar it is to math (i.e. the mindset of writing functions only and using list comprehensions the same way we do in math).
