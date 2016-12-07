@@ -1,4 +1,4 @@
-I like to think about puzzles such as the ones below (Currently the list is a bit short, but I´ll add more). Lately I've been curious about Machine Learning and Stochastic Calculus. During the rest of my free I might be doing any of the following:
+I´m a 21 year old who likes to think about puzzles such as the ones below (Currently the list is a bit short, but I´ll add more). Lately I've been curious about Machine Learning and Stochastic Calculus. During the rest of my free I might be doing any of the following:
 
 - Playing around with my dogs
 - Catan (and other Board Games)
