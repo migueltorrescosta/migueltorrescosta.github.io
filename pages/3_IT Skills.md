@@ -39,10 +39,10 @@ I´ve used Python for the last 3 years, but before that I used to play with C++ 
 Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events).
 
 #### Scala
-Was the language used for <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes.
+Was the language used for the <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes I took in 2014.
 
 #### HTML & CSS
 I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited work done by others.
 
 #### Microsoft Office
-I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Model, compound with a Geometric Distribution.
+I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Model, compound with a Normal Distribution.
