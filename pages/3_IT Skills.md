@@ -45,4 +45,4 @@ Was the language used for the <i>Imperative Programming</i> and <i>Design & Anal
 I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited work done by others.
 
 #### Microsoft Office
-I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Model, compound with a Normal Distribution.
+I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Distribution, compound with a Normal Distribution.
