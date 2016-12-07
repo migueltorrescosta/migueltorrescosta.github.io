@@ -10,7 +10,7 @@ permalink: /academia/
 <table>
   <tr>
     <td><b>In progress</b></td>
-    <td>2016-Present</td>
+    <td> 2016 - July 2017</td>
   </tr>
 </table>
 
@@ -28,7 +28,7 @@ permalink: /academia/
 <table>
   <tr>
     <td><b>First Class Degree Awarded</b></td>
-    <td>2013-2016</td>
+    <td> 2013 - 2016</td>
   </tr>
 </table>
 
