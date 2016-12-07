@@ -11,4 +11,6 @@ layout: frontpage
 
 ---
 
-If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you. This website is work in progress, and any idea/suggestion to improve it is appreciated.
+If you want to be up to date with the Puzzles available there is an [RSS Feed]({{ "/feed.xml" | prepend: site.baseurl }}) for you.
+
+I´ve built this website recently, and any idea/suggestion is greatly appreciated.
