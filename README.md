@@ -1,4 +1,6 @@
 # Personal Website
 
-Running on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+Running on Github + Jekyll.
+
+Theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
