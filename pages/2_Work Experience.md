@@ -23,7 +23,7 @@ During the project we explored the “average” rank of various elliptic curves
 
 ---
 
-## Farfetch Internship - Apply Machine Learning to the needs of an e-retailer<sup>1</sup>
+## Farfetch Internship - Apply Machine Learning to the needs of an e-retailer
 
 <table>
   <tr>
@@ -41,5 +41,3 @@ Having completed tests I settled on an algorithm for initial implementation in P
 After the algorithm was mostly trained on static data available I started focusing on building the pipelines for real time use of the trained model and real time training. Since my internship was coming to an halt I decided to invest my time on improving the documentation for the code I've written and writing guidelines for continuation.
 
 The project was continued by another intern (Nuno) who joined farfetch a week before I left. Even though I no longer worked on the project (I went back to University). I followed the work done by Nuno
-
-<sub><sup>1</sup> <b>Disclaimer:</b> Due to a confidentiality agreement I will not go into much detail</sub>
