@@ -10,7 +10,7 @@ tagline:             'and my ramblings'
 description:         'A mathematician of many hobbies'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-paginate:            5
+paginate:            10
 
 # About/contact
 author:
