@@ -10,7 +10,3 @@ permalink: /thanks/
   <br>
   <a href="{{ site.baseurl }}/">Head back home</a></p>
 </div>
-
-Your message has been submitted. Thank you!
-
-[Back to the Blog]({{site.url}})
