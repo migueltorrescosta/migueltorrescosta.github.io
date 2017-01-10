@@ -1,35 +1,31 @@
-# Site settings
-title: Miguel Torres Costa
-email: miguelptcosta1995@gmail.com
-description: Miguel Pereira Torres Costa
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
 
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+# Setup
+title:               Miguel Torres Costa
+tagline:             'and my ramblings'
+description:         'A mathematician of many hobbies'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username: migueltorrescosta
-linkedin_username: miguel-costa-b89a938b
-permalink: /:year/:month/:day/:title/
-# this is the url root of the view source link on the footer page.
-viewsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io/blob/master/
-# this is the url root of the create page link on the footer page.
-newsourceroot: https://github.com/migueltorrescosta/migueltorrescosta.github.io/new/master
-#########################################
-# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-# disqus.com commenting system. please note that it is exclusive with duoshuo.com
-# disqus_shortname: miguel
-# disqus_url: "http://migueltorrescosta.github.io"
-#########################################
+# About/contact
+author:
+  name:              Miguel Torres Costa
+  url:               migueltorrescosta.github.io
+  email:             miguelptcosta1995@gmail.com
+  github:            migueltorrescosta
+  google+:           
+  linkedin:          miguel-costa-b89a938b
+  steam:             WalkinBot
+  stackoverflow:     7358944
+  reddit:            WalkinBot
 
-# Build settings
-markdown: kramdown
-encoding: UTF-8
+# Custom vars
+version:             1.0.0
 
-# highlight
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+# Gems
+gems: [jekyll-paginate, jekyll-gist]
