@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Oxford University Elliptic Curves Research Project
+category: Professional
 comments: false
 ---
 
