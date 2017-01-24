@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 comments: false
+published: false
 ---
 
 <form action="https://formspree.io/{{site.author.email}}"
