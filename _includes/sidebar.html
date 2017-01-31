@@ -13,17 +13,33 @@
   </div>
 -->
 
+<!--
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
+-->
 
+  <div class="sidebar-nav-item">
+    Topics:
+    {% for node in site.pages | sort:"url" %}
+      {% if node.title != null %}
+        {% if node.layout == "tagpage" %}
+        <li>
+          <a href="{{ node.url }}">{{ node.title }}</a>
+        </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+  </nav>
 
+  <nav class="sidebar-nav">
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
+      `layout: page or tagpage` in the front-matter. See readme for usage.
     {% endcomment %}
 
     {% for node in site.pages | sort:"url" %}
@@ -33,6 +49,9 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+
+
+
 
     <a class="sidebar-nav-item" href="{{site.baseurl}}/Miguel_Torres_Costa_CV.pdf">CV</a>
   </nav>
