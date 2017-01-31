@@ -19,102 +19,49 @@
   </div>
 -->
 
-  <div class="sidebar-nav-item">
-    Topics:
-    {% for node in site.pages | sort:"url" %}
-      {% if node.title != null %}
-        {% if node.layout == "tagpage" %}
-        <li>
-          <a href="{{ node.url }}">{{ node.title }}</a>
-        </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-  </nav>
-
-  <nav class="sidebar-nav">
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page or tagpage` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% for node in site.pages | sort:"url" %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-
-
-
-    <a class="sidebar-nav-item" href="{{site.baseurl}}/Miguel_Torres_Costa_CV.pdf">CV</a>
-  </nav>
-
 
   <div class="sidebar-item">
-  Get in touch via:
+  <center>Get in touch:</center>
     <p>
-    <div id="contact-list" style="text-align: left">
+    <div id="contact-list" style="text-align: center">
       <a href="https://github.com/{{ site.author.github}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-github fa-stack-1x"></i>
         </span>
-        Github
       </a>
-    </div>
-    <div id="contact-list" style="text-align: left">  
       <a href="https://linkedin.com/in/{{ site.author.linkedin}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-linkedin fa-stack-1x"></i>
         </span>
-        LinkedIn
-      </a>
-    </div>
-    <div id="contact-list" style="text-align: left">  
+      </a> 
       <a href="mailto:{{ site.author.email}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-envelope fa-stack-1x"></i>
         </span>
-        Email
       </a>
     </div>
-    <div id="contact-list" style="text-align: left">  
+    <div id="contact-list" style="text-align: center">  
       <a href="http://stackoverflow.com/users/{{ site.author.stackoverflow}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-stack-overflow fa-stack-1x"></i>
         </span>
-        StackOverflow
       </a>
-    </div>
-    <div id="contact-list" style="text-align: left">  
       <a href="https://www.reddit.com/user/{{ site.author.reddit}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-reddit fa-stack-1x"></i>
         </span>
-        Reddit
       </a>
-    </div>
-    <div id="contact-list" style="text-align: left">  
       <a href="/atom.xml">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-rss fa-stack-1x"></i>
         </span>
-        RSS Feed
       </a>
-
-      
     </div>
 
 
@@ -166,6 +113,44 @@
     </div>
 -->
 
+  </div>
+
+
+
+  <nav class="sidebar-nav">
+
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page or tagpage` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% for node in site.pages | sort:"url" %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{site.baseurl}}/Miguel_Torres_Costa_CV.pdf">CV</a>
+  </nav>
+
+
+
+
+  <div class="sidebar-nav-item" align="">
+    <center>Posts by topic:</center>
+    {% for node in site.pages | sort:"url" %}
+      {% if node.title != null %}
+        {% if node.layout == "tagpage" %}
+        <li>
+          <a href="{{ node.url }}">{{ node.title }}</a>
+        </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </div>
 
 </div>
