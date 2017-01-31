@@ -1,7 +1,7 @@
 ---
 layout: post
 title: G-Research Competition
-category: Professional
+category: Events
 comments: false
 ---
 

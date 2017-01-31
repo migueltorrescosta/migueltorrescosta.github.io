@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OxfordHack
-category: Professional
+category: Events
 comments: true
 ---
 
