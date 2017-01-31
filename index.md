@@ -14,4 +14,4 @@ Hey! I've created this page as a mixture between sharing random things I like (s
 - My [CV]({{site.baseurl}}{% link Miguel_Torres_Costa_CV.pdf %}).
 - A link to my social profiles.
 
-I started this page recently. If you have any suggestion as to how I could make it look neater do contact me.
+I started this page recently. I'll improve it over time. If you have any suggestions do tell me :)
