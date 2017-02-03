@@ -10,7 +10,6 @@ tagline:             'and my ramblings'
 description:         'A mathematician of many hobbies'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-paginate:            10
 
 # About/contact
 author:
@@ -28,4 +27,4 @@ author:
 version:             1.0.0
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist]
+gems: [jekyll-gist]
