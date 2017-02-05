@@ -7,7 +7,7 @@ published: true
 
 <div id="contact-list" style="text-align: left" display="inline">  
   <a href="/atom.xml">
-    Subscribe (RSS)
+    Subscribe via RSS
   </a>    
 </div>
 
