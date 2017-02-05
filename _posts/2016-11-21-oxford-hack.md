@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OxfordHack
-category: Events
+category: Math & Coding
 comments: true
 ---
 

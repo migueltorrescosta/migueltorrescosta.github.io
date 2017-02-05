@@ -1,7 +1,7 @@
 ---
 layout: post
 title: G-Research Competition
-category: Events
+category: Math & Coding
 comments: false
 ---
 

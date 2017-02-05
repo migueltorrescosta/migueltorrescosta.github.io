@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Math & Coding
 layout: tagpage
-permalink: /Events/
+permalink: /Math&Coding/
 ---

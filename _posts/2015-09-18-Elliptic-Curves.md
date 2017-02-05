@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oxford University Elliptic Curves Research Project
-category: Events
+category: Math & Coding
 comments: false
 ---
 
