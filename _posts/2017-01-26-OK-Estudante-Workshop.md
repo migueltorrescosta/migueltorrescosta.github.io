@@ -1,10 +1,17 @@
 ---
 layout: post
-title: Templates
-category: Others
-published: false
+title: OK Estudante's Workshop
+category: Work
+published: true
 ---
 
-This Saturday OK Estudante was looking for a Portuguese student who studied in the UK to do a workshop (as they mention [here](http://okestudante.pt/prepara-te/workshops-ingles/) )for prospetive students. The theme was Time & Money Management, and so I started preparing the workshop. The guidelines I was given were that I only had to tell them about my personal experience (It would be hard for me to know how everything works in all of the UK's universities. Not impossible, but pretty hard), and try my best to answer all of their questions.
+This Saturday OK Estudante was looking for a Portuguese who studied in the UK for a workshop (as they mention [here](http://okestudante.pt/prepara-te/workshops-ingles/) )for prospetive students. The theme was Time & Money Management, and so I started preparing the workshop. The guidelines I was given were that I only had to tell them about my personal experience, and try my best to answer all of their questions.
+<!--excerpt ends here-->
 I managed to scrape up a worth while list of things to say, but since I was meant to answer their questions and have the participants practice their English I left roughly half of the time given for that. There were 4 groups of 15 students each coming, so it was an audience small enough to be interactive.
-The first 30mins of each workshop felt really strange. Even though I had done presentations before, I wasn't used to having such a small audience in such a small audience with next to no interactions.
+
+The first 30mins of each workshop (on money management) felt really strange. Even though I had done presentations before, I wasn't used to having such a small audience in such a small room with next to no interactions. Apparently this feeling of mine wasn't fully reflected on the students (they gave feedback to OK Estudante afterwards. I'm still uncertain about how much of it was just politeness, but I'll take their word for now).
+
+It got more interesting when we started speaking about the time management aspect of the talk. Why? Because time management includes managing not only studies, but also hobbies, social life, and I used that cue to wonder about their personal hobbies. In the unlikely event that you (reader) are thinking "These students are going abroad for their studies, they ought to spend their time studying and not going out to pubs,...", I must counter-attack with something I found during Uni: If I have nothing else other than my studies to do, there is a lot to do and even more time to do it without anything marking the passage of time. In the end I might be very unproductive for an entire afternoon without even noticing. If, instead, I have a quidditch practice at 5pm then I know that I'll have 2 work slots (maybe 2-5pm and 7-9pm) with a break in the middle, and this worked better for me. This might not work for everyone, so I told them "If you don't know it yet, try different work schedules: working late into the night or early in the morning, working longer hours with many breaks or shorter without any breaks, and anything else you come up with till you find what works for you".
+
+If you didn't think the above, let me get back on track: I used the opportunity to know more about what interested them one by one and what I've seen related to what they like. There are many societies in Universities, from sports to nationalities (yay Portuguese society) passing by Quidditch to Bitcoin and many more (there were 600 ish at Oxford). Even though this last bit wasn't as educational as previous ones, it was important to have them practice English as much as possible before going abroad.
+It was great to feel them calmer regarding going abroad after the workshop. I made sure they knew they had to prepare for life abroad (setting up a bank account as soon as they got there, looking for a job online before going if they need to and only afterwards looking for on site jobs,...) but I also assured them that 
