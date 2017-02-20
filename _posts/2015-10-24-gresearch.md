@@ -2,7 +2,6 @@
 layout: post
 title: G-Research Competition
 category: Math & Coding
-comments: false
 ---
 
 Today Me, Matt and Aiken went for a high-frequency stock exchange competition. It was sponsored by G-Research ( It’s a fairly efficient way of hiring the best employees).
