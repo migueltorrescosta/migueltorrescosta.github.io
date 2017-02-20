@@ -32,12 +32,15 @@ It was needed for an Elliptic Curves Project at Oxford University during the Sum
 ## SketchUp
 Spent a lot of time playing with it during highschool.
 
+## Unity
+I've played around it during a Workshop organized by the Computer Science group at Porto's University. It is a surprisingly straighforward tool to use.
+
 ## C++
 I´ve used Python for the last 3 years, but before that I used to play with C++ a lot. I eventually changed to Python since most of my current coding does not require the speed C++ gives, and Python is a lot faster to code.
 
 
 ## C\#
-Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events).
+Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events). It is also essential for any non-trivial use of Unity's game development software.
 
 ## Scala
 Was the language used for the <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes I took in 2014.
