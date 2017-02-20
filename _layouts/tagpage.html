@@ -20,6 +20,13 @@ layout: default
     <h1>{{ post.title }}</h1>
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
-    <a href="{{ site.baseurl }}{{ post.url }}"> Read more... </a>
+    <a href="{{ site.baseurl }}{{ post.url }}"> Read more... (
+    {% assign words = post.content | number_of_words %}
+      {% if words < 360 %}
+        1 min
+      {% else %}
+        {{ words | divided_by:220 }} mins
+      {% endif %} )
+    </a>
   {% endfor %}
 </div>

@@ -9,23 +9,25 @@ comments: true
   {{ content }}
 </div>
 
-<div class="related">
-  <h2>In the same category</h2>
-  <ul class="related-posts">
-    {% for post in site.categories[page.category] limit:3 %}
-      {% if post.title != page.title %}
-        <li>
-          <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
-              <small>{{ post.date | date_to_string }}</small>
-            </a>
-          </h3>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+{% unless site.categories[page.category].posts == [] %}
+  <div class="related">
+    <h2>In the same category</h2>
+    <ul class="related-posts">
+      {% for post in site.categories[page.category] limit:3 %}
+        {% if post.title != page.title %}
+          <li>
+            <h3>
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+                <small>{{ post.date | date_to_string }}</small>
+              </a>
+            </h3>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endunless %}
 
 
 {% if page.comments %}
