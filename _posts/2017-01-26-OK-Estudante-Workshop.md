@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OK Estudante's Workshop
-category: Work
+category: [Work Experience]
 published: true
 ---
 
