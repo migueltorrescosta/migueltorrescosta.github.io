@@ -13,4 +13,3 @@ When I'm not doing something related to the above I might be:
 - Solving random math problems (a pleasure I deepened during my youth at [Delfos]({{site.baseurl}}{% link _posts/2013-09-29-Delfos.md %}) ).
 - Strategy/Resource games (Catan, [Werewolves](https://en.wikipedia.org/wiki/Mafia_(party_game)), Starcraft, Age of Empires, Don't Starve Together,...).
 - [Quidditch](http://www.ouqc.uk/), Footbal and sports in general.
-- Exploring IRC chats.

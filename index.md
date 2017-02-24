@@ -5,7 +5,7 @@ title: Home
 
 <h1 class="page-title">{{ page.title }}</h1>
 
-The main things you can see in this website:
+Here you can find:
 
 - [Random Posts]({{site.baseurl}}{% link page_All_Posts.md %}) about random things.
 - My [CV]({{site.baseurl}}{% link Miguel_Torres_Costa_CV.pdf %}).
