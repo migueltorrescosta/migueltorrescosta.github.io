@@ -17,4 +17,4 @@ title: Home
 
 <hr>
 
-I built this website recently. I'll keep improving it over time, so if you have any suggestions do tell me.
+I built this website recently. I'll keep improving it over time, so if you have any suggestions (or find any typos) do tell me.
