@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1 class="page-title">Work Related</h1>
+<h1 class="page-title">Professional</h1>
 - Previous [Work Experience]({{site.baseurl}}{% link tagpage_Work_Experience.md %}).
 - My [CV]({{site.baseurl}}{% link Miguel_Torres_Costa_CV.pdf %}).
 - [Software]({{site.baseurl}}{% link page_Programming.md %}) I've worked with.
