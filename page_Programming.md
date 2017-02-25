@@ -21,7 +21,7 @@ During the Farfetch Internship I preferred using Pandas (A Python module) to org
 During the Elliptic Curve Research Project we used MySQL for handling the databases we were building (relatively small databases).
 
 ## R
-Used it to quickly test different Machine Learning algorithms, so that I could know have an idea on which algorithm to use for a dataset I had
+Used it to quickly test different Machine Learning algorithms, so that I could have an idea on which algorithm to use for a dataset I had. I disliked the language, but I can't argue with how fast it was to get things done in R.
 
 ## Microsoft Labs
 Used it for the same reason as R. It is a surprisingly intuitive out of the box tool to use.
