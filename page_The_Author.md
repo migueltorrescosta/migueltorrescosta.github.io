@@ -17,6 +17,6 @@ When I'm not doing something related to the above I might be:
 
 <hr>
 
-If you happen to have any of those, can I borrow it?
+I'd like to get my hands on these books sometime soon:
 
 {% include goodreads.html %}
