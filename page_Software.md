@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Programming
-permalink: /programming/
+title: Software
+permalink: /software/
 ---
 
 <sub>Somethings I've played with, by order of experience/preference.</sub>
