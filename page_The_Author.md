@@ -14,9 +14,3 @@ When I'm not doing something related to the above I might be:
 - Strategy/Resource games (Catan, [Werewolves](https://en.wikipedia.org/wiki/Mafia_(party_game)), Starcraft, Age of Empires, Don't Starve Together,...).
 - [Quidditch](http://www.ouqc.uk/), Football and sports in general.
 - Learning how to play chess (challenge me on [Chess.com](https://www.chess.com/member/mtorres73))
-
-<hr>
-
-I'd like to get my hands on these books sometime soon:
-
-{% include goodreads.html %}
