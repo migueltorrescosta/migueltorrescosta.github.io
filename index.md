@@ -5,7 +5,7 @@ title: Home
 
 <h1 class="page-title">Professional</h1>
 - Previous [Work Experience]({{site.baseurl}}{% link tagpage_Work_Experience.md %}).
-- My [CV]({{site.baseurl}}{% link Miguel_Torres_Costa_CV.pdf %}).
+- My [CV]({{site.baseurl}}{% link CV.pdf %}).
 - [Software]({{site.baseurl}}{% link page_Software.md %}) I've worked with.
 
 <hr>
