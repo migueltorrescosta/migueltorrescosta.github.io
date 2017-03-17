@@ -11,6 +11,8 @@ A list of things I haven't had the chance to get my hands on. Yet.
 
 ## Books
 
+I've compiled this list using [goodreads](https://www.goodreads.com/review/list/65376142?shelf=to-read).
+
 {% include goodreads.html %}
 
 ## VR Headset
