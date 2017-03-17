@@ -7,6 +7,7 @@ title: Home
 - Previous [Work Experience]({{site.baseurl}}{% link tagpage_Work_Experience.md %}).
 - My [CV]({{site.baseurl}}{% link CV.pdf %}).
 - [Software]({{site.baseurl}}{% link page_Software.md %}) I've worked with.
+- I'm currently looking to work as a Maths tutor. Please share my [UniversityTutor](http://porto.universitytutor.com/tutors/944174) account (or this page) to anyone interested.
 
 <hr>
 
