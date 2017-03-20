@@ -15,7 +15,7 @@ title: Home
 - My [Blog]({{site.baseurl}}{% link page_All_Posts.md %}).
 - [Math / Programming]({{site.baseurl}}{% link tagpage_Math_&_Coding.md %}) related posts.
 - [Me]({{site.baseurl}}{% link page_The_Author.md %}) and my online profiles (Click the top left button to see them).
-- [Things]({{site.baseurl}}{% link page_Wishlist.md %}) I want to play with.
+- [Things]({{site.baseurl}}{% link page_Wishlist.md %}) I want.
 - My [PGP Key]({{site.baseurl}}/PGPKey.asc).
 
 <hr>
