@@ -1,7 +1,7 @@
 ---
 layout: page
 title: All Posts
-permalink: /all_posts/
+permalink: /posts/
 published: true
 ---
 
