@@ -1,7 +1,8 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:year/:month/:day/:title.html
+permalink:           /:year/:month/:title.html
+# permalink:           /:year/:month/:day/:title.html
 # relative_permalinks: true
 
 # Setup
