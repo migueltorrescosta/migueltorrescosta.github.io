@@ -1,8 +1,8 @@
 ---
 layout: page
-title: The Author
+title: Author
 comments: false
-permalink: /the_author/
+permalink: /author/
 ---
 
 I'm a 1995 kid who enjoys mathematics in my free time (hooray for Combinatorics), and if possible I would do all my work in pen and paper. Since I also like to see ideas applied to real life, I have to code myself. This resulted in my [Farfetch]({{site.baseurl}}{% link _posts/2014-07-23-Farfetch.md %}) internship where I mostly used Python and MySQL to aid Fraud Detection using Machine Learning and my [Elliptic Curves Research Project]({{site.baseurl}}{% link _posts/2015-09-18-Elliptic-Curves.md %}) where we (a team of 15 people) were populating databases with information about Elliptic Curves.

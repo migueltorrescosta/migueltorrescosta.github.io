@@ -12,7 +12,7 @@ title: Home
 
 <h1 class="page-title">Personal</h1>
 - My [Blog]({{site.baseurl}}{% link page_Posts.md %}) (and the same [organised by categories]({{site.baseurl}}{% link page_Categories.md %})).
-- [Me]({{site.baseurl}}{% link page_The_Author.md %}) and my online profiles (Click the top left button to see them).
+- [Me]({{site.baseurl}}{% link page_Author.md %}) and my online profiles (Click the top left button to see them).
 - [Things]({{site.baseurl}}{% link page_Wishlist.md %}) I want.
 - My [PGP Key]({{site.baseurl}}/PGPKey.asc).
 
