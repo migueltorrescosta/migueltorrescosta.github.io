@@ -20,4 +20,4 @@ When we are learning maths we are supposed to follow the rythm of the class. Whe
 
 My final remark to this is the following: it is easier to be an A* student for the entirety of your studies than to be a B or C student for the same period. So put on the effort and climb up the ladder: never take a "You'll understand it once you do it enough times" for an answer, first understand it and them practice implementing it.
 
-PS: I kind of feel really bad for taking the punchline "And so it is with maths" word by word from Math With Bad Drawings, but whoever came up with it did a brilliant job. I couldn't deprive people of that. Sorry Math With Bad Drawings.
+PS: I kind of feel really bad for taking the punchline "And so it is with maths" word by word from Math With Bad Drawings, but it is a brilliant punchline, I couldn't deprive people of that. Sorry Math With Bad Drawings.
