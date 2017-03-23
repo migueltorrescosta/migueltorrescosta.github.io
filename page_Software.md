@@ -4,17 +4,19 @@ title: Software
 permalink: /software/
 ---
 
-<sub>Somethings I've played with, by order of experience/preference.</sub>
+<sub>Software I've worked with, by order of experience/preference.</sub>
 
 * language
 {:toc}
-
 
 ## Python & Jupyter Notebooks
 This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, scikit-learn for implementing Machine Learning algorithms and matplotlib for presenting the results. I have also tested many minor algorithms for simpler problems.
 
 ## Haskell
 It was the main language used for a Functional Analysis course I took in 2014. Even though I haven´t used for a year, I enjoyed how similar it is to math (i.e. the mindset of writing functions only and using list comprehensions the same way we do in math).
+
+## Ubuntu
+I've used it as my OS for over a year. I still have DualBoot with Windows for some programs, but I rarely use it now.
 
 ## Microsoft SQL & MySQL
 During the Farfetch Internship I preferred using Pandas (A Python module) to organise my module due to its flexibility, but I had to use Microsoft SQL to efficiently query their database and import only the data I needed.
