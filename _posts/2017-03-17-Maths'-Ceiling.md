@@ -5,7 +5,7 @@ category: Ramblings
 published: true
 ---
 
-This is entirely based on a [post](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) from one of my favorite blogs: [Math With Bad Drawings](https://mathwithbaddrawings.com) Read the original post if you wanna see really cool drawings. The post starts with a simple question (and the author provides a lovely answer):
+This is entirely based on a [post](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) from one of my favorite blogs: [Math With Bad Drawings](https://mathwithbaddrawings.com). Read the original post if you wanna see really cool drawings. The post starts with a simple question (and the author provides a lovely answer):
 
 <b>Does each person have a math ceiling?</b> (or a cognitive ceiling of any kind)
 
