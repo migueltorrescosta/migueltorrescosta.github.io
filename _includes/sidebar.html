@@ -119,7 +119,7 @@
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
-      `layout: page or tagpage` in the front-matter. See readme for usage.
+      `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
     {% for node in site.pages | sort:"url" %}
@@ -133,20 +133,5 @@
     <a class="sidebar-nav-item" href="{{site.baseurl}}/CV.pdf">CV</a>
   </nav>
 
-
-
-
-  <div class="sidebar-nav-item" align="">
-    <center>Posts by topic:</center>
-    {% for node in site.pages | sort:"url" %}
-      {% if node.title != null %}
-        {% if node.layout == "tagpage" %}
-        <li>
-          <a href="{{ node.url }}">{{ node.title }}</a>
-        </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  </div>
 
 </div>
