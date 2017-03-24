@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Posts
-permalink: /posts/
-published: true
+layout: default
+title: Blog
+permalink: /blog/
+sidebar: true
 ---
 
 

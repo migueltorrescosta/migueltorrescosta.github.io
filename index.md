@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+sidebar: true
 ---
 
 <h1 class="page-title">Professional</h1>
