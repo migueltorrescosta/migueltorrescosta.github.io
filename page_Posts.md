@@ -1,21 +1,14 @@
 ---
-layout: page
+layout: default
 title: Posts
 permalink: /posts/
 published: true
 ---
 
-<div id="contact-list" style="text-align: left" display="inline">  
-  <a href="/atom.xml">
-    Subscribe via RSS
-  </a>    
-</div>
 
-<p>
 
 <div class="posts">
-  {% for post in site.posts %}
-    <hr>
+  {% for post in site.posts %}    
     <h1>{{ post.title }}</h1>
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
@@ -27,9 +20,9 @@ published: true
         {{ words | divided_by:220 }} mins
       {% endif %} )
     </a>
+    <hr>
   {% endfor %}
 </div>
-
 
 <!--
 <div class="posts">
