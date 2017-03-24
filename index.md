@@ -12,7 +12,7 @@ sidebar: true
 <hr>
 
 <h1 class="page-title">Personal</h1>
-- My Blog ([Organised by categories]({{site.baseurl}}{% link page_Tags.md %}) or a [List of all posts]({{site.baseurl}}{% link page_Posts.md %})).
+- My Blog ([Organised by tags]({{site.baseurl}}{% link page_Tags.md %}) or a [List of all posts]({{site.baseurl}}{% link page_Posts.md %})).
 - [Me]({{site.baseurl}}{% link page_Author.md %}) and my online profiles (Click the top left button to see them).
 - [Things]({{site.baseurl}}{% link page_Wishlist.md %}) I want.
 - My [PGP Key]({{site.baseurl}}/PGPKey.asc). Start using it by default with Thunderbird ;)
