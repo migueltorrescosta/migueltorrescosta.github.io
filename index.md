@@ -11,10 +11,10 @@ title: Home
 <hr>
 
 <h1 class="page-title">Personal</h1>
-- My [Blog]({{site.baseurl}}{% link page_Posts.md %}) (and the same [organised by categories]({{site.baseurl}}{% link page_Categories.md %})).
+- My Blog ([Organised by categories]({{site.baseurl}}{% link page_Categories.md %}) or a [List of all posts]({{site.baseurl}}{% link page_Posts.md %})).
 - [Me]({{site.baseurl}}{% link page_Author.md %}) and my online profiles (Click the top left button to see them).
 - [Things]({{site.baseurl}}{% link page_Wishlist.md %}) I want.
-- My [PGP Key]({{site.baseurl}}/PGPKey.asc).
+- My [PGP Key]({{site.baseurl}}/PGPKey.asc). Start using it by default with Thunderbird ;)
 
 <hr>
 
