@@ -8,11 +8,17 @@ sidebar: true
 
 
 <div class="posts">
-  {% for post in site.posts %}    
+  {% for post in site.posts %}   
     <h1>{{ post.title }}</h1>
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
-    <a href="{{ site.baseurl }}{{ post.url }}"> Read more... (
+    <div>
+      <b>Tags:</b>
+      {% for tag in post.categories %}
+        [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag }}">{{ tag }}</a>]
+      {% endfor %}
+    </div> 
+    <a href="{{ site.baseurl }}{{ post.url }}" style="float: right"> Read more... (
     {% assign words = post.content | number_of_words %}
       {% if words < 360 %}
         1 min
