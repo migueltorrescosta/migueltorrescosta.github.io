@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maths' Ceiling
-category: [Math,Ramblings]
+category: [Math,Education]
 ---
 
 This is entirely based on a [post](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) from one of my favorite blogs: [Math With Bad Drawings](https://mathwithbaddrawings.com). Read the original post if you wanna see really cool drawings. The post starts with a simple question (and the author provides a lovely answer):

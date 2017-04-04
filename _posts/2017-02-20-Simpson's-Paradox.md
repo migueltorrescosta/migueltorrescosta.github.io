@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simpson's Paradox
-category: [Math]
+category: [Math,Fallacies]
 published: false
 ---
 
