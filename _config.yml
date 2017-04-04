@@ -7,7 +7,7 @@ permalink:           /:year/:month/:title.html
 
 # Setup
 title:               Miguel Torres Costa
-tagline:             'and my ramblings'
+tagline:             ''
 description:         'A mathematician of many hobbies'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
