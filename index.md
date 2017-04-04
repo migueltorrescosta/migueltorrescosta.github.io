@@ -19,7 +19,9 @@ Further, if you're looking for a part-time maths tutor (or know someone who is) 
 
 <h1 class="page-title">Personal</h1>
 
-I started a [Blog]({{site.baseurl}}{% link page_Posts.md %}) with a mix of my interests (See it organised by [tags]({{site.baseurl}}{% link page_Tags.md %})). I also have a brief summary of [who I am]({{site.baseurl}}{% link page_Author.md %}). If you like what you see here have a look at my [wishlist]({{site.baseurl}}{% link page_Wishlist.md %}).
+I started a [Blog]({{site.baseurl}}{% link page_Posts.md %}) with a mix of my interests (See it organised by [tags]({{site.baseurl}}{% link page_Tags.md %})). I also have a brief summary of [who I am]({{site.baseurl}}{% link page_Author.md %}).
+
+If you enjoy this blog/webpage consider having a look at my [wishlist]({{site.baseurl}}{% link page_Wishlist.md %}).
 
 <hr>
 
