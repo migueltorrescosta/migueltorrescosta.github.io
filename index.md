@@ -12,8 +12,8 @@ I started this website recently to share my work and my maths. I'm very open to 
 
 <h1 class="page-title">Employees</h1>
 
-Here you can find my [CV]({{site.baseurl}}{% link CV.pdf %}) and [Software]({{site.baseurl}}{% link page_Software.md %}) I've worked with. I'm currently looking for work (Here's my generic [CoverLetter]({{site.baseurl}}{% link CoverLetter.pdf %})), so do get in touch if you know of an open vacancy.
-Further, if you're looking for a part-time maths tutor (or know someone who is) feel free to share my [UniversityTutor](http://porto.universitytutor.com/tutors/944174) page.
+Here you can find my [CV]({{site.baseurl}}{% link CV.pdf %}) and [Software]({{site.baseurl}}{% link page_Software.md %}) I've worked with. I'm currently looking for work (Here's my generic [CoverLetter]({{site.baseurl}}{% link CoverLetter.pdf %}) in Portuguese), so do get in touch if you know of an open vacancy.
+Further, if you're looking for a part-time maths tutor (or know someone who is) feel free to share my [UniversityTutor](http://porto.universitytutor.com/tutors/944174) page. 
 
 <hr>
 
