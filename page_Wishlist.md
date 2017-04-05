@@ -10,13 +10,15 @@ sidebar: true
 
 ## Books
 
+<!--
 I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.author.goodreads }}).
+-->
 
 {% include goodreads.html %}
 
 ## VR Headset
 
-[Oculus Rift](https://www.oculus.com/) seems to be the best Headset so far, but they only support Windows. A few other headsets are available, but they either exist for specific platforms (see [Playstation's VR](https://www.playstation.com/en-us/explore/playstation-vr/)) or they are still work in progress (with latency issues that cause headaches,...).
+[Oculus Rift](https://www.oculus.com/) seems to be the best Headset so far, but they only support Windows. A few other headsets are available, but they either exist for specific platforms (see [Playstation's VR](https://www.playstation.com/en-us/explore/playstation-vr/)) or they are still work in progress (with latency issues that cause headaches,...). After having tried Oculus Rift 2 times (one playing tennis and another one just walking around a 'relaxing' environment), I want to see what else can be done with it :D .
 
 ## Racing Drone
 
@@ -27,3 +29,7 @@ I'll let the video below do the talking.
 </div>
 
 How awesome is that?
+
+## Monitors
+
+I can never have enough monitors (up to 6 I think. After that it should be enough). I'm not picky about which monitors though.
