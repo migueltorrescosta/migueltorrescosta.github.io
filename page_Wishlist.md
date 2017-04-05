@@ -5,8 +5,6 @@ permalink: /wishlist/
 sidebar: true
 ---
 
-A list of things I haven't had the chance to get my hands on. Yet.
-
 * language
 {:toc}
 
