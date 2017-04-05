@@ -19,6 +19,9 @@ It was the main language used for a Functional Analysis course I took in 2014. E
 ## Ubuntu
 I've used it as my OS for over a year. I still have DualBoot with Windows for some programs, but I rarely use it now.
 
+## GitHub
+That's where I host this webpage and what we used at Farfetch for code management.
+
 ## Microsoft SQL & MySQL
 During the Farfetch Internship I preferred using Pandas (A Python module) to organise my module due to its flexibility, but I had to use Microsoft SQL to efficiently query their database and import only the data I needed.
 During the Elliptic Curve Research Project we used MySQL for handling the databases we were building (relatively small databases).
