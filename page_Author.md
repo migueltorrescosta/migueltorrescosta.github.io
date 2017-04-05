@@ -5,7 +5,7 @@ permalink: /author/
 sidebar: true
 ---
 
-I'm a 1995 kid who enjoys mathematics (hooray for Combinatorics), and if possible I would do all my work in pen and paper. Since I enjoy seeing the results of good theories, I end up coding a lot in my free time. This resulted in my [Farfetch]({{site.baseurl}}{% link _posts/2014-07-23-Farfetch.md %}) internship where I mostly used Python and MySQL to aid Fraud Detection using Machine Learning and my [Elliptic Curves Research Project]({{site.baseurl}}{% link _posts/2015-09-18-Elliptic-Curves.md %}) where we (a team of 15 people) were populating databases with information about Elliptic Curves.
+I'm a 1995 kid who enjoys mathematics (hooray for Combinatorics), and if possible I would do all my work in pen and paper. Since I enjoy seeing the results of good theories, I end up coding a lot in my free time. This resulted in my [Farfetch]({{site.baseurl}}{% link _posts/2014-07-23-Farfetch.md %}) internship where I mostly used Python and Microsoft SQL to aid Fraud Detection using Machine Learning and my [Elliptic Curves Research Project]({{site.baseurl}}{% link _posts/2015-09-18-Elliptic-Curves.md %}) where we (a team of 15 people) were populating databases with information about Elliptic Curves.
 
 When I'm not doing something related to the above I might be:
 
