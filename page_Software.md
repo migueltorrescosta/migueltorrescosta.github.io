@@ -5,7 +5,7 @@ permalink: /software/
 sidebar: true
 ---
 
-<sub>Software I've worked with, by order of experience/preference.</sub>
+Software I've worked with, by order of experience/preference.
 
 * language
 {:toc}
