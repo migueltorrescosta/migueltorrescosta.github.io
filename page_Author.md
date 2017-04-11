@@ -11,7 +11,7 @@ When I'm not doing something related to the above I might be:
 
 - Playing around with my dogs.
 - Thinking about random math problems (a pleasure I deepened during my youth at [Delfos]({{site.baseurl}}{% link _posts/2013-09-29-Delfos.md %}) ).
-- Strategy/Resource games such as Catan, [Werewolves](https://en.wikipedia.org/wiki/Mafia_(party_game)), Starcraft, Age of Empires, Don't Starve Together and many others. Add me on [Steam](http://steamcommunity.com/id/{{ site.author.steam}}) if you want to pal.
+- Strategy/Resource games such as Catan, [Werewolves](https://en.wikipedia.org/wiki/Mafia_(party_game)), Starcraft, Age of Empires, Don't Starve Together and many others. Add me on [Steam](http://steamcommunity.com/id/{{ site.author.steam}}) if you want to join me in a game.
 - [Quidditch](http://www.ouqc.uk/), Football and sports in general.
 - Learning how to play chess (challenge me on [Chess.com](https://www.chess.com/member/mtorres73))
 
