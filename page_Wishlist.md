@@ -16,9 +16,9 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 {% include goodreads.html %}
 
-## VR Headset
+## HTC Vive VR Headset
 
-[Oculus Rift](https://www.oculus.com/) seems to be the best Headset so far, but they only support Windows. A few other headsets are available, but they either exist for specific platforms (see [Playstation's VR](https://www.playstation.com/en-us/explore/playstation-vr/)) or they are still work in progress (with latency issues that cause headaches,...). After having tried Oculus Rift 2 times (one playing tennis and another one just walking around a 'relaxing' environment), I want to test what games I can make with it.
+![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
 
 ## Racing Drone
 
