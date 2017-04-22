@@ -22,8 +22,6 @@ They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 
 ![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
 
-How awesome is that? Get 2 and we can race together
-
 ## This Doormat
 
 ![Doormat]({{site.baseurl}}{% link /public/doormat.jpg %})
