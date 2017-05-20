@@ -15,7 +15,7 @@ sidebar: true
     <div>
       <b>Tags:</b>
       {% for tag in post.categories %}
-        [<a href="{{ site.baseurl }}{{% 'page_Tags.md' | relative_url %}}#{{ tag }}">{{ tag }}</a>]
+        [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag }}">{{ tag }}</a>]
       {% endfor %}
     </div> 
     <a href="{{ site.baseurl }}{{ post.url }}" style="float: right"> Read more... (

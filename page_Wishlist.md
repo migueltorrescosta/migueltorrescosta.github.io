@@ -20,8 +20,8 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 
-![HTC Vive]({{site.baseurl}}{{ % "/public/htcvive.jpg" | relative_url %}})
+![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
 
 ## This Doormat
 
-![Doormat]({{site.baseurl}}{{ % /public/doormat.jpg | relative_url %}})
+![Doormat]({{site.baseurl}}{% link /public/doormat.jpg %})
