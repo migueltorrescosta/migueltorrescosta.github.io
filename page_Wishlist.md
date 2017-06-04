@@ -26,7 +26,7 @@ They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 
 ![Doormat]({{site.baseurl}}{% link /public/doormat.jpg %})
 
-## Death Headphones
+## Awesome Headphones
 
-[Awesome Headphones](https://www.pylones.com/en/the-objects/1106-gift-stylish-earphones-earbuds.html)
-![Death headphones]({{site.baseurl}}{% link /public/gift-stylish-earphones-earbuds.jpg %})
+[Pylones ftw](https://www.pylones.com/en/the-objects/1106-gift-stylish-earphones-earbuds.html)
+![Awesome headphones]({{site.baseurl}}{% link /public/gift-stylish-earphones-earbuds.jpg %})
