@@ -15,7 +15,11 @@ When I'm not doing something related to the above I might be:
 - [Quidditch](http://www.ouqc.uk/), Football and sports in general.
 - Learning how to play chess (challenge me on [Chess.com](https://www.chess.com/member/mtorres73))
 
+<!--
+
 <h1 class="page-title">Random things</h1>
 
 - My [PGP Key]({{site.baseurl}}{% link /PGPKey.asc %})
 - Bitcoin address: [16ozXpxutoRMpJJgntHp14UVpHWEk3vXRN](bitcoin:16ozXpxutoRMpJJgntHp14UVpHWEk3vXRN)
+
+-->
