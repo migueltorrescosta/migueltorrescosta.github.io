@@ -2,7 +2,7 @@
 layout: page
 title: Wishlist
 permalink: /wishlist/
-sidebar: true
+sidebar: false
 ---
 
 * language

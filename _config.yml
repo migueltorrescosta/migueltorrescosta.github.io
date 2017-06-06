@@ -6,8 +6,7 @@ permalink:           /:year/:month/:title.html
 # relative_permalinks: true
 
 # Setup
-title:               Miguel Torres Costa
-tagline:             ''
+title:               Ramblings
 description:         'A mathematician of many hobbies'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
