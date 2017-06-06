@@ -9,6 +9,7 @@ sidebar: true
 - Posts organised by [Tags]({{site.baseurl}}{% link page_Tags.md %})
 - [Author]({{site.baseurl}}{% link page_Author.md %})
 - [RSS Feed](/atom.xml)
+- [Wishlist]({{site.baseurl}}{% link page_Wishlist.md %})
 
 <h1> For Prospective Employees </h1>
 
