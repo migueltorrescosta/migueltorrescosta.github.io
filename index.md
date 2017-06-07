@@ -5,7 +5,8 @@ sidebar: true
 ---
 
 <div class="posts">
-  {% for post in site.posts %}   
+  {% for post in site.posts %} 
+    <hr>  
     <h1>{{ post.title }}</h1>
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
@@ -23,7 +24,6 @@ sidebar: true
         {{ words | divided_by:220 }} mins
       {% endif %} )
     </a>
-    <hr>
   {% endfor %}
 </div>
 
