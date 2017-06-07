@@ -25,8 +25,3 @@ They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 ## This Doormat
 
 ![Doormat]({{site.baseurl}}{% link /public/doormat.jpg %})
-
-## Awesome Headphones
-
-[Pylones ftw](https://www.pylones.com/en/the-objects/1106-gift-stylish-earphones-earbuds.html)
-![Awesome headphones]({{site.baseurl}}{% link /public/gift-stylish-earphones-earbuds.jpg %})
