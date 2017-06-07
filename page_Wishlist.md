@@ -8,6 +8,11 @@ sidebar: false
 * language
 {:toc}
 
+## Kindle PaperWhite
+So that I can easily carry all the books below
+
+![Kindle PaperWhite]({{site.baseurl}}{% link /public/kindle_paperwhite.jpg %})
+
 ## Books
 
 <!--
@@ -15,6 +20,8 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 -->
 
 {% include goodreads.html %}
+
+
 
 ## HTC Vive VR Headset
 
