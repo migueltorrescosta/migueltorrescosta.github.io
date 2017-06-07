@@ -28,7 +28,7 @@ sidebar: true
 - [GitHub](https://github.com/{{ site.author.github}})
 - [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin}})
 - [Email](mailto:{{ site.author.email}})
-- [GoddReads](https://www.goodreads.com/{{ site.author.goodreads }})
+- [GoodReads](https://www.goodreads.com/{{ site.author.goodreads }})
 - [StackOverflow](http://stackoverflow.com/users/{{ site.author.stackoverflow}})
 - [Reddit](https://www.reddit.com/user/{{ site.author.reddit}})
 - [Steam](http://steamcommunity.com/id/{{ site.author.steam}})
