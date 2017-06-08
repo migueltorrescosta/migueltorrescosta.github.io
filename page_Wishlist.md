@@ -9,7 +9,6 @@ sidebar: false
 {:toc}
 
 ## Kindle PaperWhite
-So that I can easily carry all the books below
 
 ![Kindle PaperWhite]({{site.baseurl}}{% link /public/kindle_paperwhite.jpg %})
 
