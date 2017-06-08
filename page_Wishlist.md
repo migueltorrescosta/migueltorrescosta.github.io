@@ -22,7 +22,7 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 ## Bungee Jumping
 
-![Kindle PaperWhite]({{site.baseurl}}{% link /public/kindle_paperwhite.jpg %})
+![Kindle PaperWhite]({{site.baseurl}}{% link /public/bungee_jumping.jpg %})
 
 ## HTC Vive VR Headset
 
