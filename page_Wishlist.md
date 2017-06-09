@@ -29,7 +29,3 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 
 ![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
-
-## This Doormat
-
-![Doormat]({{site.baseurl}}{% link /public/doormat.jpg %})
