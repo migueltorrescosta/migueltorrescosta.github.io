@@ -24,6 +24,10 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 ![HTC Vive]({{site.baseurl}}{% link /public/skydiving.jpg %})
 
+## Drone Racing
+
+![Kindle PaperWhite]({{site.baseurl}}{% link /public/drone_racing.jpg %})
+
 ## HTC Vive VR Headset
 
 They are developing a lot of [cool stuff](https://www.vive.com/eu/)
