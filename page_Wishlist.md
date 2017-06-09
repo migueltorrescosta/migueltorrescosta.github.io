@@ -20,12 +20,16 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 {% include goodreads.html %}
 
-## Bungee Jumping
+## Skydiving
 
-![Kindle PaperWhite]({{site.baseurl}}{% link /public/bungee_jumping.jpg %})
+![HTC Vive]({{site.baseurl}}{% link /public/skydiving.jpg %})
 
 ## HTC Vive VR Headset
 
 They are developing a lot of [cool stuff](https://www.vive.com/eu/)
 
 ![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
+
+## Bungee Jumping
+
+![Kindle PaperWhite]({{site.baseurl}}{% link /public/bungee_jumping.jpg %})
