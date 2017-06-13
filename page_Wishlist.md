@@ -28,11 +28,11 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 ![Kindle PaperWhite]({{site.baseurl}}{% link /public/drone_racing.jpg %})
 
-## HTC Vive VR Headset
+## Starcraft
 
-They are developing a lot of [cool stuff](https://www.vive.com/eu/)
+[Legacy of the Void](http://us.battle.net/sc2/en/legacy-of-the-void/)
 
-![HTC Vive]({{site.baseurl}}{% link /public/htcvive.jpg %})
+![Starcraft]({{site.baseurl}}{% link /public/starcraft.jpg %})
 
 ## Bungee Jumping
 
