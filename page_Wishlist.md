@@ -37,3 +37,9 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 ## Bungee Jumping
 
 ![Kindle PaperWhite]({{site.baseurl}}{% link /public/bungee_jumping.jpg %})
+
+## Sid Meier's Civilization VI
+
+[Available on Steam](http://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/)
+
+![Civilization VI]({{site.baseurl}}{% link /public/civilization_vi.jpg %})
