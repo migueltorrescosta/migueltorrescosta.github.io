@@ -2,7 +2,7 @@
 layout: page
 title: Software
 permalink: /software/
-sidebar: true
+sidebar: false
 ---
 
 Software I've worked with, by order of experience/preference.
