@@ -8,9 +8,13 @@ sidebar: false
 * language
 {:toc}
 
-## Kindle PaperWhite
+## Insights, Paradoxes and Ideas
 
-![Kindle PaperWhite]({{site.baseurl}}{% link /public/kindle_paperwhite.jpg %})
+Did you know that a 99% accurate medical test for a disease that appears in 1 out of 1000 people is useless (more specifically, if you test positive you only have a 9% chance of actually having the disease).
+
+Did you know that peaceful trenches was a surprisingly common occurrence during WWII? Nicky Case shows a wonderful explanation of why that was a winning strategy in his evolution of trust page.
+
+If you like to stop the clock to wonder about such ideas, share me yours and I'll share you mine.
 
 ## Books
 
@@ -20,26 +24,3 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 {% include goodreads.html %}
 
-## Skydiving
-
-![HTC Vive]({{site.baseurl}}{% link /public/skydiving.jpg %})
-
-## Drone Racing
-
-![Kindle PaperWhite]({{site.baseurl}}{% link /public/drone_racing.jpg %})
-
-## Starcraft
-
-[Legacy of the Void](http://us.battle.net/sc2/en/legacy-of-the-void/)
-
-![Starcraft]({{site.baseurl}}{% link /public/starcraft.jpg %})
-
-## Bungee Jumping
-
-![Kindle PaperWhite]({{site.baseurl}}{% link /public/bungee_jumping.jpg %})
-
-## Sid Meier's Civilization VI
-
-[Available on Steam](http://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/)
-
-![Civilization VI]({{site.baseurl}}{% link /public/civilization_vi.jpg %})
