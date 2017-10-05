@@ -97,9 +97,9 @@ $$ V(n,k,1) = C(n,k,1) $$
 
 Now we need to solve this same problem for $$ k>1 $$. If, for a given $$ k $$, we choose option $$i$$ , then our expected number of wins is given by
 
-$$ \mathbb{P}(win) V(n+e_i,r+e_i,k-1) + \mathbb{P}(loss) V(n+e_i,r,k-1) = $$
+$$ \mathbb{P}(win) (1+V(n+e_i,r+e_i,k-1)) + \mathbb{P}(loss) V(n+e_i,r,k-1) = $$
 
-$$ = \frac{r_i + 1}{n_i + 2} V(n+e_i,r+e_i,k-1) + \frac{n_i-r_i+1}{n_i+2} V(n+e_i,r,k-1) $$
+$$ = \frac{r_i + 1}{n_i + 2} (1+V(n+e_i,r+e_i,k-1)) + \frac{n_i-r_i+1}{n_i+2} V(n+e_i,r,k-1) $$
 
 As such we only need to find the $$argmax_i$$ of the expression above to find $$C(n,r,k)$$, and use that to find $$V(n,r,k)$$. Hence we have found a recursive formula for this, which can be solved somewhat efficiently using [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)<sup>3</sup> since there will be many values computed repeatedly.
 
