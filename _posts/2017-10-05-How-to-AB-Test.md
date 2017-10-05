@@ -5,6 +5,10 @@ category: Math, Coding
 published: true
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 This article is mildly related to [Google's Multi Armed Bandit experiments](https://support.google.com/analytics/answer/2844870).
 
 # What are AB Tests?
