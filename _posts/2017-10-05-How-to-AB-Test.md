@@ -41,7 +41,7 @@ which maps the same knowledge to the expected number of wins in the next k match
 
 # How likely am I to win if I choose to play with alternative $$i$$ ?
 
-So you've had $$n_i$$ observations so far and $$r_i$$ wins. Let $$\theta$$ be the underlying likelihood of winning. Since we know $$n_i$$ and $$r_i$$ then we can estimate the pdf<sup>1</sup> of theta by using Bayes Theorem. Letting $$a=n_i$$, $$b=r_i$$ we first compute:
+So you've had $$n_i$$ observations so far and $$r_i$$ wins. Let $$\theta$$ be the underlying likelihood of winning. Since we know $$n_i$$ and $$r_i$$ then we can estimate the pdf<sup>1</sup> of $$\theta$$ by using Bayes Theorem. Letting $$a=n_i$$, $$b=r_i$$ we first compute:
 
 $$\mathbb{P}( X=b | \theta) = C^a_b \theta^b (1-\theta)^{a-b} $$
 
