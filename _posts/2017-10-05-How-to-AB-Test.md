@@ -13,11 +13,11 @@ Suppose that you have a problem (say you want to be the best [CoD](https://www.c
 
 What AB Tests propose is that you try out the different options for a length of time. After that time you will have played each option $$i$$ $$n_i$$ times and have won $$r_i$$ times. As such $$\frac{n_i}{r_i}$$ will give you an approximation of the win ratio for each alternative, and you can make an informed decision on what weapons to use, your play style, etc.
 
+<!--excerpt ends here-->
+
 # Wouldn't it take ages to test all the different options?
 
 Yes! That is why the multi armed bandits come into play. Say that you have a certain play style that you think is the best. You define it as your champion and play with it most of the time. However whenever there's an alternative you think might outplay your current option you bring it into the alternatives pool, and you play with it occasionally. Then you can start ruling out alternatives who have too few wins and betting more on the most promising alternatives, instead of waiting for a fixed amount of time / trials (and possibly sacrificing your long term win rates). You need to be careful not too discard alternatives too soon (just because you lost 3 matches in a row doesn't mean it's a bad alternative, maybe it was just bad luck. Some people call this statistical significance), and similarly not to bet exclusively on the higher end alternatives.
-
-<!--excerpt ends here-->
 
 # So how do you know which ones to use?
 
