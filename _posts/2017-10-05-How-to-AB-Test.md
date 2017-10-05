@@ -17,6 +17,8 @@ What AB Tests propose is that you try out the different options for a length of 
 
 Yes! That is why the multi armed bandits come into play. Say that you have a certain play style that you think is the best. You define it as your champion and play with it most of the time. However whenever there's an alternative you think might outplay your current option you bring it into the alternatives pool, and you play with it occasionally. Then you can start ruling out alternatives who have too few wins and betting more on the most promising alternatives, instead of waiting for a fixed amount of time / trials (and possibly losing sales). You need to be careful not too discard alternatives too soon (just because you lost 3 matches in a row doesn't mean it's a bad alternative, maybe it was just bad luck. Some people call this statistical significance), and similarly not to bet exclusively on the higher end alternatives.
 
+<!--excerpt ends here-->
+
 # So how do you know which ones to use?
 
 There are different suggestions for solving this problem. I would be interested in seeing AB Tests on AB Testing Techniques. However in this post I am going to provide one alternative that I think is best. Do comment below better alternatives / points I've missed.
