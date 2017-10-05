@@ -30,3 +30,5 @@ version:             1.0.0
 
 # Gems
 plugins: [jekyll-gist]
+
+markdown: maruku
