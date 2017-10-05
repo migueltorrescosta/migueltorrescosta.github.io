@@ -101,7 +101,7 @@ $$ \mathbb{P}(win) V(n+e_i,r+e_i,k-1) + \mathbb{P}(loss) V(n+e_i,r,k-1) = $$
 
 $$ = \frac{r_i + 1}{n_i + 2} V(n+e_i,r+e_i,k-1) + \frac{n_i-r_i+1}{n_i+2} V(n+e_i,r,k-1) $$
 
-As such we only need to find the $$argmax_i$$ of the expression above to find $$C(n,r,k)$$, and use that to find $$V(n,r,k)$$. Hence we have found a recursive formula for this, which can be solved somewhat efficiently (I still have to implement it) using [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)<sup>3</sup> since there will be many values computed repeatedly.
+As such we only need to find the $$argmax_i$$ of the expression above to find $$C(n,r,k)$$, and use that to find $$V(n,r,k)$$. Hence we have found a recursive formula for this, which can be solved somewhat efficiently using [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)<sup>3</sup> since there will be many values computed repeatedly.
 
 # Great, now what?
 
