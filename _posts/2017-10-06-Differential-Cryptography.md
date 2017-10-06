@@ -5,7 +5,7 @@ category: Math, Coding, Tech
 published: true
 ---
 
-Apparently Apple is taking [steps](https://www.wired.com/2016/06/apples-differential-privacy-collecting-data/) to protect their users privacy by using Differential Privacy: 
+Apparently Apple is taking [steps](https://www.wired.com/2016/06/apples-differential-privacy-collecting-data/) to protect their users privacy by using Differential Privacy.
 
 ## So what is differential privacy?
 
