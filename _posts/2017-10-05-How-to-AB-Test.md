@@ -7,7 +7,7 @@ published: true
 
 This article is mildly related to [Google's Multi Armed Bandit experiments](https://support.google.com/analytics/answer/2844870).
 
-# What are AB Tests?
+## What are AB Tests?
 
 Suppose that you have a problem (say you want to be the best [CoD](https://www.callofduty.com) player) and you have many possible solutions to your problem (namely different play styles, from the most agressive to the most deffensive, using different weapons, and many more alternatives). You have some ideas as to what are the best tactics, but you're not sure which one would fit you best (in this case best means the ratio between winning and losing matches).
 
@@ -15,15 +15,15 @@ What AB Tests propose is that you try out the different options for a length of 
 
 <!--excerpt ends here-->
 
-# Wouldn't it take ages to test all the different options?
+## Wouldn't it take ages to test all the different options?
 
 Yes! That is why the multi armed bandits come into play. Say that you have a certain play style that you think is the best. You define it as your champion and play with it most of the time. However whenever there's an alternative you think might outplay your current option you bring it into the alternatives pool, and you play with it occasionally. Then you can start ruling out alternatives who have too few wins and betting more on the most promising alternatives, instead of waiting for a fixed amount of time / trials (and possibly sacrificing your long term win rates). You need to be careful not too discard alternatives too soon (just because you lost 3 matches in a row doesn't mean it's a bad alternative, maybe it was just bad luck. Some people call this statistical significance), and similarly not to bet exclusively on the higher end alternatives.
 
-# So how do you know which ones to use?
+## So how do you know which ones to use?
 
 There are different suggestions for solving this problem. I would be interested in seeing AB Tests on AB Testing Techniques. However in this post I am going to provide one alternative that I think is best. Do comment below better alternatives / points I've missed.
 
-# That's all good, but I haven't heard your solution yet.
+## That's all good, but I haven't heard your solution yet.
 
 Ok, say you have $$m$$ alternatives of play and you are about to play a match. In the past you have played $$n_i$$ matches with option $$i$$, of which you won $$r_i$$ matches. My current goal is to maximise the percentage of wins over a long time period. So I'll make this formal and I'll say I want to maximise my expected wins over the next $$k$$ matches.
 
@@ -39,7 +39,7 @@ $$V(n,r,k) : (\mathbb{N}^{+})^{m}  \times (\mathbb{N}^{+})^{m}  \times \mathbb{N
 
 which maps the same knowledge to the expected number of wins in the next k matches assuming optimal choices. Now we do some maths:
 
-# How likely am I to win if I choose to play with alternative $$i$$ ?
+## How likely am I to win if I choose to play with alternative $$i$$ ?
 
 So you've had $$n_i$$ observations so far and $$r_i$$ wins. Let $$\theta$$ be the underlying likelihood of winning. Since we know $$n_i$$ and $$r_i$$ then we can estimate the pdf<sup>1</sup> of $$\theta$$ by using Bayes Theorem. Letting $$a=n_i$$, $$b=r_i$$ we first compute:
 
@@ -87,7 +87,7 @@ $$ = \frac{b+1}{a+2} $$
 
 Awesomeness, all of the above simplifies to a really neat expression. If we played $$n_i$$ matches with $$r_i$$ wins then the chances of winning the next match is $$ \frac{r_i + 1}{n_i +2} $$ . As a bonus that expression works even if $$n_i = r_i = 0$$, since in that case we are assuming the pdf of $$\theta$$ to be the entropy maximising (and hence knowledge minimising) uniform distribution, in which case there's a $$\frac{1}{2}$$ chance of winning. On second thought, that is to be expected since the pdf and integral above only require $$n_i$$ and $$r_i$$ not to be negative, so there's that.
 
-# Yay, now we know that the chances of success by chosing option $$i$$. How does this help us in making long term choices?
+## Yay, now we know that the chances of success by chosing option $$i$$. How does this help us in making long term choices?
 
 We have found the solutions of $$C$$ and $$V$$ for $$k=1$$, namely:
 
@@ -103,7 +103,7 @@ $$ = \frac{r_i + 1}{n_i + 2} (1+V(n+e_i,r+e_i,k-1)) + \frac{n_i-r_i+1}{n_i+2} V(
 
 As such we only need to find the $$argmax_i$$ of the expression above to find $$C(n,r,k)$$, and use that to find $$V(n,r,k)$$. Hence we have found a recursive formula for this, which can be solved somewhat efficiently using [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)<sup>3</sup> since there will be many values computed repeatedly.
 
-# Great, now what?
+## Great, now what?
 
 Well, I still need to implement this, probably in a python notebook that I'll leave available somewhere (only then can I check how feasable it is to compute this result). If it turns out to be computationally unfeasable (due to huge $$k$$'s) then I'll try to tackle it in a sligthly different way:
 
