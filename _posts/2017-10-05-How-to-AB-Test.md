@@ -9,7 +9,7 @@ This article is mildly related to [Google's Multi Armed Bandit experiments](http
 
 ## What are AB Tests?
 
-Suppose that you have a problem (say you want to be the best [CoD](https://www.callofduty.com) player) and you have many possible solutions to your problem (namely different play styles, from the most agressive to the most deffensive, using different weapons, and many more alternatives). You have some ideas as to what are the best tactics, but you're not sure which one would fit you best (in this case best means the ratio between winning and losing matches).
+Suppose that you have a problem (say you want to be the best [CoD](https://www.callofduty.com) player) and you have many possible solutions to your problem (namely different play styles, from the most aggressive to the most deffensive, using different weapons, and many more alternatives). You have some ideas as to what are the best tactics, but you're not sure which one would fit you best (in this case best means the ratio between winning and losing matches).
 
 What AB Tests propose is that you try out the different options for a length of time. After that time you will have played each option $$i$$ $$n_i$$ times and have won $$r_i$$ times. As such $$\frac{n_i}{r_i}$$ will give you an approximation of the win ratio for each alternative, and you can make an informed decision on what weapons to use, your play style, etc.
 
@@ -91,9 +91,9 @@ Awesomeness, all of the above simplifies to a really neat expression. If we play
 
 We have found the solutions of $$C$$ and $$V$$ for $$k=1$$, namely:
 
-$$ C(n,k,1) = argmax_i \{ \frac{r_i + 1}{n_i + 1} \} $$
+$$ C(n,r,1) = argmax_i \{ \frac{r_i + 1}{n_i + 1} \} $$
 
-$$ V(n,k,1) = C(n,k,1) $$
+$$ V(n,r,1) = C(n,r,1) $$
 
 Now we need to solve this same problem for $$ k>1 $$. If, for a given $$ k $$, we choose option $$i$$ , then our expected number of wins is given by
 
