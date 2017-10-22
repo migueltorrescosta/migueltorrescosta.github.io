@@ -109,6 +109,8 @@ Well, I still need to implement this, probably in a python notebook that I'll le
 
 Instead of choosing one alternative at a time, I can choose them in a bulk of size $$b$$, and then decide how many of that bulk should be used in each alternative (effectively deciding a percentage to be used in each alternative). By having large bulk sizes I could avoid having absurd recursion depths of millions of function calls just to compute this value, instead going for recursion depths of hundreds with bulk sizes of tens of thousands (we can play with this numbers after implementation).
 
+EDIT: I've found this [paper]({{site.baseurl}}{% link /public/Top Arm Identification in Multi-Armed Bandits with Batch Arm Pulls.pdf %}) online about Batch Size implementations of this problem. I might write a short summary of it after having read it properly.
+
 <strong>Footnotes</strong>
 
 <sup>1</sup> pdf : probability distribution function - Wikipedia page
