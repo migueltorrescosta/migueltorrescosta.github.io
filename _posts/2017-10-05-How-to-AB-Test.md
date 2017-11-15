@@ -49,19 +49,11 @@ where $$X$$ is the sum of $$a$$ Bernoulli variables with probability $$\theta$$ 
 
 $$ f(\theta) = \frac{C^a_b \theta^b (1-\theta)^{a-b}}{\int_{0}^{1}C^a_b t^b (1-t)^{a-b}dt} = \frac{\theta^b (1-\theta)^{a-b}}{\int_{0}^{1} t^b (1-t)^{a-b}dt} $$
 
-Now we can use the fact that
-
-$$ \int_{0}^{1} t^a (1-t)^{b}dt = \frac{\Gamma (a+1) \Gamma (b+1)}{\Gamma (a+b+2)} $$
-
-Since $$a$$ and $$b$$ are integers we use the fact that
-
-$$ \Gamma(n+1) = n! $$
-
-to get
+Since $$a$$ , $$b$$ are non-negative integers, we can use the fact that
 
 $$ \int_{0}^{1} t^a (1-t)^{b}dt = \frac{a! b!}{(a+b+1)!} $$
 
-so we can simplify $$ f(\theta) $$ to
+to simplify $$ f(\theta) $$ to
 
 $$ f(\theta) = \frac{\theta^b (1-\theta)^{a-b}}{\frac{a! (a-b)!}{(a+1)!}} = \frac{(a+1)! \theta^b (1-\theta)^{a-b}}{b! (a-b)!} $$
 
