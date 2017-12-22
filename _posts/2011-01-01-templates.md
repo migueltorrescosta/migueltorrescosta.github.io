@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Templates
-category: Others
+category: [Others]
 published: false
 ---
 

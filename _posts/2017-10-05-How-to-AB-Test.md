@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to AB Test
-category: Math, Coding
+category: [Math, Coding]
 published: true
 ---
 

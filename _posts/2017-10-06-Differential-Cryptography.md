@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Differential Cryptography
-category: Math, Coding, Tech
+category: [Math, Coding, Tech]
 published: true
 ---
 

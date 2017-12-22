@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Michellin
-category: Incentives, System design
+category: [Incentives, System design]
 published: true
 ---
 
