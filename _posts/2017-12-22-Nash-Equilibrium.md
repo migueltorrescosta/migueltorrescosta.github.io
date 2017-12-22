@@ -165,6 +165,6 @@ We saw that If we both play optimally then we will end up in cell (E), where $$ 
 
 Also, for those probabilities, $$ L(\frac{1}{3},\frac{1}{3}) = 1 $$ so you'll have an average return of 1£.
 
-Hence, going back to the original question, paying 1£ would make it a fair game. Anything less than that and you will most likely profit, anything more than that and you will most likely lose money.
+Therefore, going back to the original question, paying 1£ would make it a fair game. Anything less than that and you will most likely profit, anything more than that and you will most likely lose money.
 
 <sub><sup>1</sup> You're probably wondering why I choose 3£ instead of 1£ . During the calculations we end up having to divide that value by 3, so this way I have to work with less fractions.</sub>
