@@ -5,16 +5,20 @@
 
   <body>
 
-    {% include sidebar.html %}
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <a href="{{ site.baseurl }}/" title="Home">Blog</a>
+            {% for node in site.pages | sort:"url" %}
+              {% if node.title != null %}
+                {% if node.head == true %}
+                  - - - <a href="{{ node.url }}">{{ node.title }}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           </h3>
         </div>
       </div>
@@ -23,6 +27,8 @@
         {{ content }}
       </div>
     </div>
+
+    <!-- You must uncomment this section if you want to use the sidebar. Also don't forget to use the  include sidebar.html  liquid expression 
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
@@ -42,7 +48,8 @@
           checkbox.checked = false;
         }, false);
       })(document);
-    </script>
+    </script> -->
+
   </body>
 </html>
 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: SiteMap
+title: Sitemap
 permalink: /sitemap/
 sidebar: true
+head: true
 ---
 
 - [Blog]({{site.baseurl}}{% link index.md %})
@@ -11,6 +12,7 @@ sidebar: true
 - [RSS Feed](/atom.xml)
 - [Wishlist]({{site.baseurl}}{% link page_Wishlist.md %})
 
+
 <h1> For Prospective Employees </h1>
 
 - [CV]({{site.baseurl}}{% link CV.pdf %})
@@ -18,10 +20,12 @@ sidebar: true
 - Generic [Cover Letter]({{site.baseurl}}{% link CoverLetter.pdf %})
 - [University Tutor](http://porto.universitytutor.com/tutors/944174) page.
 
+
 <h1> All Posts </h1>
 
 {% for post in site.posts %}   
 - {{ post.date | date_to_string }} >> [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) {% endfor %}
+
 
 <h1> Social Profiles </h1>
 
