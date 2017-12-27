@@ -11,11 +11,10 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">Blog</a>
             {% for node in site.pages %}
               {% if node.title != null %}
                 {% if node.head == true %}
-                  - - - <a href="{{ node.url }}">{{ node.title }}</a>
+                  - - - <a class="" href="{{ node.url }}">{{ node.title }}</a>
                 {% endif %}
               {% endif %}
             {% endfor %}

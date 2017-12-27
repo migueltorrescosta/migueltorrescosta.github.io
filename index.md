@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 sidebar: true
+head: true
 ---
 
 <div class="posts">
