@@ -6,7 +6,7 @@ sidebar: false
 head: true
 ---
 
-Here's a list of worthy ideas found around the Internet. This page is in its infant steps but It will grow :)
+Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
 
 * [The Evolution of Trust](http://ncase.me/trust/) - An interactive short game that exposes key concepts about how and why we trust other people. This knowledge in the right hands can lead society to be more trusting.
 * [Money isn't Money until it is](https://medium.com/@conradshaw/money-isnt-money-97722fe87025) - Making a distinction between survival money and living money.
