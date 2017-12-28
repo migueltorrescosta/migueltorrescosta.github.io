@@ -2,7 +2,7 @@
 layout: page
 title: Tags
 permalink: /tags/
-sidebar: false
+head: false
 ---
 
 * language
@@ -12,7 +12,7 @@ sidebar: false
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
 {% assign sorted_posts = category[1] | reversed %}
-<h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</h2>
+## {{category[0] | capitalize}}
 <ul>
   {% for post in sorted_posts %}
   <li>
