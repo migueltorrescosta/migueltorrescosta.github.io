@@ -14,7 +14,7 @@
             {% for node in site.pages %}
               {% if node.title != null %}
                 {% if node.head == true %}
-                  - - - <a class="" href="{{ node.url }}">{{ node.title }}</a>
+                  &nbsp&nbsp <a class="masthead-item" href="{{ node.url }}">{{ node.title }}</a> &nbsp&nbsp
                 {% endif %}
               {% endif %}
             {% endfor %}
