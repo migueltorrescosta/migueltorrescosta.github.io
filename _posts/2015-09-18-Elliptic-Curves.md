@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oxford University Elliptic Curves Research Project
-category: [Work Experience,Math]
+category: [Work, Math]
 ---
 
 ### Computing the average rank of elliptic curves in ordered families

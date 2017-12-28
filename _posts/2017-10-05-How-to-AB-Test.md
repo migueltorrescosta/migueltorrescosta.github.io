@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to AB Test
-category: [Math, Coding]
+category: [Math, Stats]
 published: true
 ---
 
@@ -105,7 +105,7 @@ EDIT: I've found this [paper]({{site.baseurl}}{% link /public/Top Arm Identifica
 
 <strong>Footnotes</strong>
 
-<sup>1</sup> pdf : probability distribution function - Wikipedia page
+<sup>1</sup> pdf : Probability Density Function and its' [Wikipedia page](https://en.wikipedia.org/wiki/Probability_density_function)
 
 <sup>2</sup> $$e_i$$ : Unit vector along the $$i$$th dimension, i.e. $$(0,0,...,0,1,0,...,0)$$
 
