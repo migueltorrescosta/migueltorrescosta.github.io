@@ -306,6 +306,7 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 3rem;
 }
 .masthead-title {
+  word-spacing: 10px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
