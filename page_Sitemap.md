@@ -27,7 +27,7 @@ head: true
 - {{ post.date | date_to_string }} >> [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) {% endfor %}
 
 
-<h1> Social Profiles </h1>
+<h1> Online Profiles </h1>
 
 - [GitHub](https://github.com/{{ site.author.github}})
 - [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin}})
