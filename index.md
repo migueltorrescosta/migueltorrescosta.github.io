@@ -12,7 +12,7 @@ head: true
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
     <div>
-      <b>See posts related to:</b>
+      <b>See more posts related to:</b>
       
       {% for tag in post.categories %}
         [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag }}">{{ tag }}</a>]
