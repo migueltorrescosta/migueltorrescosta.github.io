@@ -30,7 +30,7 @@ head: true
 <h1> Online Profiles </h1>
 
 - [GitHub](https://github.com/{{ site.author.github}})
-- [Medium](https://medium.com/{{ site.author.medium}})
+- [Medium](https://medium.com/@{{ site.author.medium}})
 - [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin}})
 - [Email](mailto:{{ site.author.email}})
 - [GoodReads](https://www.goodreads.com/{{ site.author.goodreads }})
