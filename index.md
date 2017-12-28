@@ -15,7 +15,7 @@ head: true
       <b>See more posts related to:</b>
       
       {% for tag in post.categories %}
-        [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag }}">{{ tag }}</a>]
+        [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag | downcase | replace: ' ','-'}}">{{ tag }}</a>]
       {% endfor %}
     </div> 
     <a href="{{ site.baseurl }}{{ post.url }}" style="float: right"> Read more... (
