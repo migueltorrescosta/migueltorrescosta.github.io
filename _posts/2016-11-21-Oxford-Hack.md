@@ -4,7 +4,7 @@ title: OxfordHack
 category: [Coding,Hackathon]
 ---
 
-This weekend there was a 24h Hackathon which brought people from many different countries: [OxfordHack](http://www.oxfordhack.com/). It was a rather unexpected event: Saturday I went to the Maths Institute to revise, but every room was taken by people coding. Completely unaware of what was going on, I saw a welcome stall and asked them what it was all about. Turns out some companies funded this hackathon for 24h, and they had an interesting list of activities scheduled (namely Werewolves or, as I prefer to call it, Mafia).
+This weekend there was a 24h Hackathon which brought together people from many different countries: [OxfordHack](http://www.oxfordhack.com/). It was a rather unexpected event: Saturday I went to the Maths Institute to revise, but every room was taken by people coding. Completely unaware of what was going on, I saw a welcome stall and asked them what it was all about. Turns out some companies funded this hackathon for 24h, and they had an interesting list of activities scheduled (namely Werewolves or, as I prefer to call it, Mafia).
 <!--excerpt ends here-->
 I asked them “Can I join?” and got a successful “Yes”, which was surprising given that in their website Applications were closed. As they were telling me to find a team, Manish, who was passing behind me, said he was looking for people to join his team, and so that was sorted. He already had a project in mind, and goes as follows:
 
