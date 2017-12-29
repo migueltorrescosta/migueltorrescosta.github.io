@@ -8,7 +8,7 @@ head: true
 
 - [Blog]({{site.baseurl}}{% link index.md %})
 - Posts organised by [Tags]({{site.baseurl}}{% link page_Tags.md %})
-- [Author]({{site.baseurl}}{% link page_About.md %})
+- [About]({{site.baseurl}}{% link page_About.md %})
 - [RSS Feed](/atom.xml)
 - [Wishlist]({{site.baseurl}}{% link page_Wishlist.md %})
 
