@@ -8,7 +8,7 @@ permalink:           /:year/:month/:title.html
 # Setup
 title:               Miguel Torres Costa
 description:         'A mathematician of many hobbies'
-url:                 http://lanyon.getpoole.com
+url:                 https://migueltorrescosta.github.io
 baseurl:             ''
 excerpt_separator: <!--excerpt ends here-->
 

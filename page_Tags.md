@@ -26,7 +26,7 @@ head: false
           {{ words | divided_by:220 }} mins
         {% endif %}
     </span>
-    <a href="{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a>
 
   </li>
   {% endfor %}
