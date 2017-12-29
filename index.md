@@ -6,7 +6,16 @@ head: true
 ---
 
 <div class="posts">
+
+  <div style="text-align:center">If you want to be updated about new posts there is a newsletter you can subscribe to. Or just check back here often.</div>
+  <br>
+  {% include subscribe.html %}
+
   {% for post in site.posts %}
+
+    <br>
+    <br>
+
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
     <span class="post-date" display="inline">{{ post.date | date_to_string }}</span>
     {{ post.excerpt }}
@@ -22,10 +31,10 @@ head: true
         [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag | downcase | replace: ' ','-'}}">{{ tag }}</a>]
       {% endfor %}
     </div>
+
     <br>
     <br>
-    <br>
-    <br>
+
   {% endfor %}
 </div>
 
