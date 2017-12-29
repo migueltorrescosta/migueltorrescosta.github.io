@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Author
-permalink: /author/
+title: About
+permalink: /about/
 sidebar: true
 head: true
 ---
