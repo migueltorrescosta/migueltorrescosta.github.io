@@ -7,7 +7,7 @@ head: true
 
 <div class="posts">
 
-  <div style="text-align:center">If you want to be updated about new posts there is a newsletter you can subscribe to. Or just check back here often.</div>
+  <div style="text-align:center">If you want to be updated about new posts there is a newsletter you can subscribe to. Or just check this page often.</div>
   <br>
   {% include subscribe.html %}
 
