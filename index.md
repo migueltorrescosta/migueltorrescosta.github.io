@@ -25,7 +25,7 @@ head: true
         {{ words | divided_by:220 }} mins
       {% endif %} )
     </a>
-    <hr> 
+    <hr>
   {% endfor %}
 
 </div>
