@@ -21,10 +21,9 @@ head: true
 - [University Tutor](http://porto.universitytutor.com/tutors/944174) page.
 
 
-<h1> All Posts </h1>
+<h1> Archive </h1>
 
-{% for post in site.posts %}   
-- {{ post.date | date_to_string }} >> [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) {% endfor %}
+{% include archive.html %}
 
 
 <h1> Online Profiles </h1>
