@@ -35,4 +35,4 @@ My time is spent between reading about these ideas and occasionally programming 
 
 {% include goodreads.html shelf='read' %}
 
-<sup>List fetched from my goodreads page</sup>
+<sup>List fetched from my goodreads Read Bookshelf</sup>
