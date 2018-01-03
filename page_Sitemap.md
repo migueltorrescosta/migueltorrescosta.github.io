@@ -12,7 +12,6 @@ head: true
 - [RSS Feed](/atom.xml)
 - [Wishlist]({{site.baseurl}}{% link page_Wishlist.md %})
 
-
 <h1> For Prospective Employees </h1>
 
 - [CV]({{site.baseurl}}{% link CV.pdf %})

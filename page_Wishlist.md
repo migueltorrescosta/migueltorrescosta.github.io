@@ -13,6 +13,6 @@ Did you know that peaceful trenches was a surprisingly common occurrence during 
 
 If you like to stop the clock to wonder about such ideas, share me yours and I'll share you mine.
 
-## Books I plan on reading, in no particular order
+## Books I plan on reading
 
 {% include goodreads.html shelf='to-read' %}
