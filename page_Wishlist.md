@@ -22,6 +22,7 @@ Discovering how to build things is great, as long as one puts the time in to do 
 
 * Write your first [Django app](https://docs.djangoproject.com/en/2.0/intro/)
 * Setup your own social network with [Mastodon](https://joinmastodon.org/)
+* Implementing and solving Game Theory models using [Gambit](http://gambit.sourceforge.net/)
 * Play around with cryptocurrencies and wallets.
 
 If you have something else in mind that seems interesting do get in touch.
