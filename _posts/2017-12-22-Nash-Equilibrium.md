@@ -110,7 +110,7 @@ Cool. Now we have a function giving us how much you expect to get after a game. 
 
 ## So how do we choose $$p$$ and $$q$$ ?
 
-We have to go back to finding maxima and minima of functions (if your highschool math is fresh you should probably skip this section). We have to choose $$p$$ in the interval [0,1]. Therefore either there is a local maxima somewhere in the middle or the maximum is attained at the endpoints. To find interior maxima we will use derivatives: If $$(p_0,q_0)$$ is a maxima or minima, then the derivative of $$L$$ with respect to $$p$$ vanishes (i.e. equals zero) at $$p_0$$. Doing the actual computations we get:
+We have to go back to finding maxima and minima of functions (if your high school math is fresh you should probably skip this section). We have to choose $$p$$ in the interval [0,1]. Therefore either there is a local maxima somewhere in the middle or the maximum is attained at the endpoints. To find interior maxima we will use derivatives: If $$(p_0,q_0)$$ is a maxima or minima, then the derivative of $$L$$ with respect to $$p$$ vanishes (i.e. equals zero) at $$p_0$$. Doing the actual computations we get:
 
 $$ 0 = \frac{\partial }{\partial p}(L) = $$
 
@@ -157,9 +157,9 @@ Visually the expected returns for you (i.e. $$L(p,q)$$ ) are:
   </tbody>
 </table>
 
-I can choose the value of $$p$$, which amounts to choosing the column we are in. Since I want to minimise your returns (i.e. minimise $$L$$) then I am happy if, for any line you choose, I choose the column with minimal $$L$$. Hence my choice will end up being one of (A),(D),(E),(F),(I). (A) and (I) because they are the minimum in their respective rows, and (D),(E),(F) because they are all equal in their row.
+I can choose the value of $$p$$, which amounts to choosing the column we are in. Since I want to minimize your returns (i.e. minimize $$L$$) then I am happy if, for any line you choose, I choose the column with minimal $$L$$. Hence my choice will end up being one of (A),(D),(E),(F),(I). (A) and (I) because they are the minimum in their respective rows, and (D),(E),(F) because they are all equal in their row.
 
-Similarly you get to choose $$q$$ i.e. you choose the row. In order to maximise $$L$$, you will only be happy with (C) and (G) since they are the maximum in their respective columns, or (B),(E),(H), for a final choice in the set (C),(B),(E),(H),(G).
+Similarly you get to choose $$q$$ i.e. you choose the row. In order to maximize $$L$$, you will only be happy with (C) and (G) since they are the maximum in their respective columns, or (B),(E),(H), for a final choice in the set (C),(B),(E),(H),(G).
 
 Looking at the 2 sets we chose: $$ \{A,D,E,F,I \} $$ and $$ \{ C,B,E,H,G \} $$ we notice that they only intersect in E (Nash proved that when following this method there will always be an intersection. If you want to know how I would recommend reading his paper, though it is way more advanced than this post). As such when we both play optimally we will be in cell (E).
 

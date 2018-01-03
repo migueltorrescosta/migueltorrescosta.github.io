@@ -11,7 +11,7 @@ Michellin profits whenever you need a replacement tire. The more often you need 
 ## That is problematic. How can we solve it?
 
 There is a [solution](https://michelin-solutions.com/en/service/pay-per-kilometre-travelled/) currently being tested by Michellin. Instead of 
-paying per tire, you are being paid per kilometer driven. This is being possible due to the diminishing costs of technology. In particular, Michellin is equipping tires with sensors that measure the distance travelled, temperature, weariness and many others. This way they are able to charge for the number of kilometers driven. Not only that but they are kept up to date about the tires weariness and can inform their clients about needed tire changes if needed.
+paying per tire, you are being paid per kilometer driven. This is being possible due to the diminishing costs of technology. In particular, Michellin is equipping tires with sensors that measure the distance traveled, temperature, weariness and many others. This way they are able to charge for the number of kilometers driven. Not only that but they are kept up to date about the tires weariness and can inform their clients about needed tire changes if needed.
 
 <!--excerpt ends here-->
 
@@ -25,7 +25,7 @@ Since we are paying per tire Michellin has no incentive to improve the quality o
 
 ### Case B:
 
-Since we are paying per mile it is in Michellin's best interest to minimise their cost per km driven, hence making better tires. By default costs associated with tire replacement are paid by Michellin. Michellin is also able to call clients for a tire change if their sensors raise any alarms. Clients do not need to worry as much about wearing out tires.
+Since we are paying per mile it is in Michellin's best interest to minimize their cost per km driven, hence making better tires. By default costs associated with tire replacement are paid by Michellin. Michellin is also able to call clients for a tire change if their sensors raise any alarms. Clients do not need to worry as much about wearing out tires.
 
 ## But you still agree that Case B is best, right?
 

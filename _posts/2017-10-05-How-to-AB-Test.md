@@ -9,7 +9,7 @@ This article is mildly related to [Google's Multi Armed Bandit experiments](http
 
 ## What are AB Tests?
 
-Suppose that you have a problem (say you want to be the best [CoD](https://www.callofduty.com) player) and you have many possible solutions to your problem (namely different play styles, from the most aggressive to the most deffensive, using different weapons, and many more alternatives). You have some ideas as to what are the best tactics, but you're not sure which one would fit you best (in this case best means the ratio between winning and losing matches).
+Suppose that you have a problem (say you want to be the best [CoD](https://www.callofduty.com) player) and you have many possible solutions to your problem (namely different play styles, from the most aggressive to the most defensive, using different weapons, and many more alternatives). You have some ideas as to what are the best tactics, but you're not sure which one would fit you best (in this case best means the ratio between winning and losing matches).
 
 What AB Tests propose is that you try out the different options for a length of time. After that time you will have played each option $$i$$ $$n_i$$ times and have won $$r_i$$ times. As such $$\frac{n_i}{r_i}$$ will give you an approximation of the win ratio for each alternative, and you can make an informed decision on what weapons to use, your play style, etc.
 
@@ -25,7 +25,7 @@ There are different suggestions for solving this problem. I would be interested 
 
 ## That's all good, but I haven't heard your solution yet.
 
-Ok, say you have $$m$$ alternatives of play and you are about to play a match. In the past you have played $$n_i$$ matches with option $$i$$, of which you won $$r_i$$ matches. My current goal is to maximise the percentage of wins over a long time period. So I'll make this formal and I'll say I want to maximise my expected wins over the next $$k$$ matches.
+Ok, say you have $$m$$ alternatives of play and you are about to play a match. In the past you have played $$n_i$$ matches with option $$i$$, of which you won $$r_i$$ matches. My current goal is to maximize the percentage of wins over a long time period. So I'll make this formal and I'll say I want to maximize my expected wins over the next $$k$$ matches.
 
 <strong>Warning:</strong> I'm going to get more technical from here onwards.
 
@@ -77,9 +77,9 @@ $$ = \frac{1}{a+2} \times (b+1) \times 1 = $$
 
 $$ = \frac{b+1}{a+2} $$
 
-Awesomeness, all of the above simplifies to a really neat expression. If we played $$n_i$$ matches with $$r_i$$ wins then the chances of winning the next match is $$ \frac{r_i + 1}{n_i +2} $$ . As a bonus that expression works even if $$n_i = r_i = 0$$, since in that case we are assuming the pdf of $$\theta$$ to be the entropy maximising (and hence knowledge minimising) uniform distribution, in which case there's a $$\frac{1}{2}$$ chance of winning. On second thought, that is to be expected since the pdf and integral above only require $$n_i$$ and $$r_i$$ not to be negative, so there's that.
+Awesomeness, all of the above simplifies to a really neat expression. If we played $$n_i$$ matches with $$r_i$$ wins then the chances of winning the next match is $$ \frac{r_i + 1}{n_i +2} $$ . As a bonus that expression works even if $$n_i = r_i = 0$$, since in that case we are assuming the pdf of $$\theta$$ to be the entropy maximizing (and hence knowledge minimizing) uniform distribution, in which case there's a $$\frac{1}{2}$$ chance of winning. On second thought, that is to be expected since the pdf and integral above only require $$n_i$$ and $$r_i$$ not to be negative, so there's that.
 
-## Yay, now we know that the chances of success by chosing option $$i$$. How does this help us in making long term choices?
+## Yay, now we know that the chances of success by choosing option $$i$$. How does this help us in making long term choices?
 
 We have found the solutions of $$C$$ and $$V$$ for $$k=1$$, namely:
 
@@ -97,7 +97,7 @@ As such we only need to find the $$argmax_i$$ of the expression above to find $$
 
 ## Great, now what?
 
-Well, I still need to implement this, probably in a python notebook that I'll leave available somewhere (only then can I check how feasable it is to compute this result). If it turns out to be computationally unfeasable (due to huge $$k$$'s) then I'll try to tackle it in a sligthly different way:
+Well, I still need to implement this, probably in a python notebook that I'll leave available somewhere (only then can I check how feasible it is to compute this result). If it turns out to be computationally unfeasible (due to huge $$k$$'s) then I'll try to tackle it in a slightly different way:
 
 Instead of choosing one alternative at a time, I can choose them in a bulk of size $$b$$, and then decide how many of that bulk should be used in each alternative (effectively deciding a percentage to be used in each alternative). By having large bulk sizes I could avoid having absurd recursion depths of millions of function calls just to compute this value, instead going for recursion depths of hundreds with bulk sizes of tens of thousands (we can play with this numbers after implementation).
 
