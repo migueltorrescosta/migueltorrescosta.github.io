@@ -2,8 +2,7 @@
 layout: page
 title: Ideas
 permalink: /ideas/
-sidebar: false
-head: true
+head: false
 ---
 
 Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
