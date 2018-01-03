@@ -22,6 +22,6 @@ If you like to stop the clock to wonder about such ideas, share me yours and I'l
 I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.author.goodreads }}).
 -->
 
-{% include goodreads.html %}
+{% include goodreads.html shelf='to-read' %}
 
 <sup>1</sup> According to my GoodReads account. It might be slightly outdated.
