@@ -16,18 +16,7 @@ Did you know that peaceful trenches was a surprisingly common occurrence during 
 
 If you like to stop the clock to wonder about such ideas, share me yours and I'll share you mine.
 
-## Building things
-
-Discovering how to build things is great, as long as one puts the time in to do it. Since doing something together is always better, get in touch if you want to:
-
-* Write your first [Django app](https://docs.djangoproject.com/en/2.0/intro/)
-* Setup your own social network with [Mastodon](https://joinmastodon.org/)
-* Implementing and solving Game Theory models using [Gambit](http://gambit.sourceforge.net/)
-* Play around with cryptocurrencies and wallets.
-
-If you have something else in mind that seems interesting do get in touch.
-
-## Books I plan on reading, in no particular order
+## Books I plan on reading<sup>1</sup>, in no particular order
 
 <!--
 I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.author.goodreads }}).
@@ -35,3 +24,4 @@ I've compiled this list using [goodreads](https://www.goodreads.com/{{ site.auth
 
 {% include goodreads.html %}
 
+<sup>1</sup> According to my GoodReads account. It might be slightly outdated.
