@@ -49,7 +49,7 @@ We will have to use our historic data. Assuming we have sold enough different pr
 
 ## So we just multiply the 2 distributions, normalise and we are done?
 
-That gives will certainly give us an estimation way better than our initial estimate. However there is one problem. Since our inventory might be big, $$ g $$ will probably be defined by a big array and multiplying it by f and then computing $$ \mathbb{E}[f(\theta)g(\theta)] $$ might be computationally expensive.
+That will certainly give us an estimation way better than our initial estimate. However there is one problem. Since our inventory might be big, $$ g $$ will probably be defined by a big array and multiplying it by f and then computing $$ \mathbb{E}[f(\theta)g(\theta)] $$ might be computationally expensive.
 
 ## Can we simplify it?
 
