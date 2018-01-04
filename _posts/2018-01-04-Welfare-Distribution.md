@@ -75,7 +75,7 @@ Then we would get the distribution:
   </tbody>
 </table>
 
-## You are saying we should just have salaries take spending money into account?
+## You are saying companies should take spending money into account when deciding salaries?
 
 That is not possible because of this:
 
@@ -106,7 +106,7 @@ That is not possible because of this:
   </tbody>
 </table>
 
-Since the company would have to pay Anne below her worth but not John, then they would only hire Anne. More reasons against this being a possibility can be explained using economical concepts.
+Since the company would have to pay Anne below her worth but not John, then they would only hire Anne. Even more reasons against this being a possibility can be explained using economic related concepts.
 
 ## What is your proposed solution?
 
