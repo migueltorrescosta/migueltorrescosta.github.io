@@ -21,10 +21,10 @@ head: true
     {{ post.excerpt }}
     <div style="text-align: right">
       <b>Read the <a href="{{ site.baseurl }}{{ post.url }}">full text</a> ({% assign words = post.content | number_of_words %}
-      {% if words < 360 %}
+      {% if words < 180 %}
         1 min
       {% else %}
-        {{ words | divided_by:220 }} mins
+        {{ words | divided_by:110 }} mins
       {% endif %} ) or see more posts related to:</b>
       <br>
       {% for tag in post.categories %}
