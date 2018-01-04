@@ -286,7 +286,7 @@ Yes and no. There are a few things that should be done before moving forward:
 
 **3. Defining survival money.** This amount varies between geographical locations and means available (if I have my own house I usually have to pay a smaller rent than if I had a landlord trying to profit). Finding the ideal amount for a country is not trivial.
 
-Not as relevant but also important, I need to redo the calculations above to actual income data and not fictional values like the ones I created. I am curious to see what the impact would be in that case. If you read this before I have done it feel free to email me so that I do it.
+Not as relevant but also important, I need to do the calculations above to actual income data and not just fictional values like the ones I created. I am curious to see what the impact would be in that case. If you read this before I have done that feel free to email me so that I do it.
 
 ## Further reading
 
