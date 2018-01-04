@@ -5,7 +5,7 @@ category: [System Design, UBI]
 published: true
 ---
 
-Suppose a company has 2 employers Anne and John. The company values Anne's work 2 times more than John's work. As such the company is paying Anne £1400 and John £700. This can be seen as fair, one person having double the money to spend and be happy since they are contributing double of what others are contributing.
+Suppose a company has 2 employees Anne and John. The company values Anne's work 2 times more than John's work. As such the company is paying Anne £1400 and John £700. This can be seen as fair, one person having double the money to spend and be happy since they are contributing double of what others are contributing.
 
 However there is one problem: Both of them have survival costs. For this argument's sake lets assume that both Anne and John need £600 to survive. By surviving I mean having shelter (a home), food, electricity and water. Then Anne's spending money is £1400 - £600 = £800, but John's is 700£ - 600£ = £100, like this:
 
