@@ -47,13 +47,13 @@ If $$ f(\theta) $$ is our distribution as above and $$ g(\theta) $$ our initial 
 
 We will have to use our historic data. Assuming we have sold enough different products, then each product has its own conversion rate. As such the set of all our products has its own distribution. If we were to pick one product at random from our inventory then we would be taking a product with conversion rate modeled by that distribution. Hence we can think of adding a new product similar to taking the conversion rate from a product in our inventory. As such we have $$ g $$ and $$ f $$.
 
-## So we just multiply the 2 distributions, normalise and we are done?
+## So we just multiply the 2 distributions, normalize and we are done?
 
 That will certainly give us an estimation way better than our initial estimate. However there is one problem. Since our inventory might be big, $$ g $$ will probably be defined by a big array and multiplying it by f and then computing $$ \mathbb{E}[f(\theta)g(\theta)] $$ might be computationally expensive.
 
 ## Can we simplify it?
 
-There is one trick that might work, depending on our product distribution. We can try to model our initial distribution $$ g $$ as a beta distribution. We are getting now exact with our calculations so, dependending on the sales data, this might work or not. If it works then we approximate $$ g $$ with a beta distribution with $$ S_o $$ sales and $$ N_o $$ non sales. Then (setting $$ x = \theta $$ for easier typing, and letting $$ \propto $$ mean proportional to) we get
+There is one trick that might work, depending on our product distribution. We can try to model our initial distribution $$ g $$ as a beta distribution. We are getting now exact with our calculations so, depending on the sales data, this might work or not. If it works then we approximate $$ g $$ with a beta distribution with $$ S_o $$ sales and $$ N_o $$ non sales. Then (setting $$ x = \theta $$ for easier typing, and letting $$ \propto $$ mean proportional to) we get
 
 $$ \frac{f(x)g(x)}{\int_0^1{f(x)g(x)dx}} \propto $$
 
@@ -69,19 +69,19 @@ $$ \frac{\Gamma(S+S_0+N+N_0+2)}{\Gamma(S+S_0+1)\Gamma(N+N_0+1)} x^{S+S_0} (1-x)^
 
 Which is a Beta distribution with $$ S + S_0 $$ sales and $$ N + N_0 $$ non-sales. This makes sense intuitively because we can think of $$ g $$ as the distribution of $$ X $$ after $$ S_0 $$ sales and $$ N_0 $$ non-sales, and $$ fg $$ is the pdf of $$ X $$ updated after we see $$ S $$ more sales and $$ N $$ more non-sales.
 
-But then our estimation for a products future convertion rate becomes $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ which is both more accurate than the initial formula $$ \frac{S}{N} $$ and equally fast to compute.
+But then our estimation for a products future conversion rate becomes $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ which is both more accurate than the initial formula $$ \frac{S}{N} $$ and equally fast to compute.
 
 ## Great, so I should always use $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ instead of $$ \frac{S}{N} $$.
 
 Not really. First of all there's the previous assumption that $$ g $$ can be modeled via a Beta Distribution. That depends on how rigorous we want to be, but it nonetheless needs to be checked. Secondly this was all about forecasting conversion rates. For analysis related to past performances I would not suggest using this formula since it is disconnected from the truth (i.e. the products actual conversion rate). However, re iterating, any predictive tool related to Conversion Rate should be using this formula instead.
 
-I will summarize with a few pros and cons of each predicted convertion rate.
-
+I will summarize with a few pros and cons of each predicted conversion rate.
+s
 ### Division by zero:
 For new products with no observations the formula $$ \frac{S}{N} $$ has no meaning, which can cause problems when doing some bulk analysis i.e. some machine learning on top of it
 
 ### Cold Start Problem:
-THe Cold Start Problem is defined by not showing enough products that haven't been seen a lot yet. If we use the Conversion Rate as a proxy of how much we should show a given product then new products will have $$ CR = 0 $$ until their first conversion, which might take a while, and until then they will be barely shown. This does not happen with $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ and the opposite happens with $$ \frac{S+1}{N+2} $$ which maps new products predicted $$ CR $$ to $$ \frac{1}{2} $$ , which is generally above the average $$ CR $$.
+The Cold Start Problem is defined by not showing enough products that haven't been seen a lot yet. If we use the Conversion Rate as a proxy of how much we should show a given product then new products will have $$ CR = 0 $$ until their first conversion, which might take a while, and until then they will be barely shown. This does not happen with $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ and the opposite happens with $$ \frac{S+1}{N+2} $$ which maps new products predicted $$ CR $$ to $$ \frac{1}{2} $$ , which is generally above the average $$ CR $$.
 
-### Overshowing new products:
+### Overvaluing new products:
 This is the final statement in the last paragraph. $$ \frac{S+1}{N+2} $$ overshoots the predict $$ CR $$, while $$ \frac{S+S_0 + 1}{S+S_0 + N + N_0 +2} $$ maps new products to the average $$ CR $$, neither boosting nor penalizing them.
