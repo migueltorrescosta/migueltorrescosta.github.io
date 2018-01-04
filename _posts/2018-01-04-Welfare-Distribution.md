@@ -38,7 +38,7 @@ However there is one problem: Both of them have survival costs. For this argumen
 
 In practice Anne has 8 times the spending money John has. Those are 8 times more money spent on actually improving your life quality, having dinners with friends, buying books to read, doing hobbies they love.
 
-The core idea, which I initially read about in this [medium post]((https://medium.com/@conradshaw/money-isnt-money-97722fe87025)) by Conrad Shaw, is that each person has survival money and spending money. Survival money is needed to remain alive, spending money is used to be happy.
+The core idea, which I initially read about in this [medium post](https://medium.com/@conradshaw/money-isnt-money-97722fe87025) by Conrad Shaw, is that each person has survival money and spending money. Survival money is needed to remain alive, spending money is used to be happy.
 
 <!--excerpt ends here-->
 
