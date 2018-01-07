@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welfare Distribution
+title: From Surviving to Living
 category: [System Design, UBI]
 published: true
 ---
