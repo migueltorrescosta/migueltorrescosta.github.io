@@ -5,7 +5,7 @@ category: [Teaching]
 published: true
 ---
 
-This post is a reflection on a [previous post]({{ site.url }}{{ site.baseurl }}{% link _posts/2017-03-17-Maths'-Ceiling.md %}) based on another post about a [Cognitive Breaking point](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/). I want to compare 2 examples on teaching. One can be called more academic, and the other less so.
+This post is a reflection on a [previous post]({{ site.url }}{{ site.baseurl }}{% link _posts/2017-03-17-Maths'-Ceiling.md %}) based on our [Cognitive Breaking point](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/). I want to compare 2 examples on teaching. One can be called more academic, and the other less so.
 
 ## So what are we learning?
 
