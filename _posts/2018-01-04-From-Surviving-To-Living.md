@@ -114,7 +114,7 @@ Changing how taxes are applied. After the company pays employees their worth to 
 
 ## How would we figure out how much each person has to pay at a larger scale?
 
-I am going to skip the calculations, but doing the calculations above is equivalent to each percentage giving a percentage of their salaries to pay for the survival costs of everyone, and have those survival costs equally split amongst the population.
+I am going to skip the calculations, but doing the calculations above is equivalent to each person giving a percentage of their salaries to pay for the survival costs of everyone, and have those survival costs equally split amongst the population.
 
 ## How would that work in practice?
 
