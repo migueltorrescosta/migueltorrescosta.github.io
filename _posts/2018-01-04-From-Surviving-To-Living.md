@@ -164,7 +164,6 @@ If we assume a £400 survival money we will need 560 * £400 = £224.000 to pay 
 <table>
   <thead>
     <tr>
-      <th>Number of people</th>
       <th>Initial Salary</th>
       <th>Adapted Salary</th>
       <th>Spending Money</th>
@@ -172,43 +171,36 @@ If we assume a £400 survival money we will need 560 * £400 = £224.000 to pay 
   </thead>
   <tbody>
     <tr>
-      <td>30</td>
       <td>£0</td>
       <td>£400</td>
       <td>£0</td>
     </tr>
     <tr>
-      <td>100</td>
       <td>£500</td>
       <td>£870</td>
       <td>£470</td>
     </tr>
     <tr>
-      <td>250</td>
       <td>£750</td>
       <td>£1105</td>
       <td>£705</td>
     </tr>
     <tr>
-      <td>100</td>
       <td>£1500</td>
       <td>£1809</td>
       <td>£1409</td>
     </tr>
     <tr>
-      <td>50</td>
       <td>£2500</td>
       <td>£2749</td>
       <td>£2349</td>
     </tr>
     <tr>
-      <td>22</td>
       <td>£5000</td>
       <td>£5098</td>
       <td>£4698</td>
     </tr>
     <tr>
-      <td>10</td>
       <td>£10000</td>
       <td>£9797</td>
       <td>£9397</td>
@@ -222,7 +214,6 @@ Lastly (for those of you with higher salaries), there's an important column miss
 <table>
   <thead>
     <tr>
-      <th>Number of people</th>
       <th>Initial Salary</th>
       <th>Adapted Salary</th>
       <th>Percentual Change</th>
@@ -230,43 +221,36 @@ Lastly (for those of you with higher salaries), there's an important column miss
   </thead>
   <tbody>
     <tr>
-      <td>30</td>
       <td>£0</td>
       <td>£400</td>
       <td>Infinity</td>
     </tr>
     <tr>
-      <td>100</td>
       <td>£500</td>
       <td>£870</td>
       <td>74%</td>
     </tr>
     <tr>
-      <td>250</td>
       <td>£750</td>
       <td>£1105</td>
       <td>47.3%</td>
     </tr>
     <tr>
-      <td>100</td>
       <td>£1500</td>
       <td>£1809</td>
       <td>20.6%</td>
     </tr>
     <tr>
-      <td>50</td>
       <td>£2500</td>
       <td>£2749</td>
       <td>9.96%</td>
     </tr>
     <tr>
-      <td>22</td>
       <td>£5000</td>
       <td>£5098</td>
       <td>1.96%</td>
     </tr>
     <tr>
-      <td>10</td>
       <td>£10000</td>
       <td>£9797</td>
       <td>-2.02%</td>
