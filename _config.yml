@@ -30,4 +30,4 @@ author:
 version:             1.0.0
 
 # Gems
-plugins: [jekyll-gist]
+plugins: [jekyll-gist,jekyll-sitemap,jekyll-seo-tag]
