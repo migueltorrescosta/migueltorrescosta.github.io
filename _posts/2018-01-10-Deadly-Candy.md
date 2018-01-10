@@ -26,7 +26,7 @@ Yes. This one is a bit trickier. In problem $$ 1 $$ we used the fact that at eac
 
 # Do you have a better approach?
 
-There are $$ {1000\choose 2} = \frac{ 1000 * 999 }{2} = 499.550 $$ possible solutions. By testing each one by having a friend lick all the candies except the pair chosen we have found a solution that only requires $$ 499.500 $$ friends. This is absurdly high, but now we know that the answer is in the range $$ [1,499500] $$, which is a starting point.
+There are $$ {1000\choose 2} = \frac{ 1000 * 999 }{2} = 499 550 $$ possible solutions. By testing each one by having a friend lick all the candies except the pair chosen we have found a solution that only requires $$ 499 500 $$ friends. This is absurdly high, but now we know that the answer is in the range $$ [1,499500] $$, which is a starting point.
 
 We can make this bound even better. By having each friend lick a single candy, we can test each candy individually for poisonedness with only 1000 friends. As such the minimum number of friends needed is in the range [1,1000], which is way better than before. Still not ideal though.
 
