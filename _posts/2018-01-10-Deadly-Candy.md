@@ -65,7 +65,7 @@ $$ M_2(2^3) \leq 2 + \max \{ M_2(2^2), 2M_1(2^2) \} = 4 $$
 
 $$ M_2(2^4) \leq 2 + \max \{ M_2(2^3), 2M_1(2^3) \} = 6 $$
 
-From the above it seems like $$ M_2(2^k) < 2(k-1) $$. We have checked the base cases, that is, $$ M_2(2^k) < 2(k-1) $$ for $$ k \leq 4 $$. Then we can prove the inequality by induction since
+From the above it seems like $$ M_2(2^k) < 2(k-1) $$. We have checked the base cases, that is, $$ M_2(2^k) < 2(k-1) $$ for $$ k \leq 4 $$. By assuming $$ M_2(2^k) < 2(k-1) $$ we can prove the inequality by induction since
 
 $$ M_2(2^{k+1}) \leq 2 + \max \{ M_2(2^k), 2M_1(2^k) \} = $$
 
@@ -77,7 +77,7 @@ $$ = 2 + 2(k-1) = 2k $$
 
 Hence we have proved that $$ M_2(2^k) \leq 2k $$. In particular $$ M_2(1024) = M_2(2^{10})\leq 2*10 = 20 $$.
 
-So we we have $$ 2 $$ poisoned candies amongst a set of $$ 1024 $$ then we need at most $$ 20 $$ friends. Since $$ 1000<1024 $$ then we know that $$ M_2(1000) < M_2(1024) = 20 $$, so the answer to our second problem is in the range [1,20].
+So if we have $$ 2 $$ poisoned candies amongst a set of $$ 1024 $$ then we need at most $$ 20 $$ friends. Since $$ 1000<1024 $$ then we know that $$ M_2(1000) < M_2(1024) = 20 $$, so the answer to our second problem is in the range [1,20].
 
 This is much better, but we can only improve our upper bound up to $$ M_2(1000) $$. As such we need a way to find a lower bound. Following the idea we used in problem one, lets assume that we could find the poisoned candies with $$ k $$ friends. Since for each friend we have only 2 possibilities ( dead or alive), we get a total of $$ 2^k $$ possible outcomes for our 'tests'. Since we are choosing 2 candies out of 1000, there are $$ 1000\choose2 $$ ways of doing it, for a total of $$ 499500 $$. As such we need that $$ 2^k \geq 499500 $$ . Taking the logarithm we get $$ k \geq \log_2(499500) = 18.93 $$, so $$ k \geq 19 $$ . Hence we have reduced the possible answers to the set [19,20].
 
