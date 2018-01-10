@@ -30,9 +30,9 @@ There are $$ {1000\choose 2} = \frac{ 1000 * 999 }{2} = 499500 $$ possible solut
 
 We can make this bound even better. By having each friend lick a single candy, we can test each candy individually for poisonedness with only 1000 friends. As such the minimum number of friends needed is in the range [1,1000], which is way better than before. Still not ideal though.
 
-As mentioned before, this problem becomes trickier because when a friend licks a set of candies and dies, we are not sure of whether that set has a single candy or two. We can get around that problem by having a friend lick a set $$ k $$ of candies and another friend lick the complementary set of candies, that is, all the candies but the $$ k $$ ones licked previously. This way we know that:
+As mentioned before, this problem becomes trickier because when a friend licks a set of candies and dies, we are not sure of whether that set has a single candy or two. We can get around that problem by having one friend lick a set $$ k $$ of candies and a second friend lick the complementary set of candies, so that no candy is licked by both of them and together they lick all the candies. This way we know that:
 
-* If one friend days, both candies are in the set licked by that friend.
+* If only one friend dies, both candies are in the set licked by that friend.
 * If both of them die, there is a candy in each set so we reduce the question to 2 versions of problem 1.
 
 Let's make this formal to see the value we get. Let $$ M_k(n) $$ be the minimum number of friends needed to know which $$ k $$ of the $$ n $$ candies are poisoned. By generalising the solution to problem 1 above we know that $$ M_1(k) = \lceil \log_2 (k) \rceil $$. If that formula is hard to digest just think that $$ M_1(k) $$ is the smallest integer $$ N $$ such that $$ 2^N \geq k $$, and as seen above $$ 10 $$ is the least integer $$ N $$ such that $$ 2^k \geq 1000 $$ since $$ 2^{10} = 1024 > 1000 > 512 = 2^9 $$. Now we need to find $$ M_2(k) $$.
