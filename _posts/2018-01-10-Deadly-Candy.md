@@ -2,7 +2,7 @@
 layout: post
 title: Deadly Candy
 category: [Math, Puzzle]
-published: true
+published: false
 ---
 
 The King has imprisoned Mgumbo Jones Junior for attempted regicide. As further punishment, the King gives Jones a challenge that he must complete, or else he will face death: The King puts 1000 candies before Jones, and tells him some of them are poisoned. Jones' challenge is to determine which ones are poisoned. Jones has an infinite supply of dear friends who are willing to put their lives on the line for him. Jones is allowed 1 round of giving his friends licks of the candies, after which he may observe which of them die. After that, he must pick out the poisoned candy or else he himself will be killed. Jones wants to minimise the number of friends he involves in this. How many friends need to lick the candies to assure Jones' survival if
