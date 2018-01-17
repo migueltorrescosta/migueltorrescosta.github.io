@@ -11,6 +11,7 @@ head: true
 - [About]({{site.baseurl}}{% link page_About.md %})
 - [RSS Feed](/atom.xml)
 - [Wishlist]({{site.baseurl}}{% link page_Wishlist.md %})
+- [Ideas and Quotes]({{site.baseurl}}{% link page_Ideas.md %})
 
 <h1> For Prospective Employees </h1>
 
