@@ -24,15 +24,3 @@ head: true
 <h1> Archive </h1>
 
 {% include archive.html %}
-
-
-<h1> Online Profiles </h1>
-
-- [GitHub](https://github.com/{{ site.author.github}})
-- [Medium](https://medium.com/@{{ site.author.medium}})
-- [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin}})
-- [Email](mailto:{{ site.author.email}})
-- [GoodReads](https://www.goodreads.com/{{ site.author.goodreads }})
-- [StackOverflow](http://stackoverflow.com/users/{{ site.author.stackoverflow}})
-- [Reddit](https://www.reddit.com/user/{{ site.author.reddit}})
-- [Steam](http://steamcommunity.com/id/{{ site.author.steam}})
