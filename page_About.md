@@ -38,6 +38,7 @@ My time is spent between reading about these ideas and occasionally programming 
 - [Email](mailto:{{ site.author.email}})
 - [GoodReads](https://www.goodreads.com/{{ site.author.goodreads }})
 - [StackOverflow](http://stackoverflow.com/users/{{ site.author.stackoverflow}})
+- [Twitter](https://twitter.com/{{ site.author.twitter}})
 - [Reddit](https://www.reddit.com/user/{{ site.author.reddit}})
 - [Steam](http://steamcommunity.com/id/{{ site.author.steam}})
 
