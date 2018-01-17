@@ -16,3 +16,7 @@ Here's a list of worthy ideas found around the Internet. Tell me if you find any
 * [Math Ceiling](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) - Do we have a cognitive break point, or can we learn anything we want with enough effort? Useful for anyone who enjoys teaching.
 
 * [Evolution, not Revolution](http://blog.ncase.me/evolution-not-revolution/) - An essay on why revolutions fail and what we can do to bring change.
+
+## Quotes
+
+* "We humans are humans, with qualities that can be destroyed by the introduction of economic gains." - [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*.
