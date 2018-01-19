@@ -7,6 +7,8 @@ head: false
 
 Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
 
+* [Is there anything that working less does not solve?](http://evonomics.com/anything-working-less-not-solve/) - First our 6 day work weeks got reduced to 5. Then full time jobs got bounded by 40 hours of work a week, but after that we stopped. This is a Rutger Bregman's essay on how the amount of time spent working impacts the development of society.
+
 * [Minimalism](https://minimalism.life/journal/) - A lifestyle which I wish to embrace, but haven't yet. The aforementioned link take you to a journal with multiple entries about people who have embraced a minimalist lifestyle.
 
 * [The Evolution of Trust](http://ncase.me/trust/) - An interactive short game that exposes key concepts about how and why we trust other people. This knowledge in the right hands can lead society to be more trusting.
