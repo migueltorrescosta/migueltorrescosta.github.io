@@ -7,7 +7,7 @@ head: false
 
 Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
 
-* ["Slow is smooth, and smooth is fast"](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast) - A small text about the time dedicated to simple trivial tasks by amateurs and professionals.
+* [Slow is smooth, and smooth is fast](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast) - A small text about the time dedicated to simple trivial tasks by amateurs and professionals.
 
 * [Is there anything that working less does not solve?](http://evonomics.com/anything-working-less-not-solve/) - First our 6 day work weeks got reduced to 5. Then full time jobs got bounded by 40 hours of work a week, but after that we stopped. This is a Rutger Bregman's essay on how the amount of time spent working impacts the development of society.
 
