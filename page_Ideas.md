@@ -7,6 +7,8 @@ head: false
 
 Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
 
+* ["Slow is smooth, and smooth is fast"](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast) - A small text about the time dedicated to simple trivial tasks by amateurs and professionals.
+
 * [Is there anything that working less does not solve?](http://evonomics.com/anything-working-less-not-solve/) - First our 6 day work weeks got reduced to 5. Then full time jobs got bounded by 40 hours of work a week, but after that we stopped. This is a Rutger Bregman's essay on how the amount of time spent working impacts the development of society.
 
 * [Minimalism](https://minimalism.life/journal/) - A lifestyle which I wish to embrace, but haven't yet. The aforementioned link take you to a journal with multiple entries about people who have embraced a minimalist lifestyle.
@@ -22,5 +24,3 @@ Here's a list of worthy ideas found around the Internet. Tell me if you find any
 ## Quotes
 
 * "We humans are humans, with qualities that can be destroyed by the introduction of economic gains." - [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*.
-
-* ["Slow is smooth, and smooth is fast"](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast) - Navy Seal saying
