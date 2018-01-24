@@ -22,3 +22,5 @@ Here's a list of worthy ideas found around the Internet. Tell me if you find any
 ## Quotes
 
 * "We humans are humans, with qualities that can be destroyed by the introduction of economic gains." - [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*.
+
+* ["Slow is smooth, and smooth is fast"](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast)" - Navy Seal saying
