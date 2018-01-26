@@ -24,7 +24,7 @@ My time is spent between reading about these ideas and occasionally programming 
 
 * Reading interesting [ideas]({% link page_Ideas.md %}) from the web.
 
-* Thinking about random problems and possible solutions (a pleasure I deepened during my youth at [Delfos]({{site.baseurl}}{% link _posts/2013-09-29-Delfos.md %}) ).
+* Thinking about random problems and possible solutions, a pleasure I deepened during my youth at [Delfos]({{site.baseurl}}{% link _posts/2013-09-29-Delfos.md %}).
 
 * Strategy/Resource games such as Catan, [Mafia](https://en.wikipedia.org/wiki/Mafia_(party_game)) and others.
 
