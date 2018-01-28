@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Surviving to Living
-category: [System Design, UBI]
+category: [UBI]
 published: true
 ---
 
