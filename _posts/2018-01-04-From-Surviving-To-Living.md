@@ -7,7 +7,7 @@ published: true
 
 Suppose a company has 2 employees Anne and John. The company values Anne's work 2 times more than John's work. As such the company is paying Anne £1400 and John £700. This can be seen as fair, one person having double the money to spend and be happy since they are contributing double of what others are contributing.
 
-However there is one problem: Both of them have survival costs. For this argument's sake lets assume that both Anne and John need £600 to survive. By surviving I mean having shelter (a home), food, electricity and water. Then Anne's spending money is £1400 - £600 = £800, but John's is 700£ - 600£ = £100, like this:
+However there is one problem: Both of them have survival costs, namely rent, food, eletricity and similar expenses. Assume that both Anne and John need £600 to survive. Subtracting survival costs, we get that Anne's spending money is £800, but John's is £100, like this:
 
 <table>
   <thead>
@@ -15,6 +15,7 @@ However there is one problem: Both of them have survival costs. For this argumen
       <th></th>
       <th>Anne</th>
       <th>John</th>
+      <th>Ratio</th>
     </tr>
   </thead>
   <tbody>
@@ -22,29 +23,36 @@ However there is one problem: Both of them have survival costs. For this argumen
       <td>Salary</td>
       <td>£1400</td>
       <td>£700</td>
+      <td>2:1</td>
     </tr>
     <tr>
       <td>Survival Money</td>
       <td>£600</td>
       <td>£600</td>
+      <td>1:1</td>
     </tr>
     <tr>
       <td>Spending Money</td>
       <td>£800</td>
       <td>£100</td>
+      <td>8:1</td>
     </tr>
   </tbody>
 </table>
 
 In practice Anne has 8 times the spending money John has. Those are 8 times more money spent on actually improving your life quality, having dinners with friends, buying books to read, doing hobbies they love.
 
-The core idea, which I initially read about in this [medium post](https://medium.com/@conradshaw/money-isnt-money-97722fe87025) by Conrad Shaw, is that each person has survival money and spending money. Survival money is needed to remain alive, spending money is used to be happy.
+The core idea, shared on [medium](https://medium.com/@conradshaw/money-isnt-money-97722fe87025) by Conrad Shaw, is that each person has survival money and spending money. Survival money is needed to remain alive, spending money is used to be happy.
 
 <!--excerpt ends here-->
 
 ## What are you claiming?
+ 
+My claim is that a person's quality of life is not correctly dependent on their productivity. A small improvement in productivity leads to large quality of life improvements. In other words, if your productivity is slightly below average, then your quality of life is a lot below average. 
 
-My claim is that fair inequalities in salaries are being exacerbated after discounting survival costs. In other words fair salary improvements can lead to an unfair improvement in the quality of life. To fix the situation in the initial example we need to ensure that Anne's spending money is double John's spending money. Assume we have a total of £2100 to be distributed. Both Anne and John need £600 to survive, leaving us with £2100 - 2 * £600 = £900 to distribute. Since we want Anne to have double the spending money that John has then John should receive £900/3 = £300, while Anne should receive the remainder of 2* £900/3 = £600.
+## Can we fix the situation?
+
+Given the premises, we need to make Anne's spending money is double John's spending money.We have a total salary of £2100. Both Anne and John need £600 to survive, leaving us with £900 to distribute. Hence John should receive £300 and Anne £600.
 
 Then we would get the distribution:
 
@@ -54,6 +62,7 @@ Then we would get the distribution:
       <th></th>
       <th>Anne</th>
       <th>John</th>
+      <th>Ratio</th>
     </tr>
   </thead>
   <tbody>
@@ -61,23 +70,28 @@ Then we would get the distribution:
       <td>Salary</td>
       <td>£1200</td>
       <td>£900</td>
+      <td>4:3</td>
     </tr>
     <tr>
       <td>Survival Money</td>
       <td>£600</td>
       <td>£600</td>
+      <td>1:1</td>
     </tr>
     <tr>
       <td>Spending Money</td>
       <td>£600</td>
       <td>£300</td>
+      <td>2:1</td>
     </tr>
   </tbody>
 </table>
 
-## You are saying companies should take spending money into account when deciding salaries?
+Now their Spending Money and their value to the company are in the right proportion.
 
-That is not possible because of this:
+## So companies should take that it account when deciding salaries?
+
+Unfortunately that would not work well. As mentioned in the beginning, Anne's work is twice as important as John's work. Hence for the company we would observe something similar to:
 
 <table>
   <thead>
@@ -106,109 +120,109 @@ That is not possible because of this:
   </tbody>
 </table>
 
-Since the company would have to pay Anne below her worth but not John, then they would only hire Anne. Even more reasons against this being a possibility can be explained using economic related concepts.
+The company would be paying Anne below her worth but not John, so they win from hiring Anne but not John.
 
-## What is your proposed solution?
+## Do you have an alternative suggestion?
 
-Changing how taxes are applied. After the company pays employees their worth to the company, then we have to pay taxes by filling IRS forms and all our obligations. If a reasoning similar to the above was applied then each person would pay a percentage of their income to the IRS and receive a fixed Survival Money amount.
+Yes, taxes. After the company pays employees their worth to the company, then we have to pay taxes by filling IRS forms and all our obligations. Applying the above reasoning to all citizens, then we should get the correct spending money ratio's.
 
 ## How would we figure out how much each person has to pay at a larger scale?
 
-I am going to skip the calculations, but doing the calculations above is equivalent to each person giving a percentage of their salaries to pay for the survival costs of everyone, and have those survival costs equally split amongst the population.
+I am going to skip the calculations, but doing them is equivalent to each person giving a percentage of their salaries to pay for the everyone's survival costs.
 
 ## How would that work in practice?
 
-I will give you an example. Suppose that we have a population of 560 people receiving different salaries, according to the following table:
+I will give you an example. Suppose that we have a population of 560 people with the monthly income distribution below.
 
 <table>
   <thead>
     <tr>
-      <th>Number of people</th>
       <th>Salary</th>
+      <th>Number of people</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>30</td>
       <td>£0</td>
+      <td>30</td>
     </tr>
     <tr>
-      <td>100</td>
       <td>£500</td>
-    </tr>
-    <tr>
-      <td>250</td>
-      <td>£750</td>
-    </tr>
-    <tr>
       <td>100</td>
+    </tr>
+    <tr>
+      <td>£750</td>
+      <td>250</td>
+    </tr>
+    <tr>
       <td>£1500</td>
+      <td>100</td>
     </tr>
     <tr>
-      <td>50</td>
       <td>£2500</td>
+      <td>50</td>
     </tr>
     <tr>
-      <td>22</td>
       <td>£5000</td>
+      <td>22</td>
     </tr>
     <tr>
-      <td>10</td>
       <td>£10000</td>
+      <td>10</td>
     </tr>
   </tbody>
 </table>
 
-If we assume a £400 survival money we will need 560 * £400 = £224.000 to pay everyone, from a total of £3.712.500 . Hence the survival money is roughly 6% of the total income seen. Doing the calculations above we get:
+If we assume that £400 is the needed survival money then we will need £224.000 to pay everyone, from a total of £3.712.500 available. Hence the survival money is roughly 6% of the total income seen. Doing the calculations above we get:
 
 <table>
   <thead>
     <tr>
       <th>Initial Salary</th>
-      <th>Adapted Salary</th>
       <th>Spending Money</th>
+      <th>Adapted Salary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>£0</td>
-      <td>£400</td>
       <td>£0</td>
+      <td>£400</td>
     </tr>
     <tr>
       <td>£500</td>
-      <td>£870</td>
       <td>£470</td>
+      <td>£870</td>
     </tr>
     <tr>
       <td>£750</td>
-      <td>£1105</td>
       <td>£705</td>
+      <td>£1105</td>
     </tr>
     <tr>
       <td>£1500</td>
-      <td>£1809</td>
       <td>£1409</td>
+      <td>£1809</td>
     </tr>
     <tr>
       <td>£2500</td>
-      <td>£2749</td>
       <td>£2349</td>
+      <td>£2749</td>
     </tr>
     <tr>
       <td>£5000</td>
-      <td>£5098</td>
       <td>£4698</td>
+      <td>£5098</td>
     </tr>
     <tr>
       <td>£10000</td>
-      <td>£9797</td>
       <td>£9397</td>
+      <td>£9797</td>
     </tr>
   </tbody>
 </table>
 
-Comparing the Initial Salary and Spending Money columns, we can see they are just a rescaling of each other (by 94%). As such each person's initial salary and spending money can be seen as fair.
+The Spending Money column is just a rescaling (by $94%$) of the Initial Salary column. As such each person's initial salary and spending money can be seen as fair.
 Lastly (for those of you with higher salaries), there's an important column missing: The percentual change in salary:
 
 <table>
@@ -258,7 +272,7 @@ Lastly (for those of you with higher salaries), there's an important column miss
   </tbody>
 </table>
 
-Hence by 10 people giving 2% of their salaries we were able to guarantee enough survival money for 560 people, while keeping the spending money approppriately sized.
+Hence by 10 people giving 2% of their salaries we are able to guarantee enough survival money for 560 people, while keeping the spending money approppriately sized.
 
 ## So we should just tax everyone's income to provide for everyone's survival?
 
