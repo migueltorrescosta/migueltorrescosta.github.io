@@ -2,7 +2,7 @@
 layout: post
 title: The Public Goods Game
 category: [Behavioral Economics]
-published: false
+published: true
 ---
 
 Adapted excerpt from Dan Ariely's Predictably Irrational
