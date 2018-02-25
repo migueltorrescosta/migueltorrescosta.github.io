@@ -23,4 +23,6 @@ Here's a list of worthy ideas found around the Internet. Tell me if you find any
 
 ## Quotes
 
+* "a risk-free society would become a dead-end society" - [Jonas Salk](https://en.wikipedia.org/wiki/Jonas_Salk), who discovered and developed one of the first successful polio vaccines.
+
 * "We humans are humans, with qualities that can be destroyed by the introduction of economic gains." - [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*.
