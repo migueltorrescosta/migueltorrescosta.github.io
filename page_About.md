@@ -30,6 +30,8 @@ My time is spent between reading about these ideas and occasionally programming 
 
 * [Quidditch](http://www.ouqc.uk/), Football and sports in general.
 
+* Learning (Simplified) Chinese. I couldn't find any decent vocabulary tables so I've built [my own]({{site.baseurl}}{% link ChineseCheatSheet.pdf %}), and I will update it as my vocabulary improves. Feel free to share. And add stuff.
+
 <h1> Online Presence </h1>
 
 - [GitHub](https://github.com/{{ site.author.github}})
