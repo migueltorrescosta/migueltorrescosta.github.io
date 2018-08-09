@@ -1,0 +1,6 @@
+{% for image in site.static_files %}
+
+{% if image.path contains 'photos/shanghai' %}
+![{{ image.basename }}]({{ site.baseurl }}{{ image.path }})
+{% endif %}
+{% endfor %}
