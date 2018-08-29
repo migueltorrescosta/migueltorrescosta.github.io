@@ -7,9 +7,12 @@ head: true
 
 <div class="posts">
 
-  <div style="text-align:center">If you want to be updated about new posts there is a newsletter you can subscribe to. Or just check this page often.</div>
-  <br>
-  {% include subscribe.html %}
+  <div style="text-align:center">
+    <i>It ain't what you don't know that gets you in trouble. It's what you know for sure that just ain't so.</i>
+    <br>
+    <b>Mark Twain</b>
+
+  </div>
 
   {% for post in site.posts %}
 
