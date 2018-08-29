@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Long Term Teaching
-category: [Teaching]
+category: [Education]
 published: true
 ---
 
