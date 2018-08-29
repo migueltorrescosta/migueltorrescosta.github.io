@@ -52,7 +52,7 @@ My claim is that a person's quality of life is not correctly dependent on their 
 
 ## Can we fix the situation?
 
-Given the premises, we need to make Anne's spending money is double John's spending money.We have a total salary of £2100. Both Anne and John need £600 to survive, leaving us with £900 to distribute. Hence John should receive £300 and Anne £600.
+Given the premises, we need to make sure Anne's spending money is double John's spending money.We have a total salary of £2100. Both Anne and John need £600 to survive, leaving us with £900 to distribute. Hence John should receive £300 and Anne £600.
 
 Then we would get the distribution:
 
