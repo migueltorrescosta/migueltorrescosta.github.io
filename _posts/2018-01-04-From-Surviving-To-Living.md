@@ -52,7 +52,7 @@ My claim is that a person's quality of life is not correctly dependent on their 
 
 ## Can we fix the situation?
 
-Given the premises, we need to make sure Anne's spending money is double John's spending money.We have a total salary of £2100. Both Anne and John need £600 to survive, leaving us with £900 to distribute. Hence John should receive £300 and Anne £600.
+Given the premises, we need to make sure Anne's spending money is double John's spending money. We have a total salary of £2100. Both Anne and John need £600 to survive, leaving us with £900 to distribute. Hence John should receive £300 (half) and Anne £600 (double).
 
 Then we would get the distribution:
 
@@ -89,7 +89,7 @@ Then we would get the distribution:
 
 Now their Spending Money and their value to the company are in the right proportion.
 
-## So companies should take that it account when deciding salaries?
+## So companies should take that into account when deciding salaries?
 
 Unfortunately that would not work well. As mentioned in the beginning, Anne's work is twice as important as John's work. Hence for the company we would observe something similar to:
 
@@ -128,7 +128,7 @@ Yes, taxes. After the company pays employees their worth to the company, then we
 
 ## How would we figure out how much each person has to pay at a larger scale?
 
-I am going to skip the calculations, but doing them is equivalent to each person giving a percentage of their salaries to pay for the everyone's survival costs.
+I am going to skip the calculations, but doing them is equivalent to each person giving a percentage of their salaries to pay for everyone's survival costs.
 
 ## How would that work in practice?
 
@@ -222,7 +222,7 @@ If we assume that £400 is the needed survival money then we will need £224.000
   </tbody>
 </table>
 
-The Spending Money column is just a rescaling (by $94%$) of the Initial Salary column. As such each person's initial salary and spending money can be seen as fair.
+The Spending Money column is just a rescaling (by 94%) of the Initial Salary column. As such each person's initial salary and spending money can be seen as fair.
 Lastly (for those of you with higher salaries), there's an important column missing: The percentual change in salary:
 
 <table>
