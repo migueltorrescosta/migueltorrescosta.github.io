@@ -5,10 +5,6 @@ permalink: /tags/
 head: false
 ---
 
-* language
-{:toc}
-
-
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
 {% assign sorted_posts = category[1] | reversed %}
