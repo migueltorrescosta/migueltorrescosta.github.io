@@ -27,7 +27,7 @@ During the Farfetch Internship I preferred using Pandas (A Python module) to org
 During the Elliptic Curve Research Project we used MySQL for handling the databases we were building (relatively small databases).
 
 ## Java
-Used it recently at LTP Labs for an agency based model project. Not my favorite language, but it is incredibly powerful for Object Oriented code.
+Used it at LTP Labs for an agency based model project. Not my favorite language, but it is incredibly powerful for Object Oriented code.
 
 ## R
 Used it to quickly test different Machine Learning algorithms, so that I could have an idea on which algorithm to use for a dataset I had. I disliked the language, but I can't argue with how fast it was to get things done.
