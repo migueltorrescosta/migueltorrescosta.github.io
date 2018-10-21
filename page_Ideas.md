@@ -5,26 +5,100 @@ permalink: /ideas/
 head: false
 ---
 
-Here's a list of worthy ideas found around the Internet. Tell me if you find anything you'd like to see up here.
+A compendium of ideas and quotes.
 
-* [Slow is smooth, and smooth is fast](https://www.lesserwrong.com/posts/4FZfzqMtwQZES3eqN/slow-is-smooth-and-smooth-is-fast) - A small text about the time dedicated to simple trivial tasks by amateurs and professionals.
+#### Cornell Economist [Robert Frank](https://evolution-institute.org/profile/robert-frank/), on public policy regarding taxes:
 
-* [Is there anything that working less does not solve?](http://evonomics.com/anything-working-less-not-solve/) - First our 6 day work weeks got reduced to 5. Then full time jobs got bounded by 40 hours of work a week, but after that we stopped. This is a Rutger Bregman's essay on how the amount of time spent working impacts the development of society.
+*What happens when you have less money to spend is very different from what happens when everyone has less money to spend.*
 
-* [Minimalism](https://minimalism.life/journal/) - A lifestyle which I wish to embrace, but haven't yet. The aforementioned link take you to a journal with multiple entries about people who have embraced a minimalist lifestyle.
+#### [Jonas Salk](https://en.wikipedia.org/wiki/Jonas_Salk), who discovered and developed one of the first successful polio vaccines:
 
-* [The Evolution of Trust](http://ncase.me/trust/) - An interactive short game that exposes key concepts about how and why we trust other people. This knowledge in the right hands can lead society to be more trusting.
+*a risk-free society would become a dead-end society*
 
-* [Money isn't Money until it is](https://medium.com/@conradshaw/money-isnt-money-97722fe87025) - Making a distinction between survival money and living money.
+#### [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*:
 
-* [Math Ceiling](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) - Do we have a cognitive break point, or can we learn anything we want with enough effort? Useful for anyone who enjoys teaching.
+*We humans are humans, with qualities that can be destroyed by the introduction of economic gains.*
 
-* [Evolution, not Revolution](http://blog.ncase.me/evolution-not-revolution/) - An essay on why revolutions fail and what we can do to bring change.
+#### [Warren Buffet](https://en.wikipedia.org/wiki/Warren_Buffett), on the distribution of wealth in the US @ [Financial Times](https://www.ft.com/content/d4b0b188-196f-11e8-956a-43db76e69936):
 
-## Quotes
+*2017 was far from standard. Only $36bn came from Berkshire’s operations. The remaining $29bn was delivered to us when Congress rewrote the US tax code.*
 
-* "What happens when you have less money to spend is very different from what happens when everyone has less money to spend." - Cornell Economist [Robert Frank](https://evolution-institute.org/profile/robert-frank/), on public policy regarding taxes.
+#### [Rana Foroohar](https://en.wikipedia.org/wiki/Rana_Foroohar) @ [Evonomics](https://evonomics.com/want-to-kill-your-economy-have-mba-programs/):
 
-* "a risk-free society would become a dead-end society" - [Jonas Salk](https://en.wikipedia.org/wiki/Jonas_Salk), who discovered and developed one of the first successful polio vaccines.
+*With very few exceptions, MBA education today is basically an education in finance, not business—a major distinction.*
 
-* "We humans are humans, with qualities that can be destroyed by the introduction of economic gains." - [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb), author of *[The Black Swan: The Impact of the Highly Improbable](https://www.goodreads.com/book/show/242472.The_Black_Swan?from_search=true)*.
+#### [Daryl Davis](https://en.wikipedia.org/wiki/Daryl_Davis), who guided 200 white supremacists into [leaving the KKK](https://www.youtube.com/watch?v=HLtp13Rw8Kc):
+
+*It's when the talking stops that the ground becomes fertile for violence, so we want to keep the conversation going.*
+
+#### Nicky Case on [The Evolution of Trust](https://ncase.me/trust/):
+
+*We now have fewer friends across class, racial, economic, and political lines, because we have fewer friends -- period.*
+
+#### [James Suzman] on [The current work environment](https://evonomics.com/hunter-gatherers-may-hold-key-economic-future):
+
+*And with most of the rest of us working in the ever more amorphous services sector, much of the work we do is aimed at keeping wheels of commerce rolling rather than ensuring that our essential needs are met."*
+
+#### Alice G. Walton on [How Poverty changes your mind-set](http://review.chicagobooth.edu/behavioral-science/2018/article/how-poverty-changes-your-mind-set):
+
+*Contrary to the refrain that bad decisions lead to poverty, data indicate that it is the cognitive toll of being poor that leads to bad decisions.*
+
+#### Michael Muthukrishna on [Bribery, Cooperation, and the Evolution of Prosocial Institutions](https://evonomics.com/corruption-cultural-evolution-cooperation-bribery):
+
+*There is something very natural about helping your friends and others in your social circle. [...] The trouble is that these smaller scales of cooperation can undermine the larger-scale cooperation of modern states.*
+
+#### Nicky Case on [ Evolution, not Revolution ](https://blog.ncase.me/evolution-not-revolution/):
+
+*The next time you're tempted to praise an idea, a movement, or yet another photo-sharing app as "revolutionary"... remember how actual revolutions usually turn out.*
+
+#### Rutger Bregman on [The solution to just about everything: Working less](https://evonomics.com/anything-working-less-not-solve/):
+
+ *[...] plebs wouldn’t be able to handle getting the vote, or a decent wage, or, least of all, leisure [...] But the irony is that it was precisely in overworked, industrialized cities that more and more people sought refuge in the bottle. *
+
+#### Zat Rana on [The art of Solitude](https://medium.com/personal-growth/the-most-important-skill-nobody-taught-you-9b162377ab77):
+
+*All of humanity’s problems stem from man’s inability to sit quietly in a room alone.*
+
+#### Scott Alexander @ [Slate Star Codex](http://slatestarcodex.com/2014/04/15/the-cowpox-of-doubt/):
+
+*I worry that we are vaccinating people against reading the research for themselves instead of trusting smarmy bloggers who talk about how stupid the other side is.*
+
+#### Charles Chu o [Happiness](https://medium.com/the-polymath-project/happiness-is-for-animals-meaning-is-for-humans-39225c6e4935):
+
+ *[...] if a government wants to increase its residents’ meaning in life and prevent suicide, then improving economic prosperity does not seem to help achieve these goals.*
+
+#### Valentine on [Mechanical vs Social Minds](https://www.lesswrong.com/posts/hMd2hp9SoWmTsPynA/of-two-minds):
+
+*If your access to food, sex, and others’ protection depends on your agreeing with others that the sky is green, you either find ways to conclude that the sky is green, or you don’t have many kids.*
+
+#### Leo Babauta on the [Simple Living Manifesto](https://zenhabits.net/simple-living-manifesto-72-ideas-to-simplify-your-life/):
+
+*Step 1: Identify what’s most important to you. Step 2: Eliminate everything else.*
+
+#### Conrad Shaw on [The value of Money](https://medium.com/@conradshaw/money-isnt-money-97722fe87025):
+
+*If you give a starving man $5, you’ve given him his next sandwich. If you give a wealthy man $5, you’ve given him five dollars.*
+
+#### Bari Weiss on [The Renegades of the Intellectual Dark Web](https://www.nytimes.com/2018/05/08/opinion/intellectual-dark-web.html):
+
+ *[...] they are willing to disagree ferociously, but talk civilly, about nearly every meaningful subject: religion, abortion, immigration, the nature of consciousness.*
+
+#### Tori Amos:
+
+*I found the secret to life. I’m okay when everything is not okay.*
+
+#### Ben Orlin @ [Slate](https://slate.com/human-interest/2013/08/stupid-is-not-the-same-thing-as-slow-all-the-words-teachers-use-to-describe-student-failure.html):
+
+*Our system of time-pressured tests and over scheduled afternoons already favors quick thinkers over deep ones.*
+
+#### Dennis O. Ojogho @ [The Crimson](https://www.thecrimson.com/article/2016/5/2/ojogho-harvard-education-purpose/):
+
+*[...] when we go home and someone asks us, "What are you going to be?” tell them that they are asking the wrong question. Instead, tell them that they should be asking, “What problem are you going to solve?*
+
+#### Jameson Quinn on [Multi-winner Voting](https://www.lesswrong.com/posts/E3qhjwJAgCW6wGRpH/multi-winner-voting-a-question-of-alignment):
+
+*direct democracy tends to favor negative-sum rent-seeking: small groups extracting concentrated benefits by imposing diffuse costs, merely because they're the only ones motivated enough to sweat the details.*
+
+#### Stephannie Vozza on [The 5 Most Common Negotiating Mistakes](https://www.fastcompany.com/3033337/the-5-most-common-negotiating-mistakes):
+
+*Rules can be modified if you simply propose an ethical, viable, and mutually beneficial alternative solution. Powerful negotiators are rule breakers.*
