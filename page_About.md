@@ -11,7 +11,7 @@ head: true
 
 - [Blog]({{site.baseurl}}{% link index.md %}) - You can also see the posts organized by [tags]({{site.baseurl}}{% link page_Tags.md %}).
 - [Books]({{site.baseurl}}{% link page_Books.md %}) - Help me expand this list by recommending me what to read.
-- [Contact Me]({{site.baseurl}}{% link page_Contact.md %}) - Choose from a selection of platforms to do so.
+- [Contact Me]({{site.baseurl}}{% link page_Contact.md %}) - Links are also available in the footer.
 - [CV]({{site.baseurl}}{% link CV.pdf %}) - For prospective employers.
 - [Ideas]({% link page_Ideas.md %}) - I gathered some interesting ideas I found around the web.
 - [RSS Feed](/atom.xml) - If you want to be kept up to date about new posts.
