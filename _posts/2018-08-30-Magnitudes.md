@@ -34,3 +34,5 @@ Now that we have numbers written in magnitudes, we can easily compare them. For 
 Every time we see a new number, we can think about where it lies in this magnitude list and compare it to what we already know. That way when we see that a million dollars were spent on a new car fleet for government officials, hopefully we'll realize that a million is about the correct value for such a fleet, instead of being outraged at the sound of a million dollars being spent by the government in something apparently unnecessary.
 
 Can you build a detailed magnitude list for yourself?
+
+Edit: This [Ted-Ed Video](https://www.youtube.com/watch?v=0YzvupOX8Is) shows this concept in action. Enjoy!
