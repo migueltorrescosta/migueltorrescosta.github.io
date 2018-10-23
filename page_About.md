@@ -7,7 +7,7 @@ head: true
 
 ![Work in Progress]({{site.baseurl}}{% link /public/profile.jpg %})
 
-# About
+# Sitemap
 
 - [Blog]({{site.baseurl}}{% link index.md %}) - You can also see the posts organized by [tags]({{site.baseurl}}{% link page_Tags.md %}).
 - [Books]({{site.baseurl}}{% link page_Books.md %}) - Help me expand this list by recommending me what to read.
