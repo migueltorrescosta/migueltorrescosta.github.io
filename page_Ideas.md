@@ -7,6 +7,10 @@ head: false
 
 A compendium of ideas and quotes.
 
+#### Alice G. Walton on [How Poverty changes your mind-set](http://review.chicagobooth.edu/behavioral-science/2018/article/how-poverty-changes-your-mind-set):
+
+*Contrary to the refrain that bad decisions lead to poverty, data indicate that it is the cognitive toll of being poor that leads to bad decisions.*
+
 #### Cornell Economist [Robert Frank](https://evolution-institute.org/profile/robert-frank/), on public policy regarding taxes:
 
 *What happens when you have less money to spend is very different from what happens when everyone has less money to spend.*
@@ -38,10 +42,6 @@ A compendium of ideas and quotes.
 #### [James Suzman] on [The current work environment](https://evonomics.com/hunter-gatherers-may-hold-key-economic-future):
 
 *And with most of the rest of us working in the ever more amorphous services sector, much of the work we do is aimed at keeping wheels of commerce rolling rather than ensuring that our essential needs are met."*
-
-#### Alice G. Walton on [How Poverty changes your mind-set](http://review.chicagobooth.edu/behavioral-science/2018/article/how-poverty-changes-your-mind-set):
-
-*Contrary to the refrain that bad decisions lead to poverty, data indicate that it is the cognitive toll of being poor that leads to bad decisions.*
 
 #### Michael Muthukrishna on [Bribery, Cooperation, and the Evolution of Prosocial Institutions](https://evonomics.com/corruption-cultural-evolution-cooperation-bribery):
 
