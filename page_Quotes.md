@@ -104,3 +104,16 @@ head: false
 #### Roshni @ [India Today](https://www.indiatoday.in/education-today/featurephilia/story/students-in-japan-clean-their-own-classrooms-and-school-toilets-and-the-reason-is-incredible-1227619-2018-05-06)
 
 * *In Japan [...] cleaning one's own classroom and school is a part of their school education. Their motto is simple: if you are using a particular space, it is your duty and responsibility to ensure that you leave that space clean.*
+
+#### [Ben Orlin](https://mathwithbaddrawings.com/about-2/) @ [Math With Bad Drawings](https://mathwithbaddrawings.com/2018/07/18/a-brief-history-of-gregor-mendel/) on [Gregor Mendel](https://en.wikipedia.org/wiki/Gregor_Mendel), a man who pursued his passion even after aparent failure.
+
+* *Gregor Mendel, deemed unqualified to teach a high school biology class, settled for conducting experiments now taught in every biology class in the world.*
+
+#### [Charles Goodhart](https://en.wikipedia.org/wiki/Charles_Goodhart) on using statistical correlations for policy purposes.
+
+* *When a measure becomes a target, it ceases to be a good measure.*
+
+
+#### [Joshua Pearce](https://opensource.com/users/jmpearce) defends that [open source hardware increases security](https://opensource.com/article/18/10/cybersecurity-demands-rapid-switch-open-source-hardware)
+
+* *Using open source techniques can, perhaps counterintuitively, make a system more secure.*
