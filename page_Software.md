@@ -32,9 +32,6 @@ Used it at LTP Labs for an agency based model project. Not my favorite language,
 ## R
 Used it to quickly test different Machine Learning algorithms, so that I could have an idea on which algorithm to use for a dataset I had. I disliked the language, but I can't argue with how fast it was to get things done.
 
-## Trello
-I discovered it recently and it has become my quick note taker: Anytime I can add a card via my phone since there's a Add card to Trello Widget which allows you to do it with 2 clicks (plus the text you need to write). Then at the end/beginning of each day I can just give it a quick look and sort out what needs sorting out.
-
 ## Microsoft Labs
 Used it for the same reason as R. It is a surprisingly intuitive out of the box tool to use.
 
