@@ -18,7 +18,7 @@ head: true
 
 {% include goodreads.html shelf='read' %}
 
-# Quote Selection
+# Quotes
 
 {% include quotes.md %}
 
