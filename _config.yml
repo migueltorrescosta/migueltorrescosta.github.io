@@ -30,5 +30,9 @@ author:
 # Custom vars
 version:             1.0.0
 
+# Collections
+collections:
+  work:
+
 # Gems
 plugins: [jekyll-gist,jekyll-sitemap,jekyll-seo-tag]
