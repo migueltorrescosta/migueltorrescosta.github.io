@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Salem Witch Trials
-category: [Short Stories]
+category: [Short Stories, Education]
 published: True
 ---
 
