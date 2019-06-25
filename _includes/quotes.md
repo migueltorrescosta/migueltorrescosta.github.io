@@ -1,3 +1,7 @@
+#### Mark Twain:
+
+* *It ain't what you don't know that gets you in trouble. It's what you know for sure that just ain't so.*
+
 #### Alice G. Walton on [How Poverty changes your mind-set](http://review.chicagobooth.edu/behavioral-science/2018/article/how-poverty-changes-your-mind-set):
 
 * *Contrary to the refrain that bad decisions lead to poverty, data indicate that it is the cognitive toll of being poor that leads to bad decisions.*

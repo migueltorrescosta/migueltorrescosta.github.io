@@ -10,11 +10,3 @@ head: true
 # Books
 
 {% include goodreads.html shelf='read' %}
-
-# Quotes
-
-{% include quotes.md %}
-
-# Archive
-
-{% include archive.html %}
