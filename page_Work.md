@@ -22,53 +22,66 @@ In the meantime, reach out to me if you are looking for a maths tutor: here's my
 
 Software I've worked with, by order of experience/preference. I try to keep this updated, but there's more to life than updating this list.
 
-* language
-{:toc}
+<details><summary>Python & Jupyter Notebooks</summary>
+<br>
+This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, scikit-learn for implementing Machine Learning algorithms and matplotlib for presenting the results. I have also tested many minor algorithms for simpler problems.<br></details>
 
-## Python & Jupyter Notebooks
-This is my preferred language, having used it the most for the past 3 years. I´ve worked with Pandas for database management, scikit-learn for implementing Machine Learning algorithms and matplotlib for presenting the results. I have also tested many minor algorithms for simpler problems.
+<details><summary>Haskell</summary>
+<br>
+It was the main language used for a Functional Analysis course I took in 2014. Even though I haven´t used it since 2014, I enjoyed how similar it is to math in its functional approach. It was more intuitive to code than any other language I've used, including Python.<br></details>
 
-## Haskell
-It was the main language used for a Functional Analysis course I took in 2014. Even though I haven´t used it since 2014, I enjoyed how similar it is to math in its functional approach. It was more intuitive to code than any other language I've used, including Python.
+<details><summary>Ubuntu</summary>
+<br>
+I've used it as my OS for 6 years now. I am impressed by how user friendly it is, given the initial goal by Linus of making a coder friendly OS.<br></details>
 
-## Ubuntu
-I've used it as my OS for 6 years now. I am impressed by how user friendly it is, given the initial goal by Linus of making a coder friendly OS.
+<details><summary>GitHub</summary>
+<br>
+Everyone uses it nowadays. Or GitLab. Or Bitbucket.<br></details>
 
-## GitHub
-Everyone uses it nowadays. Or GitLab. Or Bitbucket.
+<details><summary>Microsoft SQL & MySQL</summary>
+<br>
+For specific needs you might prefer other technologies, but I find these to be a good starting place or any company to manage their DBs. Anything but CSVs and flatfiles.<br></details>
 
-## Microsoft SQL & MySQL
-For specific needs you might prefer other technologies, but I find these to be a good starting place or any company to manage their DBs. Anything but CSVs and flatfiles.
+<details><summary>Java</summary>
+<br>
+Used it briefly at LTP Labs for an agency based model project.<br></details>
 
-## Java
-Used it briefly at LTP Labs for an agency based model project.
+<details><summary>R</summary>
+<br>
+Used it to quickly test different Machine Learning algorithms, so that I could understand the performance before implementing anything. Not my language of choice, but I can't argue with how incredibly fast it was to prototype.<br></details>
 
-## R
-Used it to quickly test different Machine Learning algorithms, so that I could understand the performance before implementing anything. Not my language of choice, but I can't argue with how incredibly fast it was to prototype.
+<details><summary>Microsoft Labs</summary>
+<br>
+Used it for the same reason as R. It is a surprisingly intuitive out of the box tool to use.<br></details>
 
-## Microsoft Labs
-Used it for the same reason as R. It is a surprisingly intuitive out of the box tool to use.
+<details><summary>SageMath</summary>
+<br>
+It was needed for the Elliptic Curves Project at Oxford University during the Summer of 2016. I was impressed by the simplicity of the code needed to work with intrincate mathematical objects (namely elliptic curves over arbitrary rings, which I used extensively). On a side note Mathematica and SageMath are really interesting for their ability to do symbolic algebra calculations (which also helps when trying to avoid errors in numerical calculations).<br></details>
 
-## SageMath
-It was needed for the Elliptic Curves Project at Oxford University during the Summer of 2016. I was impressed by the simplicity of the code needed to work with intrincate mathematical objects (namely elliptic curves over arbitrary rings, which I used extensively). On a side note Mathematica and SageMath are really interesting for their ability to do symbolic algebra calculations (which also helps when trying to avoid errors in numerical calculations).
+<details><summary>SketchUp</summary>
+<br>
+Spent a lot of time building up models during highschool. Fun days.<br></details>
 
-## SketchUp
-Spent a lot of time building up models during highschool. Fun days.
+<details><summary>Unity</summary>
+<br>
+I've played around it during a Workshop organized by the Computer Science group at Porto's University. It is a surprisingly straighforward tool to use.<br></details>
 
-## Unity
-I've played around it during a Workshop organized by the Computer Science group at Porto's University. It is a surprisingly straighforward tool to use.
+<details><summary>C++</summary>
+<br>
+I have used Python since I started my Maths degree, but before that I used to play with C++ a lot. I eventually changed to Python since most of my current coding does not require the speed C++ gives, and Python is a lot faster to code.<br></details>
 
-## C++
-I have used Python since I started my Maths degree, but before that I used to play with C++ a lot. I eventually changed to Python since most of my current coding does not require the speed C++ gives, and Python is a lot faster to code.
+<details><summary>C\#</summary>
+<br>
+Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events). It is also essential for any non-trivial use of Unity's game development software.<br></details>
 
-## C\#
-Used it for 2 G-Research competitions, one in Oxford and one in London (both of these were 1 day events). It is also essential for any non-trivial use of Unity's game development software.
+<details><summary>Scala</summary>
+<br>
+Was the language used for the <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes I took in 2014. Cool course, but not so cool language.<br></details>
 
-## Scala
-Was the language used for the <i>Imperative Programming</i> and <i>Design & Analysis of Algorithms</i> classes I took in 2014. Cool course, but not so cool language.
+<details><summary>HTML & CSS</summary>
+<br>
+I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited snippets of code in the web. It got things done.<br></details>
 
-## HTML & CSS
-I used it for this website, which is work in progress. There is also some Ruby and Jekyll to this, but I´ve mostly edited snippets of code in the web. It got things done.
-
-## Microsoft Office
-I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Distribution, compound with a Normal Distribution.
+<details><summary>Microsoft Office</summary>
+<br>
+I´ve used Microsoft Excel to build a ruin theory model based on a Poisson Distribution, compound with a Normal Distribution.<br></details>

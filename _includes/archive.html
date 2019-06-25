@@ -1,6 +1,8 @@
 {% for post in site.posts %}   
-<details><summary>{{ post.date | date_to_string }} >> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-</summary><br>{{ post.excerpt }}<br>
+<details><summary><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+</summary>
+  <h2 class="post-date">{{ post.date | date_to_string }}</h2>
+  <br>{{ post.excerpt }}<br>
   <div style="text-align: right">
     <b>Read the <a href="{{ site.baseurl }}{{ post.url }}">full text</a> ({% assign words = post.content | number_of_words %}
     {% if words < 180 %}
