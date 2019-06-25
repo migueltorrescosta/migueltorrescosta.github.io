@@ -5,7 +5,7 @@ category: [Short Stories]
 published: True
 ---
 
-One of my friends me told me about a powerful lesson in her daughter's high-school class this winter. They're learning about the Salem Witch Trials, and their teacher told them they were going to play a game.
+One of my friends told me about a powerful lesson in her daughter's high-school class this winter. They're learning about the Salem Witch Trials, and their teacher told them they were going to play a game.
 
 *"I am going to come around and whisper to each of you whether you're a witch or a normal person. Your goal is to build the largest group possible that does NOT have a witch in it. At the end, any group found to include a witch gets a failing grade."*
 
