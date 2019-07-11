@@ -15,7 +15,9 @@ My only clue is that I enjoy reading about mathematics in my free time, be it ho
 {% include work_experience.html %}
 -->
 
-In the meantime, reach out to me if you are looking for a maths tutor: here's my [University Tutor Page](http://universitytutor.com/tutors/944174).
+In the meantime, reach out to me if you:
+- Are looking for a Python Data Analyst for a project.
+- Are looking for a Maths tutor. I currently tutor 3 people, and here's my [University Tutor Page](http://universitytutor.com/tutors/944174).
 
 
 # Software
