@@ -5,11 +5,11 @@ sidebar: true
 head: true
 ---
 
-# Posts preview
+# Posts
 
 {% include archive.html %}
 
-# Quote selection
+# Quotes
 
 {% include quotes.md %}
 
