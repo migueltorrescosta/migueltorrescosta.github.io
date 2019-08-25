@@ -5,7 +5,7 @@ permalink: /work/
 head: true
 ---
 
-I am a 23 year old mathematician who likes to discuss anything and everything.
+I am a 24 year old mathematician who likes to discuss anything and everything.
 
 My [CV]({{site.baseurl}}{% link CV.pdf %}) describes work I have done in the past, and my current objective is to find the right task for myself, be it making jaw-dropping web-apps for marvelous people, teaching the little I know to launch others into their goals or something else entirely which I am yet to find.
 
