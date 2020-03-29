@@ -1,27 +1,9 @@
 ---
-layout: default
-title: Blog
-sidebar: true
-head: true
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+title: Home
+icon: fa-home
+order: 1
 ---
-
-# Posts
-
-{% include archive.html %}
-
-# Quotes
-
-{% include quotes.md %}
-
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-      </a>
-    </li>
-  {% endfor %}
-</div>
--->

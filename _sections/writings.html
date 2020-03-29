@@ -1,0 +1,25 @@
+---
+title: Writings
+icon: fa-pencil-alt
+order: 3
+---
+
+<div id="main">
+    <ul>
+    {%- for post in site.posts -%}
+        <li>
+            <div align="left">
+
+                {{ post.date | date_to_string }} 
+                  {% assign words = post.content | number_of_words %}
+                {% if words < 220 %}
+                    (1 min)
+                {% else %}
+                    ({{ words | divided_by:110 }} mins)
+                {% endif %}
+                <a align="center" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </div>
+        </li>
+    {%- endfor -%}
+    </ul>
+</div>

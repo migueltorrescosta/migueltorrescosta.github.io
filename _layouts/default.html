@@ -1,57 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  {% include head.html %}
-
-  <body>
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            {% for node in site.pages %}
-              {% if node.title != null %}
-                {% if node.head == true %}
-                  <a class="masthead-item" href="{{ node.url }}">{{ node.title }}</a>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-
-    <!-- You must uncomment this section if you want to use the sidebar. Also don't forget to use the  include sidebar.html  liquid expression 
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script> -->
-    
-    {% include analytics.html %}
-
-  </body>
+<!DOCTYPE HTML>
+<!--
+Prologue by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Jekyll integration by Chris Bobbe | chrisbobbe.github.io
+-->
+<html>
+	{%- include head.html -%}
+	<body>
+		{{- content -}}
+		{%- include footer.html -%}
+	</body>
 </html>
-
-{% include footer.html %}

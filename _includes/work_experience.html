@@ -1,9 +1,0 @@
-{% assign work_experiences = site.work | sort: 'end_date' | reverse %}
-
-{% for work_experience in work_experiences %}
-  <h1>{{ work_experience.title }}</h1>
-  <span class="post-date" display="inline">{{ work_experience.start_date }} - {{ work_experience.end_date }} @ <a href="{{ work_experience.institution_link }}">{{ work_experience.institution }}</a></span>
-  <br>
-  {{ work_experience.description }}
-  <br>
- {% endfor %}

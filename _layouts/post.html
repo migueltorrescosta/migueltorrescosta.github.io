@@ -1,41 +1,18 @@
 ---
 layout: default
-comments: true
 ---
+{%- include header.html -%}
 
-<div class="post">
-  <div align="right">
-    See more posts related to
-    <br>
-    {% for tag in page.categories %}
-    [<a href="{{ site.baseurl }}{% link page_Tags.md %}#{{ tag | downcase | replace: ' ','-'}}">{{ tag }}</a>]
-    {% endfor %}
-  </div>
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<!-- Main -->
+<div id="main">
+	<!-- Post -->
+	<article class="shade-two">
+	  <div class="container">
+			<header>
+				<h2>{{- page.title -}}</h2>
+				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+			</header>
+	    {{- content -}}
+	  </div>
+	</article>
 </div>
-
-
-
-<!--
-<div class="related">
-  <h2>In the same category</h2>
-  <ul class="related-posts">
-    {% for post in site.categories[page.category] limit:3 %}
-      {% if post.title != page.title %}
-        <li>
-          <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
-              <small>{{ post.date | date_to_string }}</small>
-            </a>
-          </h3>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
--->
-
-{% include disqus.html %}

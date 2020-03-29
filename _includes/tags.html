@@ -1,9 +1,0 @@
-{% assign sorted_cats = site.categories | sort %}
-{% for category in sorted_cats %}
-{% assign sorted_posts = category[1] | reversed %}
-## {{category[0] | capitalize}}
-  {% for post in sorted_posts %}
-  - {{ post.date | date_to_string }} >> [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) {% endfor %}
-{% endfor %}
-
-
