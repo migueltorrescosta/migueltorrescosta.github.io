@@ -2,7 +2,7 @@
 image: assets/images/nicky_case.jpeg
 image-alt-text: Nicky Case
 link: https://ncase.me/
-description: memorable learning
+description: Memorable learning
 column: 3
 ---
 
