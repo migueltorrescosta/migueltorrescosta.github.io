@@ -19,7 +19,7 @@ published: true
 
 ### Daily updates:
 
-- **1st day:** Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but is death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
+- **1st day:** Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but his death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
 
 ## Game Overview
 
