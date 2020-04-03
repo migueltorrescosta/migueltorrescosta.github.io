@@ -5,6 +5,24 @@ category: [Gaming]
 published: true
 ---
 
+## Latest game
+
+### Alive roles
+
+- 3 Mafia
+- 1 Godfather
+- 1 Detective
+- 1 Doctor
+- 1 Prostitute
+- 2 Baker (I had to add another one)
+- 6 Townspeople
+
+### Dead people
+
+### Daily updates:
+
+- **1st day:** Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but is death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
+
 In this time of Covid-19 and isolation playing Mafia online is a good way to keep some sanity. For the uninitiated, this is the rule book.
 
 ## Game Overview
@@ -32,8 +50,6 @@ The moderator randomly distributes the characters (listed below). There are 2 st
 - **BAKER:** You are the best character anyone could be, the baker! Do not ask questions about your role in the group, only to me directly. Every night you chose a person and send them a cake, with any description your sick little head can think of. Game cues, plain insults, everything is welcomed :D I hope it wasn't too obvious that I love this character. The cake you send will be seen by the entire town.
 - **TOWNSPEOPLE:** You are a towns person. Do not ask questions about your role in the group, only to me directly. Even though you have no special powers at night, your role is to find the mafia: Interpret everything that happened during the day to figure out who is telling the truth and who is manipulating the game.
 
-## Latest game
-
 ### Practical notes
 
 - Couples in the group. Do not reveal your character to each other. That kind of ruins the game.
@@ -45,7 +61,3 @@ The moderator randomly distributes the characters (listed below). There are 2 st
 - If you are not using this weekend to watch the 4th part of "La Casa de Papel" you are still a kid and need to sort out your life priorities. This show is awesome.
 - Don't worry about knowing all the game rules, just vote and see how it flows :P
 - If you want to ask questions about your role or anything that might reveal your character, ask the question to me personally. I will post the answer in the group chat for everyone to read.
-
-### Current game information.
-
-- **1st day:** Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but is death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
