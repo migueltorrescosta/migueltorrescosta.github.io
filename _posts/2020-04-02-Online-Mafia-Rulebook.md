@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Online Mafia Rulebook
+title: Online Mafia Rule book
 category: [Gaming]
 published: true
 ---
 
-In this time of CoViD and isolation playing Mafia online is a good way to keep some sanity. For the uniniated, this is the rulebook.
+In this time of Covid-19 and isolation playing Mafia online is a good way to keep some sanity. For the uninitiated, this is the rule book.
 
 ## Game Overview
 
-There is a narrator that will guide the game. Everyone else will be randomly split into 2 teams: the Mafia and the Townspeople. The Mafia All know eachother and want to pretend to be townspeople while killing of the townspeople one by one. The Townspeople want to discover who among them are part of the Mafia.
+There is a narrator that will guide the game. Everyone else will be randomly split into 2 teams: the Mafia and the Townspeople. The Mafia All know each other and want to pretend to be townspeople while killing of the townspeople one by one. The Townspeople want to discover who among them are part of the Mafia.
 
 ## Requirements:
 
@@ -17,10 +17,10 @@ There is a narrator that will guide the game. Everyone else will be randomly spl
 
 ## Setup
 
-The moderator randomly distributes the characters (listed below). The game has 2 stages, day and night, which keep alternating until everyone from one of the side dies. The game starts in the day phase, in order to avoid having some character die before they have an opportunity to play.
+The moderator randomly distributes the characters (listed below). There are 2 stages, day and night, which keep alternating until everyone from one of the side dies. The game starts in the day phase, in order to avoid having some character die before they have an opportunity to play.
 
-- **Night:** Each of the characters practice the role they were assigned. The essential role that can never be missed is the one performed by the mafia: They choose a townsperson to kill. During this phase the WhatsAppGroup will have messages disabled.
-- **Day:** The narrator announces all the events that happened during the night. After that, messages are enabled and the townspeople start debating in the chat about who they think the mafia are or are not, based on everything that happened during night time. As people debate each selects the person they want to see lynched, and once someone gets a majority they are selected to be lynched. The narrator announces the character they were assinged, and we move to the night. When someone dies they are removed from the chat to keep it clear who is still playing, and to avoid comments from the departed :P 
+- **Night:** Each of the characters practice the role they were assigned. The essential role that can never be missed is the one performed by the mafia: They choose a townsperson to kill. During this phase the WhatsApp Group will have messages disabled.
+- **Day:** The narrator announces all the events that happened during the night. After that, messages are enabled and the townspeople start debating in the chat about who they think the mafia are or are not, based on everything that happened during nighttime. As people debate each selects the person they want to see lynched, and once someone gets a majority they are selected to be lynched. The narrator announces the character they were assigned, and we move to the night. When someone dies they are removed from the chat to keep it clear who is still playing, and to avoid comments from the departed :P 
 
 ## Characters
 
@@ -33,4 +33,4 @@ The moderator randomly distributes the characters (listed below). The game has 2
 
 ## Latest game
 
-For the current game, there are 12 people. My initial layout would be: 3 Mafia, 1 Godfather, 1 Detective, 1 Doctor, 1 Prostitute, 1 Baker, 4 Townspeople
+For the current game, there are 12 people. My initial layout would be: 3 Mafia, 1 Godfather, 1 Detective, 1 Doctor, 1 Prostitute, 1 Baker, 4 Townspeople.

@@ -11,4 +11,4 @@ While reading [this article](https://www.vox.com/energy-and-environment/2017/6/1
 
 <!--excerpt ends here-->
 
-Ĩn the case of environmental costs many solutions have arisen, the most famous of them being carbon taxes and the cap and trade system. However developing them was the result of results tailored for industries polluting the atmosphere. In a more general setting, can you improve markets such that these externalities are taken into account without the need for ad-hoc fixes such as specially design taxes and other mechanisms?
+Ĩn the case of environmental costs many solutions have arisen, the most famous of them being carbon taxes and the cap and trade system. However developing them was the result of results tailored for industries polluting the atmosphere. In a more general setting, can you improve markets such that these externalities are taken into account without the need for ad hoc fixes such as specially design taxes and other mechanisms?
