@@ -14,7 +14,7 @@ published: true
 - 1 Detective
 - 1 Doctor
 - 1 Prostitute
-- 2 Baker (I had to add another one)
+- 2 Bakers
 - 6 Townspeople
 
 ### Daily updates:
