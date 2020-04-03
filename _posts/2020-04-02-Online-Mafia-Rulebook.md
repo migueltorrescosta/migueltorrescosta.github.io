@@ -7,6 +7,8 @@ published: true
 
 ## Latest game status
 
+The current phase is daytime. Since there are 15 players, we need 8 votes on the same person for that person to die.
+
 ### Alive roles
 
 - 3 Mafia
