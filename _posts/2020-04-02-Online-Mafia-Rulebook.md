@@ -5,46 +5,25 @@ category: [Gaming]
 published: true
 ---
 
-## Latest game status
-
-The current phase is daytime. Since there are 15 players, we need 8 votes on the same person for that person to die.
-
-### Original Roles
-
-- 3 Mafia
-- 1 Godfather
-- 1 Detective
-- 1 Doctor
-- 1 Prostitute
-- 2 Bakers
-- 6 Townspeople
-
-### Dead People
-
-- Istvan Meszaros (Baker)
-
-### Daily updates:
-
-- **1st day:** Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but his death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
-
-- **2nd day:** Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and geopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
+* language
+{:toc}
 
 ## Game Overview
 
 There is a narrator that will guide the game. Everyone else will be randomly split into 2 teams: the Mafia and the Townspeople. The Mafia All know each other and want to pretend to be townspeople while killing of the townspeople one by one. The Townspeople want to discover who among them are part of the Mafia.
 
-## Requirements:
+### Requirements
 
 - WhatsApp Group Chat
 
-## Setup
+### Setup
 
 The moderator randomly distributes the characters (listed below). There are 2 stages, day and night, which keep alternating until everyone from one of the side dies. The game starts in the day phase, in order to avoid having some character die before they have an opportunity to play.
 
 - **Night:** Each of the characters practice the role they were assigned. The essential role that can never be missed is the one performed by the mafia: They choose a townsperson to kill. During this phase the WhatsApp Group will have messages disabled.
 - **Day:** The narrator announces all the events that happened during the night. After that, messages are enabled and the townspeople start debating in the chat about who they think the mafia are or are not, based on everything that happened during nighttime. As people debate each selects the person they want to see lynched, and once someone gets a majority they are selected to be lynched. The narrator announces the character they were assigned, and we move to the night. When someone dies they are removed from the chat to keep it clear who is still playing, and to avoid comments from the departed :P 
 
-## Characters
+### Characters
 
 - **MAFIA:** You are Mafia. Do not ask questions about your role in the group, only to me directly. Every night you and your mates will select someone to kill. That person dies unless the doctor chose to save that person.
 - **GODFATHER:** You are the godfather. Do not ask questions about your role in the group, only to me directly. Every night you and your mates will select someone to kill. That person dies unless the doctor chose to save that person. If you don't decide together on who to kill, you have the final vote. If the cop investigates you during the night, he sees you as a normal victim.
@@ -65,3 +44,41 @@ The moderator randomly distributes the characters (listed below). There are 2 st
 - If you are not using this weekend to watch the 4th part of "La Casa de Papel" you are still a kid and need to sort out your life priorities. This show is awesome.
 - Don't worry about knowing all the game rules, just vote and see how it flows :P
 - If you want to ask questions about your role or anything that might reveal your character, ask the question to me personally. I will post the answer in the group chat for everyone to read.
+
+
+## Latest game status
+
+The current phase is daytime. Since there are 15 players, we need 8 votes on the same person for that person to die.
+
+### Original Roles
+
+- 3 Mafia
+- 1 Godfather
+- 1 Detective
+- 1 Doctor
+- 1 Prostitute
+- 2 Bakers
+- 6 Townspeople
+
+### Dead People
+
+- Istvan Meszaros (Baker)
+
+### Daily updates
+
+#### 1st day message
+
+Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but his death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
+
+#### 1st day final vote count
+- (8) **Istvan Meszaros:** Istvan, Antunes, Pedro, Fons, Nadine, Ananth, Claudia, Agnes
+- (2) **Antunes:** Cheyenne, Tushita
+- (2) **Ananth:** Luiza, Anastasia
+- (1) **Agnes:** David
+- (1) **Fons:** Andi
+- (1) **Pedro:** Mar
+- (1) **Andi:** Pedro
+
+#### 2nd day message
+
+Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and geopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
