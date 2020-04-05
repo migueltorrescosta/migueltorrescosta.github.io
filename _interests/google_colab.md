@@ -1,7 +1,7 @@
 ---
 image: assets/images/google_colab.jpeg
 image-alt-text: Google Colab
-link: https://colab.research.google.com/notebooks/intro.ipynb
+link: https://colab.research.google.com/github/migueltorrescosta/tutor
 description: Build interactive mathematics
 column: 3
 ---
