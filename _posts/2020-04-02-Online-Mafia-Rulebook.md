@@ -64,13 +64,11 @@ The current phase is daytime. Since there are 15 players, we need 8 votes on the
 
 - Istvan Meszaros (Baker)
 
-### Daily updates
-
-#### 1st day message
+### 1st day message
 
 Welcome everyone to the town of dies-ville. This is where people come to die. The sun rises and we are shocked to find something unusual. In the center of our little plaza there is a dead body. We look at it, disgusted, and it is the body of Zoltan! He left us but his death was not in vain, because with his death comes the awareness that there are criminals among us. We must ensure they do not survive. As such, in this ironically sunny day, we must select someone to die. Will it be you?
 
-#### 1st day final vote count
+### 1st day final vote count
 - (8) **Istvan Meszaros:** Istvan, Antunes, Pedro, Fons, Nadine, Ananth, Claudia, Agnes
 - (2) **Antunes:** Cheyenne, Tushita
 - (2) **Ananth:** Luiza, Anastasia
@@ -79,6 +77,6 @@ Welcome everyone to the town of dies-ville. This is where people come to die. Th
 - (1) **Pedro:** Mar
 - (1) **Andi:** Pedro
 
-#### 2nd day message
+### 2nd day message
 
 Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and geopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
