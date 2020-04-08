@@ -63,6 +63,7 @@ The current phase is daytime. Since there are 15 players, we need 8 votes on the
 ### Dead People
 
 - Istvan Meszaros (Baker)
+- Cheyenne (Townsperson)
 
 ### 1st day message
 
@@ -80,3 +81,7 @@ Welcome everyone to the town of dies-ville. This is where people come to die. Th
 ### 2nd day message
 
 Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and geopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
+
+### 2nd day final vote count
+- (8) **Cheyenne:** Tushita, Fons, Joao, Andi, Ananth, Luiza, Agnes, Claudia
+- (5) **Ananth:** Nadine, Cheyenne, Mar, David, Pedro
