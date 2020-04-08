@@ -64,6 +64,7 @@ The current phase is daytime. Since there are 15 players, we need 8 votes on the
 
 - Istvan Meszaros (Baker)
 - Cheyenne (Townsperson)
+- Nadine (Townsperson)
 
 ### 1st day message
 
@@ -85,3 +86,9 @@ Good morning everyone! A beautiful sunset rises upon this blood shed town only f
 ### 2nd day final vote count
 - (8) **Cheyenne:** Tushita, Fons, Joao, Andi, Ananth, Luiza, Agnes, Claudia
 - (5) **Ananth:** Nadine, Cheyenne, Mar, David, Pedro
+
+### 3rd day message
+Good morning everyone! A sad day arises, not only because of the CoViD hovering over everyone's heads, but also because the doctor has failed us this night in his endeavors. The honorable Nadine Helmi was found  hanging by her neck at her home. An house search found nothing. No detective network to get information, no magical doctor pills to bring the dead back to life, nothing. Nadine was a TOWNSPERSON. At least we have a cake to console ourselves with. We all move to the bakery and we have a cake addressed to Ananth. It is heart shaped. Love is in the air. Ananth goes for it, butterflies in his stomach as he wonders who the mistery cake sender is. He can't wait to get to know her (damn, does he hope it is not an him). He goes for the cake and his dreams shatter. Magic takes over the cake the second Ananth touches it, changing it's colour to the darkest black anyone has ever seen. From within the black, 3 words pop up in blood red: "YOU ARE WRONG". Ananth cries.
+
+
+
