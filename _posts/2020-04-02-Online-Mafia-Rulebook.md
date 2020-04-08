@@ -89,8 +89,12 @@ Good morning everyone! A beautiful sunset rises upon this blood shed town only f
 - (5) **Ananth:** Nadine, Cheyenne, Mar, David, Pedro
 
 ### 3rd day message
+
 Good morning everyone! A sad day arises, not only because of the CoViD hovering over everyone's heads, but also because the doctor has failed us this night in his endeavors. The honorable Nadine Helmi was found  hanging by her neck at her home. An house search found nothing. No detective network to get information, no magical doctor pills to bring the dead back to life, nothing. Nadine was a TOWNSPERSON. At least we have a cake to console ourselves with. We all move to the bakery and we have a cake addressed to Ananth. It is heart shaped. Love is in the air. Ananth goes for it, butterflies in his stomach as he wonders who the mistery cake sender is. He can't wait to get to know her (damn, does he hope it is not an him). He goes for the cake and his dreams shatter. Magic takes over the cake the second Ananth touches it, changing it's colour to the darkest black anyone has ever seen. From within the black, 3 words pop up in blood red: "YOU ARE WRONG". Ananth cries.
 
 ### 3rd day final vote count
 - (8) **Ananth:** Pedro, Claudia, Luiza, Joao, Andi, Tushita, Anastasia, Ananth
 
+### 4th day message
+
+Good morning everyone! A new day dawns upon our faces, with the hope of a Mafia killed but the near certainty of another victim falling pray to the mafia. Our doctor did a wonderful job the previous night, can he repeat his prowess? We wake up in hope only to see cut toe in our town plaza. A body part is a seal of something dark, but a toe? Pedro shows up with another toe. João finds a finger. Anastasia a ear. The town goes around finding chopped up body parts like it's easter. We assemble the puzzle pieces and start building the full picture. After a fun day out playing puzzles and doing picnic, wefind the puzzle solves to be Mar. She was dead, and not only did we solve the puzzle of her body pieces, we also solved the puzzle of her role. She was a TOWNSPERSON. For the picnic, we all had a cake, as usual. This time, it was addressed to João, with the shape of a dead horse's head. Fitting
