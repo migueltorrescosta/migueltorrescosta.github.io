@@ -82,7 +82,7 @@ Welcome everyone to the town of dies-ville. This is where people come to die. Th
 
 ### 2nd day message
 
-Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and geopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
+Good morning everyone! A beautiful sunset rises upon this blood shed town only for us to walk into our plaza and see... no one died! What a beautiful day it is indeed. The town goes to the bakery to enjoy it's death free night, and with it there is a gift. Curious, the town sees a label: "To Pedro". Pedro does the honors of getting his rightful gift, a lovely middle finger up shaped cake with a single phrase: "Stay at home or die". Will Pedro give into this threat and follow his quarantine despite the advice of one of the worlds greats, Mr Dolan Trump, or will he rebel and jeopardize everything by venturing into the outdoors? For now, the time has come to look into lynching a mobster. Will we repeat the mistake from our previous day just to find out that we lynched one of our own? 
 
 ### 2nd day final vote count
 - (8) **Cheyenne:** Tushita, Fons, Joao, Andi, Ananth, Luiza, Agnes, Claudia
@@ -90,7 +90,7 @@ Good morning everyone! A beautiful sunset rises upon this blood shed town only f
 
 ### 3rd day message
 
-Good morning everyone! A sad day arises, not only because of the CoViD hovering over everyone's heads, but also because the doctor has failed us this night in his endeavors. The honorable Nadine Helmi was found  hanging by her neck at her home. An house search found nothing. No detective network to get information, no magical doctor pills to bring the dead back to life, nothing. Nadine was a TOWNSPERSON. At least we have a cake to console ourselves with. We all move to the bakery and we have a cake addressed to Ananth. It is heart shaped. Love is in the air. Ananth goes for it, butterflies in his stomach as he wonders who the mistery cake sender is. He can't wait to get to know her (damn, does he hope it is not an him). He goes for the cake and his dreams shatter. Magic takes over the cake the second Ananth touches it, changing it's colour to the darkest black anyone has ever seen. From within the black, 3 words pop up in blood red: "YOU ARE WRONG". Ananth cries.
+Good morning everyone! A sad day arises, not only because of the CoViD hovering over everyone's heads, but also because the doctor has failed us this night in his endeavors. The honorable Nadine Helmi was found  hanging by her neck at her home. An house search found nothing. No detective network to get information, no magical doctor pills to bring the dead back to life, nothing. Nadine was a TOWNSPERSON. At least we have a cake to console ourselves with. We all move to the bakery and we have a cake addressed to Ananth. It is heart shaped. Love is in the air. Ananth goes for it, butterflies in his stomach as he wonders who the mystery cake sender is. He can't wait to get to know her (damn, does he hope it is not an him). He goes for the cake and his dreams shatter. Magic takes over the cake the second Ananth touches it, changing it's color to the darkest black anyone has ever seen. From within the black, 3 words pop up in blood red: "YOU ARE WRONG". Ananth cries.
 
 ### 3rd day final vote count
 - (8) **Ananth:** Pedro, Claudia, Luiza, Joao, Andi, Tushita, Anastasia, Ananth
@@ -98,3 +98,15 @@ Good morning everyone! A sad day arises, not only because of the CoViD hovering 
 ### 4th day message
 
 Good morning everyone! A new day dawns upon our faces, with the hope of a Mafia killed but the near certainty of another victim falling pray to the mafia. Our doctor did a wonderful job the previous night, can he repeat his prowess? We wake up in hope only to see cut toe in our town plaza. A body part is a seal of something dark, but a toe? Pedro shows up with another toe. João finds a finger. Anastasia a ear. The town goes around finding chopped up body parts like it's easter. We assemble the puzzle pieces and start building the full picture. After a fun day out playing puzzles and doing picnic, wefind the puzzle solves to be Mar. She was dead, and not only did we solve the puzzle of her body pieces, we also solved the puzzle of her role. She was a TOWNSPERSON. For the picnic, we all had a cake, as usual. This time, it was addressed to João, with the shape of a dead horse's head. Fitting
+
+### 4th day final vote count
+- (6) **Fons:** Pedro, João, Claudia, Andrea, Tushita, David
+- (3) **João:** Fons, Agnes, Luiza
+
+### 5th day message
+
+Good morning beautiful people of dies-ville. Another day arises in this death torn town, having had a short night after so many deaths. Wait. It isn't death torn today. We arrive in town and nobody is dead. Could it be true? Have the mafia taken an holiday? Have they hidden their body too well for us to find it? Turns out they just hidden it, in an attempt to be discreet Pedro's body was hidden under the Plaza's marble floor, his body crushed between the dirt below and the marble above. Pedro was a TOWNSPERSON. As such, we relocate to the bakery. I could describe the cake, but today the baker's words surpass my writing skills. As such, I will provide you with a direct quotation:
+
+*It's a beautiful cake with a smiley face which smells heavenly and makes the receiver share it with everyone in town. It makes everyone think of their favorite memories and will always remake/refill itself making it an endless/never ending cake. After finishing their first slice, people realize their mouth is dripping blood. Turns out that the cake has turned to blood and it hass written "liar liar pants on fire, next time you won't get an orgasm".*
+
+Have a good day everyone!
