@@ -110,3 +110,10 @@ Good morning beautiful people of dies-ville. Another day arises in this death to
 *It's a beautiful cake with a smiley face which smells heavenly and makes the receiver share it with everyone in town. It makes everyone think of their favorite memories and will always remake/refill itself making it an endless/never ending cake. After finishing their first slice, people realize their mouth is dripping blood. Turns out that the cake has turned to blood and it hass written "liar liar pants on fire, next time you won't get an orgasm".*
 
 Have a good day everyone!
+
+### 5th day final vote count
+- (5) **Agnes:** Claudia, Andi, João , Tushita, Anastasia
+
+### 6th day message
+
+Good morning people. Easter is not a time for misery and death: it is a time to be reborn and where we can cherish our closed ones, praise their well being and hope that no evil exists. Fate decided that was to be the case in dies-ville as well. No one died. No one suffered. All is good. We went to a bakery to celebrate.We get our cake. It's a cake with a magnifying glass, classic Sherlock Holmes hat, his smoking pipe. there are a bunch of jumbled letters written all over it. The moment João touches the cake, it rearranges and says " Your wish is fulfilled, but you suck as a cake detective". What is the baker trying to say?
