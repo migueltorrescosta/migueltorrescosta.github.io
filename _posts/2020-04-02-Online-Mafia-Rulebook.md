@@ -66,6 +66,11 @@ The current phase is daytime. Since there are 15 players, we need 8 votes on the
 - Cheyenne (Townsperson)
 - Nadine (Townsperson)
 - Ananth (Mafia)
+- Fons (Mafia)
+- Pedro (Townsperson)
+- Agnes (Mafia)
+- David (Prostitute)
+- Tushita (Baker)
 
 ### 1st day message
 
@@ -117,3 +122,10 @@ Have a good day everyone!
 ### 6th day message
 
 Good morning people. Easter is not a time for misery and death: it is a time to be reborn and where we can cherish our closed ones, praise their well being and hope that no evil exists. Fate decided that was to be the case in dies-ville as well. No one died. No one suffered. All is good. We went to a bakery to celebrate.We get our cake. It's a cake with a magnifying glass, classic Sherlock Holmes hat, his smoking pipe. there are a bunch of jumbled letters written all over it. The moment João touches the cake, it rearranges and says " Your wish is fulfilled, but you suck as a cake detective". What is the baker trying to say?
+
+### 6th day final vote count
+- (4) **David Sodor:** 
+
+### 7th day message
+
+Good morning sweet people of dies-Ville. After a long exhausting night where everyone was doubting each other, wondering: Are you the godfather, the godfather did not stop in his rentless search to KILL OFF EVERYONE, So who did the godfather kill? Poor Tushita. We found her fallen forward on the street, single shot to her chest and her jaw disloccated. We can't be sure how it happened, but I believe it was something like this: https://www.youtube.com/watch?v=sI6i0DXJYc0 . She didn't leave us without baking her last cake though, as Tushita was the BAKER. It's a chocolate cake for Andi which says "let's end this now". What did Tushita mean by this?
