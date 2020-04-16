@@ -124,7 +124,8 @@ Have a good day everyone!
 Good morning people. Easter is not a time for misery and death: it is a time to be reborn and where we can cherish our closed ones, praise their well being and hope that no evil exists. Fate decided that was to be the case in dies-ville as well. No one died. No one suffered. All is good. We went to a bakery to celebrate.We get our cake. It's a cake with a magnifying glass, classic Sherlock Holmes hat, his smoking pipe. there are a bunch of jumbled letters written all over it. The moment João touches the cake, it rearranges and says " Your wish is fulfilled, but you suck as a cake detective". What is the baker trying to say?
 
 ### 6th day final vote count
-- (4) **David Sodor:** 
+-(4) **David:** Claudia, Anastasia, Andi, João
+-(1) **Anastasia:** Luiza
 
 ### 7th day message
 
