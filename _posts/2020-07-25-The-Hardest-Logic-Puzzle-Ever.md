@@ -26,7 +26,7 @@ So our $$3$$ questions need to be able to distinguish $$6$$ different possibilit
 
 ### But we can't distinguish the words for yes and no. Doesn't that reduce the answers we are able to distinguish in half, since if we swap all of the da's and ja's we would get the same information?
 
-Not exactly. We are told what are the words for yes and no. Even though we don't know which is which, we can use that information to get a yes/no answer even without knowing which is the word for yes and the word for no. As an example, suppose that I am asking whether the number &2& is prime. Then I could ask: *"If I ask is the number $2$ prime and does da mean no, would you give the same answer to both questions?"*. Looking at the True/False gods and the possibilities da=yes / da=no, we get that their answers will be:
+Not exactly. We are told what are the words for yes and no. Even though we don't know which is which, we can use that information to get a yes/no answer even without knowing which is the word for yes and the word for no. As an example, suppose that I am asking whether the number $$2$$ is prime. Then I could ask: *"If I ask is the number $$2$$ prime and does da mean no, would you give the same answer to both questions?"*. Looking at the True/False gods and the possibilities da=yes / da=no, we get that their answers will be:
 
 <table>
   <thead>
@@ -40,7 +40,7 @@ Not exactly. We are told what are the words for yes and no. Even though we don't
   </thead>
   <tbody>
     <tr>
-      <td>Is the number $2$ prime?</td>
+      <td>Is the number $$2$$ prime?</td>
       <td>da (yes)</td>
       <td>ja (yes)</td>
       <td>ja (no) </td>
@@ -63,7 +63,7 @@ Not exactly. We are told what are the words for yes and no. Even though we don't
   </tbody>
 </table>
 
-We don't have access to whether the given answer means yes or no, but from the above it is clear that the True God answers ja, and the False da, to a clearly true statement. If We swap the question *Is $$2$$ prime?* for a false statement such as *$Is $$4$$ prime?*, both the 1st and 3rd rows would swap their da's and ja's, so the True God would now answer da and the False God would answe ja.
+We don't have access to whether the given answer means yes or no, but from the above it is clear that the True God answers ja, and the False da, to a clearly true statement. If We swap the question *"Is $$2$$ prime?"* for a false statement such as *"Is $$4$$ prime?"*, both the 1st and 3rd rows would swap their da's and ja's, so the True God would now answer da and the False God would answer ja.
 
 As such, by appending the last part *"If I asked you if $$P$$ is true and if does da mean no, would you give the same answer?"*, then I can act as if ja means yes and da means no.
 
