@@ -11,6 +11,7 @@ title: Blog
   {% assign category_title = category[0] | capitalize %}
 
   <h1 class="post-title">{{ category[0] }}</h1>
+
     <table>
       {% for post in sorted_posts %}
         {% assign words = post.content | number_of_words %}
