@@ -17,7 +17,7 @@ I'm Miguel, a mathematician who spends way too much time with his dogs, playing 
 
 ![placeholder]({{ site.baseurl }}/assets/images/dogs.jpg "Dogs")
 
-I hope you enjoy the [blog posts]({{ site.baseurl }}/blog/). I often write about mathematics, psychology and anything else that crosses my mind.
+I hope you enjoy the [blog posts]({{ site.baseurl }}/blog). I often write about mathematics, psychology and anything else that crosses my mind.
     
 Here's my <a href="{{ site.baseurl }}/CV.pdf">CV</a> and my <a href="https://universitytutor.com/tutors/944174">University Tutor page</a>. If there's any mathematics you or someone else want to learn about do reach out.
 
