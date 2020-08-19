@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Surviving to Living
-category: [Society]
+category: [System Design]
 published: true
 ---
 

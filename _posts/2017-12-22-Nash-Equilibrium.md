@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nash's Equilibrium
-category: [Game Theory, Math]
+category: [Math]
 published: true
 ---
 

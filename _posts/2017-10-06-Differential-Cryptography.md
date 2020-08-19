@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Differential Cryptography
-category: [Math, Coding, Technology]
+category: [Math, Coding]
 published: true
 ---
 
@@ -17,7 +17,7 @@ I wondered the same after reading the article, since they mention its benefits a
 
 The best example I was able to come up with: say that you want to survey people in order to find how many people smoke weed. Since it is illegal to sell weed and there's a big discussion about it, people might not feel comfortable disclosing whether they smoke weed or not. Instead, lets put a little math into this:
 
-Let each person flip a coin. If it lands heads then the person answers truthfully, otherwise it answers at random (with another coin flip). Say that $$q$$ of the population actually smokes weed. Then through this method we expect to have $$p = \frac{q}{2} + \frac{1}{2} $$ of the population to answer yes. Inverting the equation we get $$ q =2p-1 $$. Hence we can retrieve (with some statistical noise) a rough estimate of the population that actually smokes weed. However, if we were to go to a single individual and claim that they smoke weed, we couldn't since we couldn't be sure whether he actually smoked weed or wether it was chance that made him answer yes.
+Let each person flip a coin. If it lands heads then the person answers truthfully, otherwise it answers at random (with another coin flip). Say that $$q$$ of the population actually smokes weed. Then through this method we expect to have $$p = \frac{q}{2} + \frac{1}{4} $$ of the population to answer yes. Rearranging the equation we get $$ q =2p-\frac{1}{2} $$. Hence we can retrieve (with some statistical noise) a rough estimate of the population that actually smokes weed. However, if we were to go to a single individual and claim that they smoke weed, we couldn't since we couldn't be sure whether he actually smoked weed or wether it was chance that made him answer yes.
 
 ## So the use of differential privacy is to protect wrongdoers?
 
@@ -26,6 +26,6 @@ By messing with the data a bit, we can increase individual privacy at the cost o
 
 ## So using Differential Privacy is awesome and we should admire Apple for using it :D
 
-Yes and No. Using Differential Privacy is great, but Apple didn't release any info on how they are using it. They might be using it on a tiny insignificant part and claiming it to be a big thing, or they might be actually doing a great job. It's hard to know when companies keep so much information to themselves, which makes sense financially but for some people like me it only makes us stand stronger behind initiatives like the [Open Source Software Movement](https://en.wikipedia.org/wiki/Open-source_software_movement#Legal_issues).
+Yes and No. Using Differential Privacy is great, but Apple didn't release any info on how they are using it. They might be using it on a tiny insignificant part and claiming it to be a big thing, or they might be actually doing a great job. It's hard to know when companies keep so much information to themselves, which makes sense financially but for outsiders it makes us stand stronger behind initiatives like the [Open Source Software Movement](https://en.wikipedia.org/wiki/Open-source_software_movement#Legal_issues).
 
 <sup>1</sup> Note that I haven't given a specific method of jumbling the data, that needs proper and careful thought which I might give at a later time. Probably not though.

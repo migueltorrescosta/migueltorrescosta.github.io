@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Public Goods Game
-category: [Behavioral Economics]
+category: [Psychology, System Design]
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Mythical Man Month
-category: [Project Management,Books]
+category: [Psychology]
 published: true
 ---
 

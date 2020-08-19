@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Magnitudes
-category: [Education, Intuition]
+category: [Psychology]
 published: True
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Echo Chambers
-category: [Technology, Society]
+category: [System Design, Psychology]
 published: true
 ---
 

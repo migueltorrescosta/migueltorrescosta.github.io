@@ -1,8 +1,10 @@
 ---
 layout: post
 title: The Hardest Logic Puzzle Ever
-category: [Maths, Logic]
+category: [Math]
 published: true
+math: True
+mathjax: true
 ---
 
 I was recently given ["The Hardest Logic Puzzle Ever"](https://en.wikipedia.org/wiki/The_Hardest_Logic_Puzzle_Ever), which can be stated as follows:
@@ -40,7 +42,7 @@ Not exactly. We are told what are the words for yes and no. Even though we don't
   </thead>
   <tbody>
     <tr>
-      <td>Is the number $$2$$ prime?</td>
+      <td>Is the number $2$ prime?</td>
       <td>da (yes)</td>
       <td>ja (yes)</td>
       <td>ja (no) </td>

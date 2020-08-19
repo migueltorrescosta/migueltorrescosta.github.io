@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Marginal Losses
-category: [Society]
+category: [System Design]
 published: true
 ---
 

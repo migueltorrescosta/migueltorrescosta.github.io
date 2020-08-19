@@ -1,8 +1,9 @@
 ---
 layout: post
 title: How to AB Test
-category: [Math, Stats]
+category: [Math]
 published: true
+mathjax: true
 ---
 
 This article is mildly related to [Google's Multi Armed Bandit experiments](https://support.google.com/analytics/answer/2844870).

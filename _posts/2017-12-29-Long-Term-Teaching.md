@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Long Term Teaching
-category: [Education]
+category: [Psychology]
 published: true
 ---
 

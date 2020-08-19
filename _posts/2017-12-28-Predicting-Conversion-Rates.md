@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Predicting Product Conversion Rates
-category: [Math, Stats]
+category: [Math]
 published: true
 ---
 
