@@ -13,7 +13,7 @@ title: Home
   <h1 class="landing-title">Welcome, traveller!</h1>
 </header>
 
-I'm Miguel, a mathematician who spends way too much time with his dogs, playing group sports and reading. Speaking of which, are there any books I should add to [my bookshelf](https://www.goodreads.com/review/list/65376142-miguel-costa)?
+I'm Miguel, a mathematician who doesn't spend enough time with his dogs, playing group sports and reading. Speaking of which, are there any books I should add to [my bookshelf](https://www.goodreads.com/review/list/65376142-miguel-costa)?
 
 ![placeholder]({{ site.baseurl }}/assets/images/dogs.jpg "Dogs")
 
