@@ -5,7 +5,11 @@ category: [Math, System Design]
 published: true
 ---
 
-The chapters below are an aggregation of thoughts around the theme of forecasting, not necessarily in a ready to present form.
+The chapters below are an aggregation of thoughts around the theme of forecasting, not necessarily in a ready to present form, for a specific problem:
+
+<p class="message">
+  How can we aggregate multiple distinct forecasts into a single, more accurate, view.
+</p>
 
 # Table of Contents
 
@@ -43,7 +47,7 @@ From this there are 2 main action points I take in order to make:
 
 Assume everyday I launch a die, and we forecast the statement
 <p class="message">
-	The die will show the number 6 up
+  The die will show the number 6 up
 </p>
 For practical purposes this can't be predicted with certainty. What we can do is still make the forecast that this statement has a $ \frac{1}{6} \approx 16.6 \% $ probability of being true. However after the event, we will either observe that the statement is true or not, we cannot observe the underlying probability.
 
