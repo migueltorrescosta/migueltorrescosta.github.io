@@ -5,7 +5,9 @@ category: [Math, System Design]
 published: true
 ---
 
-The chapters below are an aggregation of thoughts around the theme of forecasting, not necessarily in a ready to present form, for a specific problem:
+The chapters below are an aggregation of thoughts around the theme of forecasting, not necessarily in a ready to present form, for a problem of joint decision making. We have society wide problems we need to agree on, such as which drugs should be illegal, which laws to pass, whether to implement an Universal Basic Income, and many other potentially controversial topics, and these topics are informed on forecasts that might turn out to be or not accurate.
+
+We have played around with many 
 
 <p class="message">
   How can we aggregate multiple distinct forecasts into a single, more accurate, view.
