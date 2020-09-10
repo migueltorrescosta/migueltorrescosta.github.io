@@ -55,7 +55,7 @@ For practical purposes this can't be predicted with certainty. What we can do is
 
 As such overconfidence might be rewarded or punished based on chance. What we can ensure is that after enough of these events we can distinguish the best and worst forecasts by using reward functions that incentivize honesty. These are called [Proper scoring rules](https://en.wikipedia.org/wiki/Scoring_rule#Proper_scoring_rules).
 
-# The value of better foreasts can be quantified
+# The value of better forecasts can be quantified
 
 The best book on this topic is [How to Measure Anything: Finding the Value of Intangibles in Business](https://hubbardresearch.com/publications/how-to-measure-anything-book/) by Douglas W. Hubbard. Most of the book is spent on showing that all events that we care about can be measured, and convincingly so. A single chapter was dedicating to pricing information into a lot of detail. I have a [Python implementation using Jupyter](https://github.com/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb), however you can play with it from your browser using [Google Colab](https://colab.research.google.com/github/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb).
 
