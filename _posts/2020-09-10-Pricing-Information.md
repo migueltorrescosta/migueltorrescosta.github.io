@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expected Opportunity Loss
+title: Pricing Information
 category: [Math, Coding]
 published: true
 ---
