@@ -47,4 +47,4 @@ The main challenge is to actually gather the information about all measures. One
 7. As time passes questions could fade into the background.
 8. Live happily ever after.
 
-Interested? Let's make this happen :P 
+The final objective would be to end up in a situation where only [Pareto Efficient](https://en.wikipedia.org/wiki/Pareto_efficiency) measures end up being applied, in the sense that for any measure, if there is an alternative which is simultaneously better and easier to implement, then we should not waste time on it. Interested? Let's make this happen :P 
