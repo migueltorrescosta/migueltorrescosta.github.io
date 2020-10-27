@@ -22,7 +22,7 @@ Reach out via [email](mailto:miguelptcosta1995@gmail.com?subject=Information Pri
 - You need a maths tutor.
 - My background fits a project you want to develop.
 - There is a potentially costly decision you need to make under a lot of uncertainty.
-- You would like to debate ideas on one of the following:
+- You would like to debate ideas on:
   - Improving our education system by standardizing tools such as [Anki](https://apps.ankiweb.net/) for more efficient learning, encouraging Problem Solving over root memorization or any other ideas you might have.
   - Developing a system for community priority settings, which allows for balancing the effort of a goal with its rewards.
   - Building a Vector Search Algorithm. The closest I have seen to this is [Binary Space Partition Trees](https://en.wikipedia.org/wiki/Binary_space_partitioning), but they don't exactly solve the problem of finding the nearest vector. I sitll need to work on this.
