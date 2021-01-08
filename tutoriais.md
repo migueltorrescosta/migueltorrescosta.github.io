@@ -16,7 +16,7 @@ title: Tutoriais
 # Português
 Olá, chamo-me Miguel, tirei a minha Licenciatura e Mestrado de Matemática em Inglaterra e dei aulas, também de Matemática, em Shanghai, China. Neste tempo sempre dei explicações, e procuro continuar a fazer o mesmo agora que regressei ao Porto.
 
-> Podendo dar explicações tanto em Inglês como Português, já ensinei alunos de ensino Secundário e Universitário. Caso queiras, ou conheças alguém interessado, entra em contacto comigo para o 91 831 06 70.
+> Dei explicações a alunos de ensino Secundário e Universitário, tanto em Inglês como Português. Caso queiras, ou conheças alguém interessado, entra em contacto comigo para o 91 831 06 70.
 
 Mais informações em [University Tutor](https://universitytutor.com/tutors/944174) e no meu [CV]({{ site.baseurl }}/CV.pdf) .
 
@@ -26,8 +26,8 @@ Melhores Cumprimentos, Miguel
 
 Hey, I'm Miguel. I have completed my Masters in Mathematics in the UK and taught Mathematics in Shanghai, China. During these years I've always tutored, and seek to continue having recently returned to Porto.
 
-> Having experience in tutoring both in Portuguese and English, I've tutored High School and university Level students. If you're interested, please reach out to me on +351 91 831 06 70.
+> I have tutored High School and University students, in Portuguese and English. If you're interested, please reach out to me on +351 91 831 06 70.
 
-You can find more info on my tutorials on [University Tutor](https://universitytutor.com/tutors/944174), and my work experience is described on my [CV]({{ site.baseurl }}/CV.pdf).
+More info on [University Tutor](https://universitytutor.com/tutors/944174) and my [CV]({{ site.baseurl }}/CV.pdf).
 
 Best Regards, Miguel
