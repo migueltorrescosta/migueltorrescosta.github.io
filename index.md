@@ -13,7 +13,7 @@ title: Home
   <h1 class="landing-title">Welcome, traveller!</h1>
 </header>
 
-I am Miguel, a maths major who can often be found on the [Serendipitous Mathematics Discord Channel](https://discord.gg/Wd4UV4A) after work. I enjoy Behavioural Sciences, with a special interest in understanding knowledge / [Pricing Information]({% post_url 2020-09-10-Pricing-Information %}) and applying it to system design, like Nicky Case did to [Voting Systems](https://ncase.me/ballot/) or me developing my own forecasting platform from the ground up, [Quest Powered](https://questpowered.com).
+I am Miguel, a maths major who enjoys Behavioural Sciences, with a special interest in understanding knowledge / [Pricing Information]({% post_url 2020-09-10-Pricing-Information %}) and applying it to system design, like Nicky Case did to [Voting Systems](https://ncase.me/ballot/) or me developing my own forecasting platform from the ground up, [Quest Powered](https://questpowered.com).
 
 > If you have any big ( and potentially costly ) decision and investment to make, Douglas Hubbard's Framework laid out in his book [*How to Measure Anything*](https://www.goodreads.com/book/show/444653.How_to_Measure_Anything) provides the best approach to doing it properly. Read a [short introduction to Expected Opportunity Loss]({% post_url 2020-09-10-Pricing-Information %}) if you wish to try it alone, and reach out if you want to discuss this.
 
