@@ -66,7 +66,9 @@ We are currently in the day phase. Since there are 19 players, we need 10 votes 
 - 1 Agoraphobe
 - 8 Townspeople
 
-### Alive players
+### Players
+
+Players with their role in parenthesis are the dead ones :)
 
 - Albert
 - Alexander
@@ -89,9 +91,6 @@ We are currently in the day phase. Since there are 19 players, we need 10 votes 
 - Ricardo
 - Sharon
 
-### Dead players
-
-Everyone's hapyp and alive ... for now.
 ### 1st day message
 
 Welcome everyone to мафия town. For those wondering what it is like to live here, have a quick peek at https://www.youtube.com/watch?v=EhdneGEWU98 . We know that among us there are villains and there are heroes, but do we know who is who? We assemble in our main square to discuss it, in the hopes that together we will not perish!
