@@ -27,26 +27,76 @@ The moderator randomly distributes the characters (listed below). There are 2 st
 
 - **MAFIA:** You are Mafia. Do not ask questions about your role in the group, only to me directly. Every night you and your mates will select someone to kill. That person dies unless the doctor chose to save that person.
 - **GODFATHER:** You are the godfather. Do not ask questions about your role in the group, only to me directly. Every night you and your mates will select someone to kill. That person dies unless the doctor chose to save that person. If you don't decide together on who to kill, you have the final vote. If the cop investigates you during the night, he sees you as a normal victim.
+- **RECRUITER:** You are the recruiter, playing for the mafia. Do not ask questions about your role in the group, only to me directly. Once in the game you can propose another player to be recruited with a personalized text. That player can either chose to join you and the mafia, or reject the offer. They will not know who you are.
+- **LURKER:** You are the lurker, and play for the mafia. Do not ask questions about your role in the group, only to me directly. Every night you can lurk around someone's home, and you will know everything that happened with them.
 - **DETECTIVE:** You are the detective. Do not ask questions about your role in the group, only to me directly. Every night you can choose a person to investigate, and i will tell you if that person is mafia or not. The godfather appears as a normal person.
 - **DOCTOR:** You are the doctor. Do not ask questions about your role in the group, only to me directly. Every night you choose someone to save. If that is the person the mafia chose to kill, that person does not die.
 - **PROSTITUTE:** You are the prostitute. Do not ask questions about your role in the group, only to me directly. Every night you chose someone to spend the night with. Any special powers that person might have used don't take effect.
+- **DRUNK:** You are the town drunk. Do not ask questions about your role in the group, only to me directly. Every night you chose someone to drink with. That person knows they got drunk, and any special powers they had are not used. Neither of you remember the previous night.
 - **BAKER:** You are the best character anyone could be, the baker! Do not ask questions about your role in the group, only to me directly. Every night you chose a person and send them a cake, with any description your sick little head can think of. Game cues, plain insults, everything is welcomed :D I hope it wasn't too obvious that I love this character. The cake you send will be seen by the entire town.
+- **AGORAPHOBE:** You are the agoraphobe. Do not ask questions about your role in the group, only to me directly. Due to your fear of the mafia, every day you can choose to hide in someone else's home. If so, actions target at you will not take effect, but whathever happens to the person you are with will happen to you too.
 - **TOWNSPEOPLE:** You are a towns person. Do not ask questions about your role in the group, only to me directly. Even though you have no special powers at night, your role is to find the mafia: Interpret everything that happened during the day to figure out who is telling the truth and who is manipulating the game.
+- **TRAITOR:** 
 
 ### Practical notes
 
 - Couples in the group. Do not reveal your character to each other. That kind of ruins the game.
-- Votes must be written in this chat in a single message: "==== I _____ vote to lynch _____ ====", and nowhere else. This is done in order to make vote counting easier.
+- Votes must be written in this chat with two equal signes, such as : "== I Miguel vote to lynch ", and nowhere else. This is done in order to make vote counting easier (i.e. I can just search for "==" to count the votes). Messages without == do not count as votes.
+- People who haven't voted yet count as having voted in themselves.
 - Votes cannot be removed, only changed to another person. (i.e. I can't say I take may vote away from person X, but I can say that I vote now for person Y, in fact removing my previous vote).
-- I will be counting of the votes. If there is a majority that person gets killed and the role is revealed.
+- I will be counting the votes. If there is a majority that person gets killed and the role is revealed.
 - The first person to vote is a personal hero of mine for kick starting the votes.
-- If after a while there is no majority, I have the option of reducing the lynching options to the most voted candidates, in practice removing the number of options (all the way down to 2 people), and forcing the town to select from those.
-- If you are not using this weekend to watch the 4th part of "La Casa de Papel" you are still a kid and need to sort out your life priorities. This show is awesome.
+- If after 2 days there is no majority, I will lock the possible lynchees to those who already have votes from others. After that every day I will be removing the least voted person until one is left. 
 - Don't worry about knowing all the game rules, just vote and see how it flows :P
 - If you want to ask questions about your role or anything that might reveal your character, ask the question to me personally. I will post the answer in the group chat for everyone to read.
 
+## Mafia 2.0 (Ongoing)
+We are currently in the day phase. Since there are 19 players, we need 10 votes on the same person for that person to die.
 
-## Latest game status
+### Original Roles
+
+- 1 Godfather (Mafia)
+- 1 Lurker (Mafia)
+- 1 Recruiter (Mafia)
+- 2 Normal Mafia
+- 1 Detective
+- 1 Doctor
+- 1 Drunk
+- 2 Bakers
+- 1 Agoraphobe
+- 8 Townspeople
+
+### Alive players
+
+- Albert
+- Alexander
+- Ananth
+- Brigi
+- Cheyenne
+- Claudia
+- Daria
+- David
+- João
+- Julian
+- Juul
+- Keith
+- Lennaert
+- Mar
+- Nadine
+- Natalia
+- Pedro
+- Raluca
+- Ricardo
+- Sharon
+
+### Dead players
+
+Everyone's hapyp and alive ... for now.
+### 1st day message
+
+Welcome everyone to мафия town. For those wondering what it is like to live here, have a quick peek at https://www.youtube.com/watch?v=EhdneGEWU98 . We know that among us there are villains and there are heroes, but do we know who is who? We assemble in our main square to discuss it, in the hopes that together we will not perish!
+
+## Mafia 1.0 (Finished Game)
 
 The current phase is daytime. Since there are 15 players, we need 8 votes on the same person for that person to die.
 
