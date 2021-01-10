@@ -51,7 +51,7 @@ The moderator randomly distributes the characters (listed below). There are 2 st
 - If you want to ask questions about your role or anything that might reveal your character, ask the question to me personally. I will post the answer in the group chat for everyone to read.
 
 ## Mafia 2.0 (Ongoing)
-We are currently in the day phase. Since there are 19 players, we need 10 votes on the same person for that person to die.
+We are currently in the day phase. Since there are 20 players, we need 11 votes on the same person for that person to die.
 
 ### Original Roles
 
