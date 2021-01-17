@@ -66,17 +66,17 @@ We are currently in the day phase. Since there are 20 players, we need 11 votes 
 - 1 Agoraphobe
 - 8 Townspeople
 
-### Players
+### Players (18 alive)
 
-Players with their role in parenthesis are the dead ones :)
+Players with their role in parenthesis are dead.
 
-- Albert
+- Albert (agoraphobe)
 - Alexander
 - Ananth
 - Brigi
 - Cheyenne
 - Claudia
-- Daria
+- Daria (townsperson)
 - David
 - João
 - Julian
@@ -94,6 +94,15 @@ Players with their role in parenthesis are the dead ones :)
 ### 1st day message
 
 Welcome everyone to мафия town. For those wondering what it is like to live here, have a quick peek at https://www.youtube.com/watch?v=EhdneGEWU98 . We know that among us there are villains and there are heroes, but do we know who is who? We assemble in our main square to discuss it, in the hopes that together we will not perish!
+
+### 1st day votes
+- (11) Daria: Daria, Nadine, Joao, Albert, Claudia, Lennaert, Ananth, Pedro, Julian, Cheyenne, Sharon
+- (4) João: Raluca, Ricardo, Sharon, Mar
+
+### 2nd day message
+
+Good morning good town of мафия. Apologies in advance for the unusually long night: this was due to a missing villager Brigi. Did she go missing because she trusts her mafia members to make decisions on her behalf? Is she bored of her role as a goodie do good townsperson? We don't know. What we know is that we found ALBERT dead in the town square, his body choped up to pieces. It seems fitting of his role. Albert was the AGORAPHOBE. His fear of the mafia was justified. If only he had hidden this night in someone else's place he would be here with us today. The town goes to the bakery for a warm coffee and cake to enjoy the first days of snow in the city and with it there is a gift. Curious, the town sees a label: “To Joao". He does the honors of getting his rightful gift, a huge Dobos cake with a single phrase: “Life gives you a new opportunity”. Will the town have the possibility to play around and throw snow balls and build snowmans or will the mafia ruin another innocent life? While pondering this we find a second cake, directed to Ananth, stating "next party we will clean 😂". Do we have two bakers in this town?!?
+With Albert dead and Brigi missing, we are as clueless as ever as to who the mafia is. Good luck!
 
 ## Mafia 1.0 (Finished Game)
 
