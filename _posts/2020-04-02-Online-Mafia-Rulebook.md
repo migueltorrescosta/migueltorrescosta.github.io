@@ -104,6 +104,17 @@ Welcome everyone to мафия town. For those wondering what it is like to live
 Good morning good town of мафия. Apologies in advance for the unusually long night: this was due to a missing villager Brigi. Did she go missing because she trusts her mafia members to make decisions on her behalf? Is she bored of her role as a goodie do good townsperson? We don't know. What we know is that we found ALBERT dead in the town square, his body choped up to pieces. It seems fitting of his role. Albert was the AGORAPHOBE. His fear of the mafia was justified. If only he had hidden this night in someone else's place he would be here with us today. The town goes to the bakery for a warm coffee and cake to enjoy the first days of snow in the city and with it there is a gift. Curious, the town sees a label: “To Joao". He does the honors of getting his rightful gift, a huge Dobos cake with a single phrase: “Life gives you a new opportunity”. Will the town have the possibility to play around and throw snow balls and build snowmans or will the mafia ruin another innocent life? While pondering this we find a second cake, directed to Ananth, stating "next party we will clean 😂". Do we have two bakers in this town?!?
 With Albert dead and Brigi missing, we are as clueless as ever as to who the mafia is. Good luck!
 
+## 2nd day votes
+- (6) Joao: Pedro, Claudia, Natalia, Nadine, Mar, Julian
+- (4) Pedro: Ananth, Lennaert, Cheyenne, Joao
+
+## 3rd day message
+
+A new day begins and the community is absolutely gutted, devastated. They lynched someone with conviction but it was a huge mistake.
+Not only that, Brigi was finally found after she left town, but she was found in tiny little pieces in our town square. She was the town DRUNK. Was her death the result of some inebriated misadventure with the mafia? We do not know.
+Town goes to the bakery to burn their sorrows with sugar. The baker is crying, feels guilty for this error, with a face full of tears she has a gift in her hands.
+The label says: “To Ananth". Ananth opened the box and the town can see there is a cake with the shape of... Joao's head! It was hard to recognize him and it's full of blood, friends started to cry and there is a message: "Don't forget me, we need justice"
+
 ## Mafia 1.0 (Finished Game)
 
 The current phase is daytime. Since there are 15 players, we need 8 votes on the same person for that person to die.
