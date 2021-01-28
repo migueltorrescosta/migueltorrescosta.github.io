@@ -66,14 +66,14 @@ We are currently in the day phase. Since there are 20 players, we need 11 votes 
 - 1 Agoraphobe
 - 8 Townspeople
 
-### Players (18 alive)
+### Players (15 alive)
 
 Players with their role in parenthesis are dead.
 
 - Albert (agoraphobe)
-- Alexander
+- Alexander (townsperson)
 - Ananth
-- Brigi
+- Brigi (drunk)
 - Cheyenne
 - Claudia
 - Daria (townsperson)
@@ -87,7 +87,7 @@ Players with their role in parenthesis are dead.
 - Nadine
 - Natalia
 - Pedro
-- Raluca
+- Raluca (towsperson)
 - Ricardo
 - Sharon
 
