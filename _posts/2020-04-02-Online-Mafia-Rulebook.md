@@ -78,18 +78,18 @@ Players with their role in parenthesis are dead.
 - Claudia
 - Daria (townsperson)
 - David
-- João
+- João (townsperson)
 - Julian
 - Juul
 - Keith
 - Lennaert
 - Mar
 - Nadine
-- Natalia
-- Pedro
-- Raluca (towsperson)
+- Natalia (mafia)
+- Pedro (townsperson)
+- Raluca (townsperson)
 - Ricardo
-- Sharon
+- Sharon (townsperson)
 
 ### 1st day message
 
@@ -114,6 +114,23 @@ A new day begins and the community is absolutely gutted, devastated. They lynche
 Not only that, Brigi was finally found after she left town, but she was found in tiny little pieces in our town square. She was the town DRUNK. Was her death the result of some inebriated misadventure with the mafia? We do not know.
 Town goes to the bakery to burn their sorrows with sugar. The baker is crying, feels guilty for this error, with a face full of tears she has a gift in her hands.
 The label says: “To Ananth". Ananth opened the box and the town can see there is a cake with the shape of... Joao's head! It was hard to recognize him and it's full of blood, friends started to cry and there is a message: "Don't forget me, we need justice"
+
+## 3rd day votes
+
+(8) Pedro: Mar, Keith, Lennaert, Ananth, Ricardo, Pedro, Cheyenne, Julian
+(2) Keith: Cheyenne, Claudia
+
+## 4th day message
+
+There is no time for condolences. This has been a silent and vacant city and it will be a mafia town soon if we do not do anything. Natalia has left us and Sharon has been killed.
+
+People woke up today and they are heading to a protest in front of the detective's office. All the community is coming out and villagers are very angry, they are asking for help. They look at each other trying to find answers.
+
+There is a proposal for a new security law, which has to be approved by the mayority. All members have to write a public statement to explain which is their role and indicate 3 suspicious people with their reason by the end of the day to ensure mafia is removed and they live in a safe place. Will the town approve this law?
+
+Suddenly people throughout the street were swivelling around to see an angry scarlet envelope that appears on Lennaert's door, it is a Howler cake. The physical temperature of the Howler begins to rapidly increase upon delivery and it will explode if left unopened for too long. Is it true Lennaert is detective? Will the power of the Howler reveals a secret? He comes out and once opened the letter cake booms with the voice of the baker which is magnified beyond all belief. The message says: We're gonna die. We need a proof that you are sincere, don't lie, we dont trust anyone now. We don't want to think you can be part of the mafia.
+
+
 
 ## Mafia 1.0 (Finished Game)
 
