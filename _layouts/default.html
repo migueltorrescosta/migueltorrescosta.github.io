@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  {% include mathjax.html %}
+{% include mathjax.html %}
 
-  <body>
-    <nav class="nav-main">
-      <ul>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/CV.pdf">CV</a></li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/">home</a></li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog">blog</a></li>
-      </ul>
-    </nav>
+<body>
+  <nav class="nav-main">
+    <ul>
+      <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/CV.pdf">CV</a></li>
+      <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/">home</a></li>
+      <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog">blog</a></li>
+    </ul>
+  </nav>
 
-    <div class="container content">
-      <main>
-        {{ content }}
-      </main>
+  <div class="container content">
+    <main>
+      {{ content }}
+    </main>
 
-      <footer class="footer">
-        <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</span> &middot;
-            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
-        </small>
-        <div class="ftr-links">
-          <a href="https://github.com/migueltorrescosta"><i class="fa fa-github-alt"></i></a>
-          <a rel="me" href="https://scholar.social/@migueltorrescosta"><i class="fa fa-users"></i></a>
-          <a href="https://universitytutor.com/tutors/944174"><i class="fa fa-university"></i></a>
-          <a href="https://discord.gg/Wd4UV4A"><i class="fa fa-headphones"></i></a>
-          <!-- <a href="https://twitter.com/migueltcosta"><i class="fa fa-twitter"></i></a> -->
-          <a href="https://www.linkedin.com/in/miguel-torres-costa/"><i class="fa fa-linkedin"></i></a>
-        </div>
-      </footer>
-    </div>
+    <footer class="footer">
+      <small>
+        <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{
+            site.time | date: '%Y' }}</time> {{ site.author.name }}</span> &middot;
+        <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
+      </small>
+      <div class="ftr-links">
+        <a href="https://github.com/migueltorrescosta"><i class="fa fa-github-alt"></i></a>
+        <a rel="me" href="https://scholar.social/@migueltorrescosta"><i class="fa fa-users"></i></a>
+        <a href="https://universitytutor.com/tutors/944174"><i class="fa fa-university"></i></a>
+        <a href="https://discord.gg/Wd4UV4A"><i class="fa fa-headphones"></i></a>
+        <!-- <a href="https://twitter.com/migueltcosta"><i class="fa fa-twitter"></i></a> -->
+        <a href="https://www.linkedin.com/in/miguel-torres-costa/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </div>
 
-  </body>
+  {% if page.react_component %}
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel" src="{{ site.baseurl }}/assets/react_components/{{ page.react_component }}.js"></script>
+  {{ site.data.navigation }}
+  {% endif %}
+
+</body>
+
 </html>
