@@ -6,22 +6,22 @@ class AssetDivision extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            items: [
-                { id: -3, description: 'Sofa', price: 300 },
-                { id: -2, description: 'PC', price: 700 },
-                { id: -1, description: 'Piano', price: 500 }],
-            new_item: { id: 0, description: '', price: '' },
-            people: [
-                { id: -2, name: 'Miguel' },
-                { id: -1, name: 'Ricardo' }],
+            items: [],
+            new_item: { id: 0, description: '', price: 0 },
+            people: [],
             new_person: { id: 0, name: '' },
             frozen: false, // If true the user can't edit Items nor People
-            group: [-1],
+            group: [],
             group_price_difference: 0,
             focus_person: 0,
             individual_prices: Array(),
             iterations: 0,
             current_experiment_result: true, // true if the focus_person selects group1, false otherwise
+            formatter: Intl.NumberFormat('pt-PT', {
+                style: 'currency',
+                currency: 'EUR',
+                maximumFractionDigits: 0
+            })
         }
     }
 
@@ -33,7 +33,7 @@ class AssetDivision extends React.Component {
     }
 
     renderItemsTableData() {
-        return this.state.items.map((item, index) => {
+        return [...this.state.items].sort((a, b) => a.price < b.price ? 1 : -1).map((item, index) => {
             const { id, description, price } = item
             const delete_cell = (
                 <td className='delete_button' width='40px'>
@@ -45,7 +45,7 @@ class AssetDivision extends React.Component {
             return (
                 <tr key={id}>
                     <td>{description}</td>
-                    <td>{Math.round(price)}€</td>
+                    <td>{this.state.formatter.format(Math.round(price))}</td>
                     {!this.state.frozen && delete_cell}
                 </tr>
             )
@@ -80,25 +80,35 @@ class AssetDivision extends React.Component {
     }
 
     handlePriceChange(e) {
+        let price = parseInt(e.target.value);
+        if (isNaN(price)) {
+            price = 0
+        }
         this.setState({
             new_item: {
                 id: this.state.new_item.id,
                 description: this.state.new_item.description,
-                price: parseInt(e.target.value)
+                price: price,
             }
         })
+
     }
 
     handleItemSubmit(e) {
         e.preventDefault();
-        this.setState({
-            items: this.state.items.concat(this.state.new_item),
-            new_item: {
-                id: this.state.new_item.id + 1,
-                description: '',
-                price: '',
-            }
-        })
+        const price = this.state.new_item.price;
+        const description = this.state.new_item.description;
+        if (!isNaN(price) && price > 0 && description != '') {
+            this.setState({
+                items: this.state.items.concat(this.state.new_item),
+                new_item: {
+                    id: this.state.new_item.id + 1,
+                    description: '',
+                    price: '',
+                }
+            })
+        }
+
     }
 
     handleItemDelete(id) {
@@ -222,31 +232,6 @@ class AssetDivision extends React.Component {
         return indices;
     }
 
-    setupExperiment() {
-        let price_deltas = Array(this.state.items.length);
-        for (var i = 0; i < this.state.items.length; i++) {
-            price_deltas[i] = this.state.individual_prices[this.state.focus_person][i] - this.state.items[i].price
-        }
-        const sorted_indices = this.sortedIndices(price_deltas);
-        let group = [];
-        let group_price = 0;
-        let non_group_price = 0;
-        for (var i = 0; i < price_deltas.length; i++) {
-            const item_position = sorted_indices[i];
-            const item_price = this.state.individual_prices[this.state.focus_person][item_position];
-            if (group_price < non_group_price) {
-                group.push(this.state.items[item_position].id);
-                group_price += item_price;
-            } else {
-                non_group_price += item_price;
-            }
-        }
-        this.setState({
-            group: group,
-            group_price_difference: Math.round(group_price - non_group_price),
-        });
-    }
-
     renderStartAlgorithmButton() {
         return (
             <div align="center">
@@ -264,9 +249,9 @@ class AssetDivision extends React.Component {
         const group_1_receiving = complement ^ this.state.group_price_difference > 0;
         const money = Math.round(Math.abs(this.state.group_price_difference / 2));
         if (group_1_receiving) {
-            string += "Pay " + money.toString() + "€"
+            string += "Pay " + this.state.formatter.format(money)
         } else {
-            string += "Get " + money.toString() + "€"
+            string += "Get " + this.state.formatter.format(money)
         };
         if (return_items.length) {
             string = return_items.reduce((prev, curr) => prev + ", " + curr, string)
@@ -288,15 +273,16 @@ class AssetDivision extends React.Component {
         result.preventDefault;
         const new_focus_person = (this.state.focus_person + 1) % this.state.people.length;
         let individual_prices = this.state.individual_prices;
-        const multiplicative_factor = 1 + (1 / (this.state.iterations + 5));
+        let multiplicative_factor = 1 + (1 / (this.state.iterations + 5));
         for (var i = 0; i < this.state.items.length; i++) {
             const item = this.state.items[i];
             const to_increase = !result ^ this.state.group.includes(item.id);
-            if (to_increase) {
-                individual_prices[this.state.focus_person][i] *= multiplicative_factor;
-            } else {
-                individual_prices[this.state.focus_person][i] /= multiplicative_factor;
+            const factor = (to_increase) ? multiplicative_factor : 1 / multiplicative_factor;
+            individual_prices[this.state.focus_person][i] *= factor;
+            for (var p = 0; p < individual_prices.length; p++) {
+                individual_prices[p][i] *= factor
             }
+
         }
         const price_average = this.getPriceAverage(individual_prices);
         let items = this.state.items;
@@ -313,11 +299,36 @@ class AssetDivision extends React.Component {
             this.setupExperiment)
     }
 
+    setupExperiment() {
+        let price_deltas = Array(this.state.items.length);
+        for (var i = 0; i < this.state.items.length; i++) {
+            price_deltas[i] = this.state.individual_prices[this.state.focus_person][i] - this.state.items[i].price
+        }
+        const sorted_indices = this.sortedIndices(price_deltas);
+        let group = [];
+        let group_price = 0;
+        let non_group_price = 0;
+        for (var i = 0; i < price_deltas.length; i++) {
+            const item_position = sorted_indices[i];
+            const item_price = this.state.individual_prices[this.state.focus_person][item_position];
+            if (group_price <= non_group_price) {
+                group.push(this.state.items[item_position].id);
+                group_price += item_price;
+            } else {
+                non_group_price += item_price;
+            }
+        }
+        this.setState({
+            group: group,
+            group_price_difference: Math.round(group_price - non_group_price),
+        });
+    }
+
     renderExperiment() {
         const focus_person_name = this.state.people[this.state.focus_person].name;
         return (
             <div>
-                <h1>Round {this.state.iterations}/12</h1>
+                <h1>Round {this.state.iterations}</h1>
                 <table>
                     <thead>
                         <tr>
@@ -371,9 +382,9 @@ class AssetDivision extends React.Component {
 
             let string = "";
             if (value_delta > 0) {
-                string += "Get " + Math.round(Math.abs(value_delta).toString()) + "€"
+                string += "Pay " + this.state.formatter.format(Math.round(Math.abs(value_delta)))
             } else {
-                string += "Pay " + Math.round(Math.abs(value_delta).toString()) + "€"
+                string += "Get " + this.state.formatter.format(Math.round(Math.abs(value_delta)))
             }
 
             if (preferred_items.length) {
@@ -390,10 +401,6 @@ class AssetDivision extends React.Component {
     }
 
     renderSuggestedAllocation() {
-        console.log("================");
-        console.log(this.state.iterations);
-        console.log(this.state.individual_prices);
-        console.log(this.state.group_price_difference);
         return (
             <div>
                 <h1>Suggested Split</h1>
