@@ -12,7 +12,8 @@ class MasterMindGame extends React.Component {
             alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             secret: '',
             next_guess: '',
-            guesses: []
+            guesses: [],
+            iterations: 0
         }
     }
 
@@ -149,6 +150,7 @@ class MasterMindGame extends React.Component {
                     score: this.getStringScore(guess)
                 }),
                 next_guess: '',
+                iterations: this.state.iterations + 1
             })
         }
     }
@@ -156,7 +158,7 @@ class MasterMindGame extends React.Component {
     renderGuessTable() {
         return (
             <div>
-                <h1>Attempts</h1>
+                <h1>{this.state.iterations} {(this.state.iterations == 1) ? "Attempt" : "Attempts"}</h1>
                 <table>
                     <tbody>
                         {[...this.state.guesses].map(attempt => (

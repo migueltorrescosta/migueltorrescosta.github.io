@@ -7,9 +7,9 @@ category: [Interactive]
 
 # Goal
 
-This is a rendition of the old game Master Mind
+This is a rendition of the old game Master Mind. Specify the length of the alphabet and the number of hidden characters to get started. When submitting a guess, you will get crosses X for every correct guess in the correct position, zeroes O for correct guesses in the wrong position, and dashes - for the remaining guesses.
 
-*Warning: Refreshing the page will delete all progress.*
+Best of luck!
 
 <div id="mastermind_game">
   <small>Loading Component</small>
