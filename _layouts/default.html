@@ -14,7 +14,15 @@
     </ul>
   </nav>
 
+
   <div class="container content">
+
+    {% if page.react_component %}
+    <div align="right">
+      <small><i>Warning: Refreshing the page will delete any progress</i></small>
+    </div>
+    {% endif %}
+
     <main>
       {{ content }}
     </main>

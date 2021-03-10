@@ -17,8 +17,6 @@ Assuming that each person has a dollar value for each item, not necessarily equa
 3. Click on "Start" to freeze the above lists and start estimating.
 4. Each round you will be shown different groupings of the items, and each person should select their favorite group each round. This will allow us to infer item valuations, and suggest the best item allocation.
 
-*Warning: Refreshing the page will delete all progress.*
-
 <div id="asset_division">
   <small>Loading Component</small>
 </div>
