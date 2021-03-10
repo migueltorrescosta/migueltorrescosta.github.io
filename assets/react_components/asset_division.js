@@ -91,7 +91,6 @@ class AssetDivision extends React.Component {
                 price: price,
             }
         })
-
     }
 
     handleItemSubmit(e) {
