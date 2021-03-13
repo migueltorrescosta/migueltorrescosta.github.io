@@ -13,7 +13,8 @@ class MasterMindGame extends React.Component {
             secret: '',
             next_guess: '',
             guesses: [],
-            iterations: 0
+            iterations: 0,
+            error_message: false
         }
     }
 
@@ -124,10 +125,6 @@ class MasterMindGame extends React.Component {
         }
         partially_correct -= totally_correct;
         const incorrect = n - totally_correct - partially_correct;
-        console.log("=".repeat(30));
-        console.log(totally_correct);
-        console.log(partially_correct);
-        console.log(incorrect);
         const string_score = "X".repeat(totally_correct) + "O".repeat(partially_correct) + "-".repeat(incorrect);
         return string_score;
     }
@@ -136,12 +133,27 @@ class MasterMindGame extends React.Component {
         e.preventDefault();
         let valid = true;
         for (var i = 0; i < e.target.value.length; i++) { valid = valid && this.state.alphabet.includes(e.target.value.charAt(i)) }
-        if (valid) { this.setState({ next_guess: e.target.value }) }
+        if (valid) {
+            this.setState({
+                next_guess: e.target.value,
+                error_message: false
+            })
+        }
+        if (!valid) {
+            this.setState({
+                error_message: "You must submit colours in the set " + (this.state.alphabet)
+            })
+        }
         this.getStringScore(e.target.value);
     }
 
     handleGuessSubmission() {
         const valid = (this.state.next_guess.length == this.state.number_of_colours);
+        if (!valid) {
+            this.setState({
+                error_message: (this.state.next_guess.length).toString() + " colours were submitted instead of the needed " + (this.state.number_of_colours).toString()
+            })
+        }
         if (valid) {
             const guess = this.state.next_guess;
             this.setState({
@@ -150,9 +162,11 @@ class MasterMindGame extends React.Component {
                     score: this.getStringScore(guess)
                 }),
                 next_guess: '',
-                iterations: this.state.iterations + 1
+                iterations: this.state.iterations + 1,
+                error_message: false
             })
         }
+
     }
 
     renderGuessTable() {
@@ -162,7 +176,7 @@ class MasterMindGame extends React.Component {
                 <table>
                     <tbody>
                         {[...this.state.guesses].map(attempt => (
-                            <tr>
+                            <tr key={attempt.guess}>
                                 <td>{attempt.guess}</td>
                                 <td>{attempt.score}</td>
                             </tr>
@@ -181,11 +195,22 @@ class MasterMindGame extends React.Component {
         )
     }
 
+    renderError() {
+        return (
+            <div align="center">
+                <small style={{ color: "#ff0000" }}>{this.state.error_message}</small>
+            </div>
+        )
+    }
+
     render() {
-        return <div>
-            {this.state.game_started ? this.renderGameInfo() : this.renderSelection()}
-            {this.state.game_started && this.renderGuessTable()}
-        </div>
+        return (
+            <div>
+                {this.state.game_started ? this.renderGameInfo() : this.renderSelection()}
+                {this.state.error_message && this.renderError()}
+                {this.state.game_started && this.renderGuessTable()}
+            </div>
+        )
     }
 }
 
