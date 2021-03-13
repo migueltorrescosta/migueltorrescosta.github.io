@@ -177,8 +177,8 @@ class MasterMindGame extends React.Component {
                     <tbody>
                         {[...this.state.guesses].map(attempt => (
                             <tr key={attempt.guess}>
-                                <td>{attempt.guess}</td>
-                                <td>{attempt.score}</td>
+                                <td align="right">{attempt.guess}</td>
+                                <td align="left">{attempt.score}</td>
                             </tr>
                         ))}
                         <tr>
