@@ -166,7 +166,6 @@ class MasterMindGame extends React.Component {
                 error_message: false
             })
         }
-
     }
 
     renderGuessTable() {
