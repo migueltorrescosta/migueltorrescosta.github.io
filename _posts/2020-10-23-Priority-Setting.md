@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Priority setting - should we train guide dogs for the blind?
-category: [Projects, System Design]
+category: [Psychology, System Design]
 ---
 
 *This is the first of (what I hope to be) many projects I will write about here. They are better based on tools that I think would be useful for society as a whole rather than profitable.*
