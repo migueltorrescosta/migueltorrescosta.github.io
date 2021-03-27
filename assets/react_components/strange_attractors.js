@@ -8,36 +8,44 @@ class StrangeAttractors extends React.Component {
         this.state = {
             attractors: [{ id: 0, x: 1000, y: -600 }, { id: 1, x: -1000, y: -600 }, { id: 2, x: 0, y: 1000 }],
             new_attractor: { id: 3, x: 0, y: 0 },
-            points: [],
+            points: [{ id: 0, x: 0, y: 0 }],
             current_point: { x: 0, y: 0 },
-            iterations: 500,
+            iterations: 10000,
             pull: 50,
             error_message: ""
         }
     }
 
     isValidIterations(iterations) {
-        return (!(isNaN(iterations) || iterations < 1 || iterations > 5000))
+        let valid = !(isNaN(iterations) || iterations < 1 || iterations > 10000);
+        if (!valid) {
+            this.setState({
+                error_message: "The number of iterations should be a postiive integer under 10000"
+            })
+        };
+        return (valid)
     }
 
     isValidPull(pull) {
-        return (!(isNaN(pull) || pull <= 0 || pull >= 100))
+        let valid = !(isNaN(pull) || pull <= 0 || pull >= 100);
+        if (!valid) {
+            this.setState({
+                error_message: "The pull should be a percentage strictly between 0 and 100"
+            })
+        };
+        return (valid)
     }
 
     handleIterationsChange(e) {
         let iterations = parseInt(e.target.value);
-        let error_message = "";
-        if (isNaN(iterations)) { iterations = 0 };
-        if (!this.isValidIterations(iterations)) { error_message = "Iterations must be a positive integer under 5000!" }
-        this.setState({ iterations: iterations, error_message: error_message })
+        if (isNaN(iterations)) { iterations = 1 };
+        this.setState({ iterations: iterations })
     }
 
     handlePullChange(e) {
         let pull = parseFloat(e.target.value);
-        let error_message = "";
         if (isNaN(pull)) { pull = 0 };
-        if (!this.isValidPull(pull)) { error_message = "Pull must be a percentage strictly between 0 and 100!" }
-        this.setState({ pull: pull, error_message: error_message })
+        this.setState({ pull: pull })
     }
 
     isValidRun() {
@@ -109,8 +117,12 @@ class StrangeAttractors extends React.Component {
     renderKeyPoints() {
         return (
             <div>
-                <h1>Attractors</h1>
                 <table>
+                    <thead>
+                        <tr>
+                            <td align="center" colspan="2"><b>Attractors</b></td>
+                        </tr>
+                    </thead>
                     <tbody>
                         {this.renderAttractorsTableData()}
                         {this.renderNewAttractorForm()}
@@ -219,10 +231,18 @@ class StrangeAttractors extends React.Component {
         };
 
         var layout = {
+            autosize: true,
             xaxis: { 'showgrid': false, 'zeroline': false, 'visible': false, },
             yaxis: { 'showgrid': false, 'zeroline': false, 'visible': false, },
             hovermode: !1,
-            plot_bgcolor: "#fff"
+            plot_bgcolor: "#fff",
+            legend: {
+                x: .5,
+                y: 1,
+                xanchor: "center",
+                yanchor: "bottom",
+                orientation: "h"
+            }
         };
 
         Plotly.newPlot('plot', [points, attractors, current_point], layout);
