@@ -10,21 +10,22 @@ title: Home
 </div>
 
 <header>
-  <h1 class="landing-title">Welcome, traveller!</h1>
+  <h1 class="landing-title">Miguel Torres Costa</h1>
 </header>
 
-I am Miguel, a maths major who enjoys Behavioural Sciences, with a special interest in understanding knowledge / [Pricing Information]({% post_url 2020-09-10-Pricing-Information %}) and applying it to system design, like Nicky Case did to [Voting Systems](https://ncase.me/ballot/) or me developing my own forecasting platform from the ground up, [Quest Powered](https://questpowered.com).
+### Maths Tutor
+I tutor University Level Mathematics, in English or Portuguese. Do check my [University Tutor page](https://universitytutor.com/tutors/944174) and [CV]({{ site.baseurl }}/CV.pdf)
 
-> If you have any big ( and potentially costly ) decision and investment to make, Douglas Hubbard's Framework laid out in his book [*How to Measure Anything*](https://www.goodreads.com/book/show/444653.How_to_Measure_Anything) provides the best approach to doing it properly. Read a [short introduction to Expected Opportunity Loss]({% post_url 2020-09-10-Pricing-Information %}) if you wish to try it alone, and reach out if you want to discuss this.
+### Interests
+The subjects below describe what I enjoy spending my time on. Reach out if you want to discuss ideas. More details into each of these can be found in my [Blog](/blog)
 
-Reach out via [email](mailto:miguelptcosta1995@gmail.com?subject=Information Pricing) or [Discord](https://discord.gg/Wd4UV4A) if:
+- **Voting Systems:** Nicky case has an amazing [interactive tutorial](https://ncase.me/ballot/)
+- **[Pricing Information]({% post_url 2020-09-10-Pricing-Information %}):** Douglas Hubbard wrote an amazing introduction to this technique on his book [How to Measure Anything](https://www.goodreads.com/book/show/444653.How_to_Measure_Anything), whose ideas I have implemented here:
+I am Miguel, a maths major who enjoys Behavioural Sciences, with a special interest in understanding knowledge /  and applying it to system design, like Nicky Case did to  or me developing my own forecasting platform from the ground up, [Quest Powered](https://questpowered.com).
+- Behavioural Economics: [Malcolm Gladwell's Blink](https://www.goodreads.com/book/show/40102.Blink) and [Dan Ariely's Predictably Irrational](https://www.goodreads.com/book/show/1713426.Predictably_Irrational) are two of my favourite books in this area. Which others would you add?
 
-- You need a maths tutor.
-- My background fits a project you want to develop.
-- There is a potentially costly decision you need to make under a lot of uncertainty.
-- You would like to debate ideas on:
-  - Improving our education system by standardizing tools such as [Anki](https://apps.ankiweb.net/) for more efficient learning, encouraging Problem Solving over root memorization or any other ideas you might have.
-  - Developing a system for community priority settings, which allows for balancing the effort of a goal with its rewards.
-  - Building a Vector Search Algorithm. The closest I have seen to this is [Binary Space Partition Trees](https://en.wikipedia.org/wiki/Binary_space_partitioning), but they don't exactly solve the problem of finding the nearest vector. I sitll need to work on this.
-  - [Quest Powered](https://questpowered.com), my own forecasting platform.
+### Books
 
+Which other books should I add to my read list?
+
+{% include goodreads.html %}
