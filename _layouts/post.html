@@ -3,8 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  {{ page.categories | join: " / " }}
+  {% include post_navigation.html %}
+  <hr>
+  <div class="flex-box">
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+    {{ page.categories | join: " / " }}
+  </div>
   <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
+  <hr>
+  {% include post_navigation.html %}
 </article>

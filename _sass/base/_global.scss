@@ -72,3 +72,9 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+div.flex-box {
+  display: flex;
+  justify-content: space-between;
+  border: 2px;
+}
