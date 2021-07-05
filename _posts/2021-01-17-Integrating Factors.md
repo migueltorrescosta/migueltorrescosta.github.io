@@ -8,11 +8,11 @@ Integrating factors allow us to solve equations of the form $$ y' + P(x)y = Q(x)
 
 # Intuition
 
-The derivative of $$ e^{R(x)} $$ is $$ R'(x) e^{R(x)} $$ . This can be used to cancel out terms when we have anything of the form $$ y' + R'(x)y $$, and we can do by setting $$P(x) = R'(x)$$ . By playing around with this idea the methodology below was developed.
+The derivative of $$ e^{R(x)} $$ is $$ R'(x) e^{R(x)} $$ . This can be used to cancel out terms when we have anything of the form $$ y' + R'(x)y $$, and we can do so by setting $$P(x) = R'(x)$$ . By playing around with this idea the methodology below was developed.
 
 # General Solution
 
-We know that $$ y' + P(x)y = Q(x) $$. By want $$ R'(x) = P(x) $$, so we define $$ R(x) = \int P(x) dx $$ to get $$ y' + R'(x)y = Q(x) $$. By multiplying all terms of the equation by $$ e^{R(x)} $$ we get
+We know that $$ y' + P(x)y = Q(x) $$. We want $$ R'(x) = P(x) $$, so we define $$ R(x) = \int P(x) dx $$ to get $$ y' + R'(x)y = Q(x) $$. By multiplying all terms of the equation by $$ e^{R(x)} $$ we get
 
 $$
 \begin{align}
