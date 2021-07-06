@@ -10,7 +10,7 @@ class AssetDivision extends React.Component {
             new_item: { id: 0, description: '', price: 0 },
             people: [],
             new_person: { id: 0, name: '' },
-            frozen: false, // If true the user can't edit Items nor People
+            initialized: false, // If true the user can't edit Items nor People
             group: [],
             group_price_difference: 0,
             focus_person: 0,
@@ -27,26 +27,44 @@ class AssetDivision extends React.Component {
 
     renderHeader() {
         let headerElement = ['Description', 'Estimated Price']
+        if (this.state.initialized) {
+            headerElement.push('Suggested Owner')
+        }
         return headerElement.map((key, index) => {
             return <th key={index}>{key}</th>
         })
     }
 
     renderItemsTableData() {
+        let item_favourites;
+        if (this.state.initialized) {
+            const transposed_array = this.transposeMatrix(this.state.individual_prices);
+            item_favourites = transposed_array.map(arr => arr.indexOf(Math.max(...arr)));
+            console.log(transposed_array);
+            console.log(item_favourites)
+        }
         return [...this.state.items].sort((a, b) => a.price < b.price ? 1 : -1).map((item, index) => {
             const { id, description, price } = item
-            const delete_cell = (
-                <td className='delete_button' width='40px'>
-                    <form>
-                        <button className='button' onClick={() => this.handleItemDelete(id)}>Delete</button>
-                    </form>
-                </td>
-            )
+            let third_column;
+            if (this.state.initialized) {
+                third_column = (
+                    <td>
+                        {this.state.people[item_favourites[id]].name}
+                    </td> )
+            } else {
+                third_column = (
+                    <td className='delete_button' width='40px'>
+                        <form>
+                            <button className='button' onClick={() => this.handleItemDelete(id)}>Delete</button>
+                        </form>
+                    </td>
+                )
+            }
             return (
                 <tr key={id}>
                     <td>{description}</td>
                     <td>{this.state.formatter.format(Math.round(price))}</td>
-                    {!this.state.frozen && delete_cell}
+                    {third_column}
                 </tr>
             )
         })
@@ -124,41 +142,19 @@ class AssetDivision extends React.Component {
                     </thead>
                     <tbody>
                         {this.renderItemsTableData()}
-                        {!this.state.frozen && this.renderNewItemForm()}
+                        {!this.state.initialized && this.renderNewItemForm()}
                     </tbody>
                 </table>
             </div>
         )
     }
 
-    renderPeopleTableData() {
-        return this.state.people.map((item, index) => {
-            const { id, name } = item
-            const delete_cell = (
-                <td align="right" className='delete_button' width='40px'>
-                    <button className='button' onClick={() => this.handlePersonDelete(id)}>Delete</button>
-                </td>
-            )
-            return (
-                <tr key={id}>
-                    {!this.state.frozen && delete_cell}
-                    <td>{name}</td>
-                </tr>
-            )
-        })
-    }
-
     renderNewPersonForm() {
         return (
-            <tr>
-                <td width="40px">
-                    <form id="add-person" onSubmit={this.handlePersonSubmit.bind(this)}></form>
-                    <input form="add-person" type="submit" value="Add Person" />
-                </td>
-                <td>
-                    <input form="add-person" align="right" type="text" value={this.state.new_person.name} name="name" onChange={this.handlePersonChange.bind(this)} />
-                </td>
-            </tr>
+            <form id="add-person" onSubmit={this.handlePersonSubmit.bind(this)}>
+                <input form="add-person" type="submit" value="Add Person" />
+                <input form="add-person" align="right" type="text" value={this.state.new_person.name} name="name" onChange={this.handlePersonChange.bind(this)} />
+            </form>
         )
     }
 
@@ -190,22 +186,31 @@ class AssetDivision extends React.Component {
         return (
             <div>
                 <h1 id='people-title'>People</h1>
-                <table id='people'>
-                    <thead>
-                        <tr></tr>
-                    </thead>
-                    <tbody>
-                        {this.renderPeopleTableData()}
-                        {!this.state.frozen && this.renderNewPersonForm()}
-                    </tbody>
-                </table>
+                <div class="flex-box">
+                    {this.renderPeopleData()}
+                </div>
+                {!this.state.initialized && this.renderNewPersonForm()}
+                {this.state.initialized && this.renderAllocationDeltas()}
+
             </div>
         )
     }
 
+    renderPeopleData() {
+        return this.state.people.map((item, index) => {
+            const { id, name } = item
+            const delete_cell = <button className='button' onClick={() => this.handlePersonDelete(id)}>Del</button>
+            return (
+                <div key={id}>
+                    {!this.state.initialized && delete_cell} {name}
+                </div>
+            )
+        })
+    }
+
     startAlgorithm(e) {
         e.preventDefault();
-        this.setState({ frozen: true })
+        this.setState({ initialized: true })
         const item_prices = this.state.items.map(x => x.price);
         let individual_prices = Array(this.state.people.length).fill(item_prices);
         individual_prices = individual_prices.map(x => [...item_prices]); // Makes a deep copy of item values
@@ -253,7 +258,7 @@ class AssetDivision extends React.Component {
             string += "Get " + this.state.formatter.format(money)
         };
         if (return_items.length) {
-            string = return_items.reduce((prev, curr) => prev + ", " + curr, string)
+            string = return_items.reduce((prev, curr) => prev + " , " + curr, string)
         }
         return string;
     }
@@ -270,9 +275,8 @@ class AssetDivision extends React.Component {
 
     handleExperimentRun(result) {
         result.preventDefault;
-        const new_focus_person = (this.state.focus_person + 1) % this.state.people.length;
         let individual_prices = this.state.individual_prices;
-        let multiplicative_factor = 1 + (1 / (this.state.iterations + 5));
+        let multiplicative_factor = 1 + (1 / (.1 * this.state.iterations + 10));
         for (var i = 0; i < this.state.items.length; i++) {
             const item = this.state.items[i];
             const to_increase = !result ^ this.state.group.includes(item.id);
@@ -281,7 +285,6 @@ class AssetDivision extends React.Component {
             for (var p = 0; p < individual_prices.length; p++) {
                 individual_prices[p][i] *= factor
             }
-
         }
         const price_average = this.getPriceAverage(individual_prices);
         let items = this.state.items;
@@ -291,7 +294,6 @@ class AssetDivision extends React.Component {
         this.setState(
             {
                 iterations: this.state.iterations + 1,
-                focus_person: new_focus_person,
                 individual_prices: individual_prices,
                 items: items
             },
@@ -323,35 +325,37 @@ class AssetDivision extends React.Component {
         });
     }
 
+    renderFocusPersonSelector() {
+        return (
+            <form id="person-selector">
+                <select name="personSelector" onChange={this.changeFocusPerson.bind(this)}>
+                    { this.state.people.map((item, index) => {
+                        const { id, name } = item;
+                        return <option key={id} value={id}>{name}</option>
+                    })}
+                </select>, what is your group preference?
+            </form>
+        )
+    }
+
+    changeFocusPerson(e) {
+        this.setState({focus_person: e.target.value});
+    }
+
     renderExperiment() {
-        const focus_person_name = this.state.people[this.state.focus_person].name;
         return (
             <div>
                 <h1>Round {this.state.iterations}</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Group 1</td>
-                            <td>Group 2</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td width="50%">
-                                {this.getItemsList(this.state.group, false)}
-                            </td>
-                            <td width="50%">
-                                {this.getItemsList(this.state.group, true)}
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
                 <div align="center">
-                    <div>{focus_person_name}</div>
-                    <div><small>which group do you prefer?</small></div>
-                    <input form="experiment" type="button" value="Group 1" name="name" onClick={() => this.handleExperimentRun(true)}></input>
-                    <input form="experiment" type="button" value="Group 2" name="name" onClick={() => this.handleExperimentRun(false)}></input>
+                    {this.renderFocusPersonSelector()}
+                </div>
+                <div class="flex-box">
+                    <input form="experiment" type="button" value="Left Group" name="name" onClick={() => this.handleExperimentRun(true)}></input>
+                    <input form="experiment" type="button" value="Right Group" name="name" onClick={() => this.handleExperimentRun(false)}></input>
+                </div>
+                <div class="flex-box">                    
+                    <div>{this.getItemsList(this.state.group, false)}</div>
+                    <div>{this.getItemsList(this.state.group, true)}</div>
                 </div>
             </div>
         )
@@ -363,6 +367,31 @@ class AssetDivision extends React.Component {
             if (arr[i] == person_position) { indices.push(i) }
         };
         return indices
+    }
+
+    renderAllocationDeltas() {
+        const transposed_array = this.transposeMatrix(this.state.individual_prices);
+        const item_favourites = transposed_array.map(arr => arr.indexOf(Math.max(...arr)));
+        const average_value = this.state.items.map(x => x.price).reduce((a, b) => a + b, 0) / this.state.people.length;
+        const allocation_deltas = this.state.people.map((item, index) => {
+            const { id, name } = item
+            const preferred_items = this.getIndices(item_favourites, index);
+
+            let value_delta = -average_value;
+            if (preferred_items) {
+                value_delta += preferred_items.map(i => this.state.items[i].price).reduce((a, b) => a + b, 0)
+            }
+
+            let string = "";
+            if (value_delta > 0) {
+                string += "Pay " + this.state.formatter.format(Math.round(Math.abs(value_delta)))
+            } else {
+                string += "Get " + this.state.formatter.format(Math.round(Math.abs(value_delta)))
+            }
+            return (
+                <div>{string}</div>
+            )});
+        return <div class="flex-box">{allocation_deltas}</div>
     }
 
     renderSuggestedAllocationData() {
@@ -414,24 +443,16 @@ class AssetDivision extends React.Component {
                         {this.renderSuggestedAllocationData()}
                     </tbody>
                 </table>
-
-
             </div>
         )
-
-    }
-
-    renderItemValuation() {
-
     }
 
     render() {
         return <div>
             {this.renderPeople()}
             {this.renderItems()}
-            {!this.state.frozen && this.renderStartAlgorithmButton()}
-            {this.state.frozen && this.renderExperiment()}
-            {this.state.frozen && this.renderSuggestedAllocation()}
+            {!this.state.initialized && this.renderStartAlgorithmButton()}
+            {this.state.initialized && this.renderExperiment()}
         </div>
     }
 }
