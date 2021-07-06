@@ -40,8 +40,6 @@ class AssetDivision extends React.Component {
         if (this.state.initialized) {
             const transposed_array = this.transposeMatrix(this.state.individual_prices);
             item_favourites = transposed_array.map(arr => arr.indexOf(Math.max(...arr)));
-            console.log(transposed_array);
-            console.log(item_favourites)
         }
         return [...this.state.items].sort((a, b) => a.price < b.price ? 1 : -1).map((item, index) => {
             const { id, description, price } = item
@@ -152,7 +150,7 @@ class AssetDivision extends React.Component {
     renderNewPersonForm() {
         return (
             <form id="add-person" onSubmit={this.handlePersonSubmit.bind(this)}>
-                <input form="add-person" type="submit" value="Add Person" />
+                <input form="add-person" type="submit" value="Add" />
                 <input form="add-person" align="right" type="text" value={this.state.new_person.name} name="name" onChange={this.handlePersonChange.bind(this)} />
             </form>
         )
@@ -188,8 +186,8 @@ class AssetDivision extends React.Component {
                 <h1 id='people-title'>People</h1>
                 <div class="flex-box">
                     {this.renderPeopleData()}
+                    {!this.state.initialized && this.renderNewPersonForm()}
                 </div>
-                {!this.state.initialized && this.renderNewPersonForm()}
                 {this.state.initialized && this.renderAllocationDeltas()}
 
             </div>
@@ -339,7 +337,8 @@ class AssetDivision extends React.Component {
     }
 
     changeFocusPerson(e) {
-        this.setState({focus_person: e.target.value});
+        const person_number = this.state.people.findIndex(people => people.id == e.target.value);
+        this.setState({focus_person: person_number});
     }
 
     renderExperiment() {

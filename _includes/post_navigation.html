@@ -1,16 +1,16 @@
 <div class="flex-box">
     {% if page.previous %}
-        <small>Previous Post</small>
+        <small>&#8592;  Previous Post</small>
     {% endif %}
     {% if page.next %}
-        <small>Next Post</small>
+        <small>Next Post  &#8594;</small>
     {% endif %}
 </div>
 <div class="flex-box">
     {% if page.previous %}
-        <a href="{{page.previous.url}}">&#8592;  {{ page.previous.title }}</a>
+        <a href="{{page.previous.url}}">{{ page.previous.title }}</a>
     {% endif %}
     {% if page.next %}
-        <a href="{{page.next.url}}">{{ page.next.title }}  &#8594;</a>
+        <a href="{{page.next.url}}">{{ page.next.title }}</a>
     {% endif %}
 </div>
