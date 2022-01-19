@@ -39,7 +39,9 @@ class WordleSolver extends React.Component {
         } else if (result == "GGGGG"){
             this.setState({
                 game_over: true,
-                error_message: "🥳🥳 CONGRATULATIONS 🥳🥳",
+                error_message: "CONGRATULATIONS",
+                history: [...this.state.history, this.state.next_attempt],
+                next_attempt: {word: "🥳🥳🥳", result: ""}
             })
         } else if (this.state.current_solution_tree[result] === undefined) {
             this.setState({
@@ -89,7 +91,7 @@ class WordleSolver extends React.Component {
                                     this.state.game_over
                                     ?
                                     <td align="left">
-                                        <button className='button' onClick={() => this.restartGame()}>Try Again</button>
+                                        <button className='button' onClick={() => this.restartGame()}>Start New Game</button>
                                     </td>
                                     :
                                     <td align="left">
