@@ -3,8 +3,6 @@
 
 {% include head.html %}
 
-{% include mathjax.html %}
-
 <body>
   <nav class="nav-main">
     <ul>
@@ -49,7 +47,6 @@
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script type="text/babel" src="{{ site.baseurl }}/assets/react_components/{{ page.react_component }}.js"></script>
-  {{ site.data.navigation }}
   {% endif %}
 
 </body>

@@ -92,7 +92,7 @@ Arguably [Good Judgement Project (gjp)](https://goodjudgment.com/) are the first
 
 ## Foretold
 
-The backend and flexibility of inputs on [foretold](foretold.io) is impressive, however they lack an intuitive User Interface. As such the existing user base has stagnated.
+The backend and flexibility of inputs on [foretold](https://www.foretold.io) is impressive, however they lack an intuitive User Interface. As such the existing user base has stagnated.
 
 ## Metaculus
 
@@ -106,7 +106,7 @@ Since no company controls Augur (similarly to how no company controls Bitcoin), 
 
 ## Forecastapp aka Facebook
 
-The latest entrant to the group, Facebook has launched [forecastapp](forecastapp.net/) to crowdsource forecasts. Given their dominance in the social network world this makes it easier for them to gather forecasters, however their existing page on forecasting is still very simple so in beta testing, meaning that it is still unclear how the platform will evolve.
+The latest entrant to the group, Facebook has launched [forecastapp](https://forecastapp.net/) to crowdsource forecasts. Given their dominance in the social network world this makes it easier for them to gather forecasters, however their existing page on forecasting is still very simple so in beta testing, meaning that it is still unclear how the platform will evolve.
 
 # The Future
 

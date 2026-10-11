@@ -1,11 +1,11 @@
 title:               Miguel Torres Costa
-url:                 https://migueltorrescosta.github.io
+url:                 https://blog.mptc.uk
 baseurl:             ""
 
 markdown:            kramdown
 highlighter:         rouge
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+exclude:             ['README.md', 'CLAUDE.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
 permalink:           posts/:title
 
@@ -17,8 +17,3 @@ author:
   name:              Miguel Costa
   url:               https://blog.mptc.uk
   email:             miguelptcosta1995@gmail.com
-
-plugins:
-  - jekyll-coffeescript
-  - jekyll-paginate
-  - jekyll-gist
