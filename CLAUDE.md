@@ -13,6 +13,8 @@ bundle exec jekyll build
 
 Verify the site builds without errors. Catches broken markdown, Liquid template errors, and missing includes.
 
+CI (`.github/workflows/ci.yml`) runs on every pull request: the Jekyll build on Ruby 3.3, and a check that `assets/react_components` matches what Babel generates from `_react_src`. Its final `ci` job is the single check the ruleset requires. CI does not deploy; GitHub Pages does.
+
 Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored).
 
 ## Structure
