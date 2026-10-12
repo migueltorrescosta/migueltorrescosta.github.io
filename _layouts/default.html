@@ -3,8 +3,6 @@
 
 {% include head.html %}
 
-{% include mathjax.html %}
-
 <body>
   <nav class="nav-main">
     <ul>
@@ -44,12 +42,12 @@
   </div>
 
   {% if page.react_component %}
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script type="text/babel" src="{{ site.baseurl }}/assets/react_components/{{ page.react_component }}.js"></script>
-  {{ site.data.navigation }}
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js" crossorigin></script>
+  {% if page.plotly %}
+  <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@3.7.0/plotly.min.js"></script>
+  {% endif %}
+  <script src="{{ site.baseurl }}/assets/react_components/{{ page.react_component }}.js"></script>
   {% endif %}
 
 </body>
