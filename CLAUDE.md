@@ -23,6 +23,7 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 - `_sass/` — SASS source files (base, components, pages, utilities)
 - `css/` — `style.scss` entry point and Font Awesome
 - `assets/` — static assets (documents, images, react_components)
+- `_react_src/` — JSX sources of the React components (not published)
 - `_config.yml` — Jekyll configuration
 - `CNAME` — custom domain for GitHub Pages
 
@@ -30,5 +31,5 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 
 - Theme: Celeste (minimalist, based on Poole).
 - Posts use standard Jekyll front matter.
-- The React components under `assets/react_components/` have no build step: they are transpiled in the browser by babel-standalone and loaded only on posts with a `react_component:` front-matter key.
+- The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because GitHub Pages runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
 - No commits on main. Branch or worktree only.

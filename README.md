@@ -16,6 +16,26 @@ bundle exec jekyll build    # output in _site/
 bundle exec jekyll serve    # preview at http://localhost:4000
 ```
 
+## React components
+
+The interactive posts load a React component named by their `react_component:`
+front-matter key. `_react_src/*.jsx` is the source. `assets/react_components/*.js`
+is generated from it and committed, because GitHub Pages runs no build step
+other than Jekyll. Do not edit the generated files: edit the `.jsx`, recompile,
+and commit both together.
+
+Requires Node.js with `npx`. Run from the repository root:
+
+```bash
+npx --yes -p @babel/core@7.29.7 -p @babel/cli@7.29.7 -p @babel/preset-react@7.29.7 -c \
+  'babel --no-babelrc --retain-lines --presets "$(dirname "$(command -v babel)")/../@babel/preset-react" _react_src --out-dir assets/react_components'
+```
+
+This only turns JSX into `React.createElement` calls (classic runtime, against
+the global `React` loaded by `_layouts/default.html`); everything else is left
+as written. `npx` keeps Babel in its own cache, so nothing is installed into
+the repository.
+
 ## Licence
 
 The site uses the Celeste theme. `LICENSE` is the Celeste theme's MIT licence.
