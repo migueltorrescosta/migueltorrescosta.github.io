@@ -2,6 +2,7 @@
 layout: post
 title: Strange Attractors
 react_component: strange_attractors
+plotly: true
 category: [Math, Interactive]
 ---
 

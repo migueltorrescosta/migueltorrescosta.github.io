@@ -45,7 +45,9 @@
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  {% if page.plotly %}
+  <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@3.7.0/plotly.min.js"></script>
+  {% endif %}
   <script type="text/babel" src="{{ site.baseurl }}/assets/react_components/{{ page.react_component }}.js"></script>
   {% endif %}
 
