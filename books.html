@@ -1,0 +1,10 @@
+---
+layout: default
+title: Books
+---
+
+<h1>Books</h1>
+
+<div class="shelf shelf-all">
+  {% for book in site.data.books %}{% include book_cover.html book=book %}{% endfor %}
+</div>

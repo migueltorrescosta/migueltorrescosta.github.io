@@ -26,6 +26,7 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 - `fonts/` — self-hosted woff2 fonts and their licence (`OFL.txt`)
 - `assets/` — static assets (documents, images, react_components)
 - `_react_src/` — JSX sources of the React components (not published)
+- `_plugins/goodreads.rb` — reads the Goodreads shelf (`goodreads_feed` in `_config.yml`) on every build into `site.data.books`; a failed read fails the build, so the build needs network access
 - `_config.yml` — Jekyll configuration
 - `CNAME` — custom domain for GitHub Pages
 

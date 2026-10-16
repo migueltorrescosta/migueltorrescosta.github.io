@@ -8,6 +8,7 @@
     <nav class="site-nav" aria-label="Main">
       <a href="{{ '/' | relative_url }}"{% if page.title == "Home" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
       <a href="{{ '/blog' | relative_url }}"{% if page.title == "Blog" or page.collection == "posts" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M14 6l4 4"/></svg>Blog</a>
+      <a href="{{ '/books' | relative_url }}"{% if page.title == "Books" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h5v16H4zM10 4h4v16h-4z"/><path d="M15.5 5l3.8-1 2.7 15.5-3.8 1z"/></svg>Books</a>
       <a href="{{ '/about' | relative_url }}"{% if page.title == "About" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>About</a>
       <a href="{{ site.baseurl }}/CV.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></svg>CV</a>
     </nav>
