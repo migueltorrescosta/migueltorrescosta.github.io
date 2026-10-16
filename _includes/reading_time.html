@@ -1,0 +1,2 @@
+{%- assign words = include.post.content | number_of_words -%}
+{%- if words < 180 -%}1{%- else -%}{{ words | divided_by: 110 }}{%- endif %} min

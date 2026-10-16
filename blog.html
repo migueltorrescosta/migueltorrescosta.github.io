@@ -1,0 +1,48 @@
+---
+layout: default
+title: Blog
+---
+
+<header>
+  <h1>Blog</h1>
+  {% capture all_posts %}{{ site.posts.size }} posts since {{ site.posts.last.date | date: "%Y" }}{% endcapture %}
+  <p class="count" data-all="{{ all_posts }}">{{ all_posts }}</p>
+</header>
+
+{%- comment -%} Hidden until the script runs, so without JavaScript the page is just the full list. {%- endcomment -%}
+<nav class="chips" aria-label="Topics" hidden>
+  <a class="chip" href="{{ '/blog' | relative_url }}" data-topic="">All</a>
+  {% for topic in site.topics %}
+  <a class="chip" href="{{ '/blog' | relative_url }}?topic={{ topic | downcase }}" data-topic="{{ topic | downcase }}" data-name="{{ topic }}" data-count="{{ site.categories[topic].size }}"><span class="n">{{ site.categories[topic].size }}</span>{{ topic }}</a>
+  {% endfor %}
+</nav>
+
+<div class="rows">
+  {% for post in site.posts %}{% include post_row.html post=post %}{% endfor %}
+</div>
+
+<script>
+  (() => {
+    const chips = document.querySelector(".chips");
+    const rows = document.querySelectorAll(".rows .row");
+    const count = document.querySelector(".count");
+    const show = (topic) => {
+      const chip = chips.querySelector(`[data-topic="${CSS.escape(topic)}"]`) || chips.querySelector('[data-topic=""]');
+      topic = chip.dataset.topic;
+      chips.querySelectorAll(".chip").forEach((c) => c.toggleAttribute("aria-current", c === chip));
+      rows.forEach((r) => { r.hidden = topic !== "" && !r.dataset.topics.split(" ").includes(topic); });
+      count.textContent = topic ? `${chip.dataset.count} posts on ${chip.dataset.name}` : count.dataset.all;
+    };
+    const fromUrl = () => show(new URLSearchParams(location.search).get("topic") || "");
+    chips.addEventListener("click", (e) => {
+      const chip = e.target.closest(".chip");
+      if (!chip || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      history.pushState(null, "", chip.href);
+      show(chip.dataset.topic);
+    });
+    addEventListener("popstate", fromUrl);
+    chips.hidden = false;
+    fromUrl();
+  })();
+</script>

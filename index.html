@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+{% include intro.html %}
+
+<section>
+  <h2 class="label">Latest writing</h2>
+  <div class="rows">
+    {% for post in site.posts limit: 3 %}{% include post_row.html post=post %}{% endfor %}
+  </div>
+  <a class="more" href="{{ '/blog' | relative_url }}">All {{ site.posts.size }} posts &rarr;</a>
+</section>
+
+<section>
+  <h2 class="label">Projects</h2>
+  <div class="rows">
+    <a class="row" href="https://notes.mptc.uk"><span class="row-title">notes.mptc.uk</span><span class="row-summary">My notes on quantum theory, coding and books.</span></a>
+    <a class="row" href="https://tools.mptc.uk"><span class="row-title">tools.mptc.uk</span><span class="row-summary">Small browser tools: rank votes, decision trees, verb drills and more.</span></a>
+  </div>
+  <div class="cards">
+    {% for post in site.categories.Interactive %}
+    <a class="card" href="{{ post.url | relative_url }}"><b>{{ post.title | escape }}</b><small>{{ post.description | escape }}</small></a>
+    {% endfor %}
+  </div>
+</section>

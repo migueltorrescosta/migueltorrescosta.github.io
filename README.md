@@ -40,4 +40,5 @@ the repository.
 
 ## Licence
 
-The site uses the Celeste theme. `LICENSE` is the Celeste theme's MIT licence.
+`LICENSE` is the MIT licence of the Celeste theme the site used until 2026. The fonts in
+`fonts/` are under the SIL Open Font License (`fonts/OFL.txt`).
