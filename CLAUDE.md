@@ -1,8 +1,8 @@
 # blog
 
-Personal blog for Miguel Torres Costa. Jekyll (via the `github-pages` gem), Ruby, GitHub Pages. Live at https://blog.mptc.uk (custom domain set by `CNAME`).
+Personal blog for Miguel Torres Costa. Jekyll 4, Ruby, GitHub Pages. Live at https://blog.mptc.uk (custom domain set by `CNAME`).
 
-GitHub Pages builds and publishes the site from `main`, so merging to `main` deploys. The `github-pages` gem pinned in the `Gemfile` keeps the local build on the same Jekyll and plugin versions that GitHub Pages uses.
+`.github/workflows/deploy.yml` builds the site with the `Gemfile`'s Jekyll on every push to `main` and publishes it with GitHub Pages' Actions deploy, so merging to `main` deploys. This needs the repository's Pages source (Settings > Pages) to be "GitHub Actions".
 
 ## Quality Gates
 
@@ -13,7 +13,7 @@ bundle exec jekyll build
 
 Verify the site builds without errors. Catches broken markdown, Liquid template errors, and missing includes.
 
-CI (`.github/workflows/ci.yml`) runs on every pull request: the Jekyll build on Ruby 3.3, and a check that `assets/react_components` matches what Babel generates from `_react_src`. Its final `ci` job is the single check the ruleset requires. CI does not deploy; GitHub Pages does.
+CI (`.github/workflows/ci.yml`) runs on every pull request: the Jekyll build on Ruby 3.3, and a check that `assets/react_components` matches what Babel generates from `_react_src`. Its final `ci` job is the single check the ruleset requires. CI does not deploy; `deploy.yml` does, from `main`. Both build with the same `Gemfile` and command.
 
 Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored).
 
@@ -33,5 +33,5 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 
 - Theme: Celeste (minimalist, based on Poole).
 - Posts use standard Jekyll front matter.
-- The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because GitHub Pages runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
+- The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because the deploy runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
 - No commits on main. Branch or worktree only.

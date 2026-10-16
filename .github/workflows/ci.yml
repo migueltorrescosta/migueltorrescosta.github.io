@@ -1,6 +1,6 @@
 name: CI
 
-# Checks only. GitHub Pages builds and publishes the site from main on its own.
+# Checks only. deploy.yml builds and publishes the site on pushes to main.
 on:
   pull_request:
 
@@ -24,8 +24,11 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
+      # Same Gemfile and build command as deploy.yml.
       - name: Build the site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
   react-sync:
     name: React components in sync
