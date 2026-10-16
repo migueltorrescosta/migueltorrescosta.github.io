@@ -2,9 +2,11 @@
 
 Source of Miguel Torres Costa's personal blog, live at https://blog.mptc.uk.
 
-It is a Jekyll site published by GitHub Pages from the `main` branch. The
-`github-pages` gem pinned in the `Gemfile` matches the versions GitHub Pages
-builds with.
+It is a Jekyll 4 site. On every push to `main`, the `Deploy` workflow
+(`.github/workflows/deploy.yml`) builds it with the `Gemfile`'s Jekyll and
+publishes it with GitHub Pages' Actions deploy. The repository's Pages source
+(Settings > Pages) must be "GitHub Actions"; the custom domain is set there too
+and matches `CNAME`.
 
 ## Local build
 
@@ -20,7 +22,7 @@ bundle exec jekyll serve    # preview at http://localhost:4000
 
 The interactive posts load a React component named by their `react_component:`
 front-matter key. `_react_src/*.jsx` is the source. `assets/react_components/*.js`
-is generated from it and committed, because GitHub Pages runs no build step
+is generated from it and committed, because the deploy runs no build step
 other than Jekyll. Do not edit the generated files: edit the `.jsx`, recompile,
 and commit both together.
 

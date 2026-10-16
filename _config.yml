@@ -12,6 +12,7 @@ permalink:           posts/:title
 sass:
   sass_dir:          _sass
   style:             :compressed
+  sourcemap:         never
 
 author:
   name:              Miguel Costa
