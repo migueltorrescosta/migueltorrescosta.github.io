@@ -33,6 +33,5 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 
 - Theme: squared paper, written for this site (no theme gem). No external font or icon requests: fonts live in `fonts/`, icons are inline SVG.
 - Posts use standard Jekyll front matter: `category:` holds the post's topics (one of `topics:` in `_config.yml`) and `description:` its one-line summary.
-- `docs/screenshots/` holds review screenshots and is excluded from the build.
 - The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because the deploy runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
 - No commits on main. Branch or worktree only.

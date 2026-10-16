@@ -12,8 +12,6 @@ Hey, I'm Miguel. I have completed my Masters in Mathematics in the UK and taught
 
 > I have tutored High School and University students, in Portuguese and English. If you're interested, please reach out on [LinkedIn](https://www.linkedin.com/in/miguel-torres-costa/) or [Mastodon](https://scholar.social/@migueltorrescosta).
 
-More info on my [CV]({{ site.baseurl }}/CV.pdf).
-
 Best Regards, Miguel
 
 ## Português
@@ -23,8 +21,6 @@ Olá, chamo-me Miguel, tirei a minha Licenciatura e Mestrado de Matemática em I
 
 > Dei explicações a alunos de ensino Secundário e Universitário, tanto em Inglês como Português. Caso queiras, ou conheças alguém interessado, entra em contacto comigo pelo [LinkedIn](https://www.linkedin.com/in/miguel-torres-costa/) ou [Mastodon](https://scholar.social/@migueltorrescosta).
 
-Mais informações no meu [CV]({{ site.baseurl }}/CV.pdf).
-
 Melhores Cumprimentos, Miguel
 
 ## Links
@@ -33,4 +29,8 @@ Melhores Cumprimentos, Miguel
 [CV]({{ site.baseurl }}/CV.pdf)
 {: .cv}
 
-{% include social.html labels=true %}
+<ul class="social">
+  <li><a rel="me" href="https://scholar.social/@migueltorrescosta">Mastodon</a></li>
+  <li><a href="https://github.com/migueltorrescosta">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/miguel-torres-costa/">LinkedIn</a></li>
+</ul>
