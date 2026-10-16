@@ -60,7 +60,7 @@ As such overconfidence might be rewarded or punished based on chance. What we ca
 
 The best book on this topic is [How to Measure Anything: Finding the Value of Intangibles in Business](https://hubbardresearch.com/publications/how-to-measure-anything-book/) by Douglas W. Hubbard. Most of the book is spent on showing that all events that we care about can be measured, and convincingly so. A single chapter was dedicating to pricing information into a lot of detail. I have [notes on Expected Opportunity Loss](https://notes.mptc.uk/Math/Probability/Expected-Opportunity-Loss).
 
-The key idea can be made clear by using an example taken from the Jupyter Notebook linked above. Assume that quantum computers might become a reality, and you can decide to invest on a startup in that area. For simplicity reasons, we will assume the 4 possible outcomes listed below, with full certainty of Return on Investment:
+The key idea can be made clear by using an example. Assume that quantum computers might become a reality, and you can decide to invest on a startup in that area. For simplicity reasons, we will assume the 4 possible outcomes listed below, with full certainty of Return on Investment:
 
 |                                                | Quantum computers are created before 2025 | Quantum computers are not created before 2025    |
 |------------------------------------------------|-------------------------------------------|--------------------------------------------------|
