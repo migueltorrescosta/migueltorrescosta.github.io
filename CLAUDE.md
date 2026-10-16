@@ -22,8 +22,8 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 - `_posts/` — blog post markdown files
 - `_includes/` — reusable template fragments
 - `_layouts/` — page templates
-- `_sass/` — SASS source files (base, components, pages, utilities)
-- `css/` — `style.scss` entry point and Font Awesome
+- `css/style.scss` — the whole stylesheet (design tokens at the top, light and dark)
+- `fonts/` — self-hosted woff2 fonts and their licence (`OFL.txt`)
 - `assets/` — static assets (documents, images, react_components)
 - `_react_src/` — JSX sources of the React components (not published)
 - `_config.yml` — Jekyll configuration
@@ -31,7 +31,8 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 
 ## Conventions
 
-- Theme: Celeste (minimalist, based on Poole).
-- Posts use standard Jekyll front matter.
+- Theme: squared paper, written for this site (no theme gem). No external font or icon requests: fonts live in `fonts/`, icons are inline SVG.
+- Posts use standard Jekyll front matter: `category:` holds the post's topics (one of `topics:` in `_config.yml`) and `description:` its one-line summary.
+- `docs/screenshots/` holds review screenshots and is excluded from the build.
 - The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because the deploy runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
 - No commits on main. Branch or worktree only.

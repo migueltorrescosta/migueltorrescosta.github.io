@@ -1,25 +1,326 @@
 ---
 ---
 
-// Variables
-@import "utilities/variables";
+// Squared paper: a 20px grid, a red margin rule and ink-blue serif headings.
+// Colours follow the device's light or dark setting.
 
-// Utility styles
-@import "utilities/mixins";
-@import "utilities/utils";
-@import "utilities/syntax-highlighting";
-@import "utilities/animations";
+@font-face { font-family: "Young Serif"; src: url("../fonts/young-serif-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible"; src: url("../fonts/atkinson-hyperlegible-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible"; src: url("../fonts/atkinson-hyperlegible-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible"; src: url("../fonts/atkinson-hyperlegible-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible Mono"; src: url("../fonts/atkinson-hyperlegible-mono-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 
-// Core
-@import "base/global";
-@import "base/layout";
-@import "base/typography";
+:root {
+  --bg: #fbfcfe;
+  --grid: #dfe6f2;
+  --margin: #e2574c;
+  --text: #22262e;
+  --text-2: #4a505c;
+  --ink: #1c3fa8;
+  --muted: #737b8c;
+  --rule: #cdd6e6;
+  --card: #ffffff;
+  --on-ink: #ffffff;
+  --nav-bg: rgba(251, 252, 254, .93);
+  --head: "Young Serif", Georgia, serif;
+  --body: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --mono: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+  color-scheme: light dark;
+}
 
-// Components
-@import "components/navigation";
-@import "components/code";
-@import "components/message";
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10151f;
+    --grid: #1b2332;
+    --margin: #e8746a;
+    --text: #dfe4ee;
+    --text-2: #aab3c4;
+    --ink: #9db8ff;
+    --muted: #8a93a6;
+    --rule: #26314a;
+    --card: #141b28;
+    --on-ink: #10151f;
+    --nav-bg: rgba(16, 21, 31, .93);
+  }
+}
 
-// Pages
-@import "pages/landing";
-@import "pages/posts";
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: var(--text);
+  font: 17px/1.6 var(--body);
+}
+
+// The page column, with the margin rule down its left side.
+.sheet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: calc(680px + 34px + 16px);
+  margin: 0 auto;
+  padding: 0 16px calc(76px + env(safe-area-inset-bottom)) 34px;
+}
+
+.sheet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22px;
+  width: 1.5px;
+  background: var(--margin);
+}
+
+main { flex: 1; padding-top: 28px; }
+
+// Navigation: a fixed bottom bar with icons on phones, a top bar on desktop.
+.site-nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8px 6px calc(10px + env(safe-area-inset-bottom));
+  background: var(--nav-bg);
+  border-top: 1px solid var(--rule);
+  backdrop-filter: blur(10px);
+}
+
+.site-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: var(--muted);
+  font: 12px var(--mono);
+  text-decoration: none;
+}
+
+.site-nav svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.site-nav a[aria-current] { color: var(--ink); font-weight: 700; }
+
+@media (min-width: 720px) {
+  .sheet { padding-bottom: 0; }
+  .site-nav {
+    position: static;
+    display: flex;
+    padding: 20px 0 14px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    backdrop-filter: none;
+  }
+  .site-nav svg { display: none; }
+  .site-nav a { flex-direction: row; color: var(--text-2); font: 16px var(--body); }
+  .site-nav a + a::before { content: "·"; margin: 0 12px; color: var(--muted); }
+  .site-nav a[aria-current] { color: var(--ink); }
+}
+
+// Type
+h1, h2, h3, h4, h5 {
+  color: var(--ink);
+  font-family: var(--head);
+  font-weight: 400;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+h1 { margin: 0 0 16px; font-size: 34px; }
+h2 { margin: 40px 0 12px; font-size: 26px; }
+h3 { margin: 32px 0 10px; font-size: 21px; }
+h4, h5 { margin: 24px 0 8px; font-size: 18px; }
+
+@media (min-width: 720px) {
+  h1 { font-size: 42px; }
+}
+
+a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+img, video, iframe { max-width: 100%; height: auto; }
+
+// Section labels, and the mono face for dates, topics and counts.
+.label {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font: 13px var(--mono);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+h2.label { margin-top: 40px; }
+
+.meta, .count {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 0;
+  color: var(--muted);
+  font: 13px/1.5 var(--mono);
+}
+
+.meta > * + *::before { content: "·"; margin-right: 12px; color: var(--muted); }
+.meta a { color: var(--ink); text-decoration: none; }
+.meta a:hover { text-decoration: underline; }
+
+section { margin-top: 40px; }
+
+.intro .kicker { margin: 0 0 4px; color: var(--ink); font: 14px var(--mono); letter-spacing: .06em; }
+.intro h1 { margin: 0; }
+.intro .lede { margin: 12px 0 0; color: var(--text-2); }
+
+// Post lists
+.rows { display: flex; flex-direction: column; }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--rule);
+  color: inherit;
+  text-decoration: none;
+}
+
+.row[hidden] { display: none; }
+.row-title { color: var(--ink); font: 19px/1.25 var(--head); }
+.row:hover .row-title { text-decoration: underline; text-decoration-thickness: 1px; }
+.row-summary { color: var(--text-2); font-size: 16px; line-height: 1.45; }
+
+.more { display: inline-block; margin-top: 12px; font-weight: 700; text-decoration: none; }
+
+.cards { display: flex; gap: 10px; margin-top: 16px; padding-bottom: 4px; overflow-x: auto; }
+
+.card {
+  display: flex;
+  flex: 1 0 152px;
+  flex-direction: column;
+  gap: 6px;
+  padding: 13px;
+  background: var(--card);
+  border: 1.5px solid var(--rule);
+  border-radius: 2px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card b { color: var(--ink); font: 400 17px/1.2 var(--head); }
+.card small { color: var(--text-2); font-size: 14px; line-height: 1.35; }
+
+// Topic chips on the Blog page
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; }
+.chips[hidden] { display: none; }
+
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 11px;
+  background: var(--card);
+  border: 1.5px solid var(--ink);
+  border-radius: 2px;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.chip .n { color: var(--muted); font: 12px var(--mono); }
+.chip[aria-current] { background: var(--ink); color: var(--on-ink); }
+.chip[aria-current] .n { color: inherit; opacity: .8; }
+
+// Posts and pages
+.post > .meta { margin-bottom: 10px; }
+
+blockquote {
+  margin: 20px 0;
+  padding: 2px 0 2px 16px;
+  border-left: 3px solid var(--rule);
+  color: var(--text-2);
+}
+
+hr { margin: 32px 0; border: 0; border-top: 1px dashed var(--rule); }
+
+table { display: block; max-width: 100%; margin: 20px 0; overflow-x: auto; border-collapse: collapse; }
+th, td { padding: 6px 10px; background: var(--card); border: 1px solid var(--rule); text-align: left; }
+
+code { padding: .1em .3em; background: var(--card); border: 1px solid var(--rule); border-radius: 2px; font-family: var(--mono); font-size: .88em; }
+
+pre {
+  padding: 12px 14px;
+  overflow-x: auto;
+  background: var(--card);
+  border: 1.5px solid var(--rule);
+  border-radius: 2px;
+  line-height: 1.45;
+}
+
+pre code { padding: 0; background: none; border: 0; }
+
+mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; }
+
+// Rouge syntax highlighting
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs, .highlight .cp { color: var(--muted); font-style: italic; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kt, .highlight .kc, .highlight .ow { color: var(--ink); }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sx, .highlight .sr { color: var(--margin); }
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .mh { color: var(--margin); }
+.highlight .nf, .highlight .nc, .highlight .nt { font-weight: 700; }
+
+// Used inside posts and the React components
+.message { margin: 20px 0; padding: 12px 16px; background: var(--card); border: 1.5px solid var(--rule); border-radius: 2px; }
+div.flex-box { display: flex; justify-content: space-between; gap: 12px; }
+input, button, select, textarea { font: inherit; }
+
+.warning { margin: 16px 0 0; color: var(--muted); font: 13px var(--mono); text-align: right; }
+
+.post-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--rule);
+}
+
+.post-nav a { display: flex; flex-direction: column; gap: 4px; font-family: var(--head); line-height: 1.25; text-decoration: none; }
+.post-nav .label { margin: 0; }
+.post-nav .next { grid-column: 2; text-align: right; }
+
+// About and footer links
+.social { display: flex; flex-wrap: wrap; gap: 12px 20px; margin: 0; padding: 0; list-style: none; }
+.social a { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); }
+.social svg { width: 20px; height: 20px; fill: currentColor; }
+.cv { font-weight: 700; }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin-top: 56px;
+  padding: 20px 0 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font: 13px var(--mono);
+}
+
+.footer p { margin: 0; }

@@ -1,16 +1,8 @@
-<div class="flex-box">
-    {% if page.previous %}
-        <small>&#8592;  Previous Post</small>
-    {% endif %}
-    {% if page.next %}
-        <small>Next Post  &#8594;</small>
-    {% endif %}
-</div>
-<div class="flex-box">
-    {% if page.previous %}
-        <a href="{{page.previous.url}}">{{ page.previous.title }}</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{page.next.url}}">{{ page.next.title }}</a>
-    {% endif %}
-</div>
+<nav class="post-nav" aria-label="More posts">
+  {% if page.previous %}
+  <a class="prev" href="{{ page.previous.url | relative_url }}"><span class="label">&larr; Previous</span>{{ page.previous.title | escape }}</a>
+  {% endif %}
+  {% if page.next %}
+  <a class="next" href="{{ page.next.url | relative_url }}"><span class="label">Next &rarr;</span>{{ page.next.title | escape }}</a>
+  {% endif %}
+</nav>

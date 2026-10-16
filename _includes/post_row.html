@@ -1,0 +1,5 @@
+<a class="row" href="{{ include.post.url | relative_url }}" data-topics="{{ include.post.categories | join: ' ' | downcase }}">
+  <span class="row-title">{{ include.post.title | escape }}</span>
+  <span class="row-summary">{{ include.post.description | escape }}</span>
+  <span class="meta">{% for topic in include.post.categories %}<span>{{ topic }}</span>{% endfor %}<span>{{ include.post.date | date: "%Y" }}</span><span>{% include reading_time.html post=include.post %}</span></span>
+</a>

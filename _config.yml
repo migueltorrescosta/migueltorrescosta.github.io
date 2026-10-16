@@ -5,12 +5,11 @@ baseurl:             ""
 markdown:            kramdown
 highlighter:         rouge
 
-exclude:             ['README.md', 'CLAUDE.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle', 'renovate.json']
+exclude:             ['README.md', 'CLAUDE.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle', 'renovate.json', 'docs']
 
 permalink:           posts/:title
 
 sass:
-  sass_dir:          _sass
   style:             :compressed
   sourcemap:         never
 
@@ -18,3 +17,7 @@ author:
   name:              Miguel Costa
   url:               https://blog.mptc.uk
   email:             miguelptcosta1995@gmail.com
+
+# Post topics, in the order the Blog page's filter chips show them.
+# Each post lists its topics in its `category:` front matter.
+topics:              [Maths, Systems, Mind, Stories, Interactive, Software, Personal]
