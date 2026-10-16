@@ -1,0 +1,2 @@
+{%- assign label = include.book.title | append: " by " | append: include.book.author | escape -%}
+<a href="{{ include.book.url }}" title="{{ label }}"><img src="{{ include.book.cover }}" srcset="{{ include.book.cover }} 1x, {{ include.book.cover_2x }} 2x" alt="{{ label }}" width="98" height="147" loading="lazy"></a>

@@ -21,3 +21,7 @@ author:
 # Post topics, in the order the Blog page's filter chips show them.
 # Each post lists its topics in its `category:` front matter.
 topics:              [Maths, Systems, Mind, Stories, Interactive, Software, Personal]
+
+# The Goodreads shelf the Books page and Home's Books section show.
+# _plugins/goodreads.rb reads it on every build; a failed read fails the build.
+goodreads_feed:      https://www.goodreads.com/review/list_rss/65376142?shelf=read

@@ -25,3 +25,11 @@ title: Home
     {% endfor %}
   </div>
 </section>
+
+<section>
+  <h2 class="label">Reading</h2>
+  <div class="shelf">
+    {% for book in site.data.books limit: 6 %}{% include book_cover.html book=book %}{% endfor %}
+  </div>
+  <a class="more" href="{{ '/books' | relative_url }}">All {{ site.data.books.size }} books &rarr;</a>
+</section>

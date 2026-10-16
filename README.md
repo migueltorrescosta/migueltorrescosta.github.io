@@ -18,6 +18,9 @@ bundle exec jekyll build    # output in _site/
 bundle exec jekyll serve    # preview at http://localhost:4000
 ```
 
+Every build reads the Books page from the Goodreads feed (`_plugins/goodreads.rb`),
+so it needs network access and fails if the feed can't be read.
+
 ## React components
 
 The interactive posts load a React component named by their `react_component:`

@@ -1,0 +1,13 @@
+---
+layout: default
+title: Books
+---
+
+<header>
+  <h1>Books</h1>
+  <p class="count">{{ site.data.books.size }} books, newest first</p>
+</header>
+
+<div class="shelf shelf-all">
+  {% for book in site.data.books %}{% include book_cover.html book=book %}{% endfor %}
+</div>
