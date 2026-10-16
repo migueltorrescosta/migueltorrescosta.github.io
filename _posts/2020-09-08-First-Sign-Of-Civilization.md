@@ -1,7 +1,8 @@
 ---
 layout: post
 title: First Sign of Civilization
-category: [Short Stories]
+category: [Stories]
+description: "Margaret Mead's answer, found online, to what marks the start of civilisation."
 published: true
 ---
 

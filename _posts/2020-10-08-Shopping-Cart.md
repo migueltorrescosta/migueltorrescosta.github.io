@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Shopping Cart
-category: [Short Stories]
+category: [Stories]
+description: "A short text found online on why returning your shopping cart is a test of character."
 ---
 
 Found on the web

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Maths' Ceiling
-category: [Math, Psychology]
+category: [Maths, Mind]
+description: "Does everyone reach a point where maths stops making sense? Notes on Math With Bad Drawings' answer."
 ---
 
 This is entirely based on a [post](https://mathwithbaddrawings.com/2015/04/08/the-math-ceiling-wheres-your-cognitive-breaking-point/) from one of my favorite blogs: [Math With Bad Drawings](https://mathwithbaddrawings.com). Read the original post if you wanna see really cool drawings. The post starts with a simple question (and the author provides a lovely answer):

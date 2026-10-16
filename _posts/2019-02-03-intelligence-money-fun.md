@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Intelligence, Money, Fun
-category: [Short Stories]
+category: [Stories]
+description: "A short story found online about a father, a toddler and three choices."
 ---
 
 *Text serendipitously found in the web*

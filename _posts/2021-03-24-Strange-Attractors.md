@@ -3,7 +3,8 @@ layout: post
 title: Strange Attractors
 react_component: strange_attractors
 plotly: true
-category: [Math, Interactive]
+category: [Maths, Interactive]
+description: "Play the chaos game: pick attractor points and watch fractals appear."
 ---
 
 This is an implementation of Numberphile's ideas from their [Chaos Game Video](https://www.youtube.com/watch?v=kbKtFN71Lfs). Click on Run Simulation below to see the magic happen!

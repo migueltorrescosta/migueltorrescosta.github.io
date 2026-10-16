@@ -3,6 +3,7 @@ layout: post
 title: MasterMind - Game
 react_component: mastermind_game
 category: [Interactive]
+description: "Play MasterMind against the computer with your own alphabet and code length."
 ---
 
 # Goal

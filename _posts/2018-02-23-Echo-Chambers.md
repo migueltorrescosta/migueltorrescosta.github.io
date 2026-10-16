@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Echo Chambers
-category: [System Design, Psychology]
+category: [Systems, Mind]
+description: "How feed algorithms narrow what we read, and what I would ask social networks to change."
 published: true
 ---
 

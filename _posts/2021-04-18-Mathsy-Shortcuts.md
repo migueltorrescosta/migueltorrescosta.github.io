@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mathsy Shortcuts
-category: [Math]
+category: [Maths]
+description: "Small reasoning shortcuts, like seeing the geometric mean as an average of magnitudes."
 ---
 
 I have written this page to add small shortcuts and insights in reasoning that can be useful.

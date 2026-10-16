@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Predicting Product Conversion Rates
-category: [Math]
+category: [Maths]
+description: "Estimating a product's true conversion rate when it has had only a few visits and sales."
 published: true
 ---
 

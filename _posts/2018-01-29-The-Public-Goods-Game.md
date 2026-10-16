@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Public Goods Game
-category: [Psychology, System Design]
+category: [Mind, Systems]
+description: "A thought experiment from Predictably Irrational on why cooperation in a shared pot breaks down."
 published: true
 ---
 

@@ -3,10 +3,13 @@ layout: post
 title: Asset Division
 react_component: asset_division
 category: [Interactive]
+description: "An interactive tool for dividing shared items fairly when people value them differently."
 ---
 
 # Goal
 During inheritance procedures or other events of distribution of shared wealth, finding a satisfactory distribution can be challenging. Below we try to solve the issue based uniquely on the people involved and a list of items to be distributed, assuming that all have equal rights over the shared items.
+
+A newer version of this tool is at [tools.mptc.uk/split](https://tools.mptc.uk/split).
 
 # Technical Note
 
