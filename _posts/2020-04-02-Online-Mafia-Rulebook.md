@@ -2,6 +2,7 @@
 layout: post
 title: Online Mafia Rule book
 category: [Personal]
+description: "The full rules for playing Mafia over WhatsApp, with every role explained."
 published: true
 ---
 

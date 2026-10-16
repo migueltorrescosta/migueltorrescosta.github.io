@@ -1,7 +1,8 @@
 ---
 layout: post
 title: From Surviving to Living
-category: [System Design]
+category: [Systems]
+description: "Why paying someone twice as much can leave them eight times more to spend."
 published: true
 ---
 

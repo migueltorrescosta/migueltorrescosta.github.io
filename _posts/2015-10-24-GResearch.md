@@ -1,7 +1,8 @@
 ---
 layout: post
 title: G-Research Competition
-category: [Math, Coding]
+category: [Maths, Software]
+description: "Trading against other teams on a simulated high-frequency stock exchange."
 ---
 
 Today Me, Matt and Aiken went for a high-frequency stock exchange competition. It was sponsored by G-Research ( It’s a fairly efficient way of hiring the best employees).

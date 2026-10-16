@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Marginal Losses
-category: [System Design]
+category: [Systems]
+description: "Can markets account for externalities like pollution without special taxes?"
 published: true
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Hardest Logic Puzzle Ever
-category: [Math]
+category: [Maths]
+description: "Three gods, three yes-or-no questions and a language you don't speak: a worked solution."
 published: true
 math: True
 mathjax: true

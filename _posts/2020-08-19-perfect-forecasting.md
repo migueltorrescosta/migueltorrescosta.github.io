@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Perfect Forecasting
-category: [Math, System Design]
+category: [Maths, Systems]
+description: "Notes on combining many people's forecasts into one better view for shared decisions."
 published: true
 ---
 
@@ -57,9 +58,9 @@ As such overconfidence might be rewarded or punished based on chance. What we ca
 
 # The value of better forecasts can be quantified
 
-The best book on this topic is [How to Measure Anything: Finding the Value of Intangibles in Business](https://hubbardresearch.com/publications/how-to-measure-anything-book/) by Douglas W. Hubbard. Most of the book is spent on showing that all events that we care about can be measured, and convincingly so. A single chapter was dedicating to pricing information into a lot of detail. I have a [Python implementation using Jupyter](https://github.com/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb), however you can play with it from your browser using [Google Colab](https://colab.research.google.com/github/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb).
+The best book on this topic is [How to Measure Anything: Finding the Value of Intangibles in Business](https://hubbardresearch.com/publications/how-to-measure-anything-book/) by Douglas W. Hubbard. Most of the book is spent on showing that all events that we care about can be measured, and convincingly so. A single chapter was dedicating to pricing information into a lot of detail. I have [notes on Expected Opportunity Loss](https://notes.mptc.uk/Math/Probability/Expected-Opportunity-Loss).
 
-The key idea can be made clear by using an example taken from the Jupyter Notebook linked above. Assume that quantum computers might become a reality, and you can decide to invest on a startup in that area. For simplicity reasons, we will assume the 4 possible outcomes listed below, with full certainty of Return on Investment:
+The key idea can be made clear by using an example. Assume that quantum computers might become a reality, and you can decide to invest on a startup in that area. For simplicity reasons, we will assume the 4 possible outcomes listed below, with full certainty of Return on Investment:
 
 |                                                | Quantum computers are created before 2025 | Quantum computers are not created before 2025    |
 |------------------------------------------------|-------------------------------------------|--------------------------------------------------|
@@ -80,7 +81,7 @@ As such we should invest iff $p>\frac{1}{11}$, as can be seen by this table of O
 
 The key idea is that whenever a decision is made under uncertainty, you will lose money by making a non optimal decision. The Expected Opportunity Loss can be measured, and be reduced by reducing uncertainty around the unknown variables. As such say that currently $p=\frac{1}{2}$. By the optimal table the optimal decision is to invest, with an expected opportunity loss of half a million EUR. This means that for the possibilition to know now whether Quantum computers will be created before 2025 or not, any price below half a million EUR will still give us a profit. This is the price of perfect information for this unknown.
 
-Note that this is a simplified example of a much more complex world: Not only do we have to take into account way more variables, we also often don't have the possibility of fully reducing uncertainty, we can only get better measurements. Hubbard built a successful life around these measurements, and you can find more complex situations in the [Google Colab Notebook](https://colab.research.google.com/github/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb).
+Note that this is a simplified example of a much more complex world: Not only do we have to take into account way more variables, we also often don't have the possibility of fully reducing uncertainty, we can only get better measurements. Hubbard built a successful life around these measurements, and you can read more in my [notes on Expected Opportunity Loss](https://notes.mptc.uk/Math/Probability/Expected-Opportunity-Loss).
 
 # Existing companies in this area
 

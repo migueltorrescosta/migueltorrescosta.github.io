@@ -2,6 +2,7 @@
 layout: post
 title: Oxford University Elliptic Curves Research Project
 category: [Personal]
+description: "A research project computing the average rank of millions of elliptic curves in Sage."
 ---
 
 ### Computing the average rank of elliptic curves in ordered families

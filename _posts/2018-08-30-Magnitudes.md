@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Magnitudes
-category: [Psychology]
+category: [Mind]
+description: "Thinking in orders of magnitude to make sense of millions, billions and trillions."
 published: True
 ---
 

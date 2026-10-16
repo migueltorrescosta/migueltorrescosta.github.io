@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Long Term Teaching
-category: [Psychology]
+category: [Mind]
+description: "Two ways to teach maxima and minima, and which one actually sticks."
 published: true
 ---
 

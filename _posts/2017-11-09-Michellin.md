@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Michellin
-category: [System Design]
+category: [Systems]
+description: "Paying for tyres by the kilometre: how changing who pays fixes a broken incentive."
 published: true
 ---
 

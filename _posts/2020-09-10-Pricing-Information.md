@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Pricing Information
-category: [Math, Coding]
+category: [Maths, Software]
+description: "Using expected opportunity loss to put a price on what more information is worth."
 published: true
 ---
 
@@ -21,4 +22,4 @@ The above is detached from reality, but instead of heads or tails suppose we are
 
 This can be done for any decisions made under uncertainty (as Douglas Hubbard argues in his book).
 
-I have built an implementation of this Information Pricing mechanism in Python, available [on Github](https://github.com/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb). You can also [directly use Google Colab to play with it in the browser](https://colab.research.google.com/github/migueltorrescosta/tutor/blob/master/ExpectedOpportunityLoss.ipynb)
+I have written up this Information Pricing mechanism in my [notes on Expected Opportunity Loss](https://notes.mptc.uk/Math/Probability/Expected-Opportunity-Loss).

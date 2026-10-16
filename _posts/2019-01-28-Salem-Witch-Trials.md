@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Salem Witch Trials
-category: [Short Stories, Psychology]
+category: [Stories, Mind]
+description: "A story found online about a classroom game that shows how fear spreads."
 published: True
 ---
 

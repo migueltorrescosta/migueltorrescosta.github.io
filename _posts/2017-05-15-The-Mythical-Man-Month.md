@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Mythical Man Month
-category: [Psychology]
+category: [Mind]
+description: "The main lessons from Fred Brooks' short book on why adding developers makes late projects later."
 published: true
 ---
 

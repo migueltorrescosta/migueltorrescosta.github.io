@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Easy to State, Hard to Solve
-category: [Math]
+category: [Maths]
+description: "In how many ways can you tile a 3×n grid with dominoes? A worked solution."
 ---
 
 Interesting problems tend to follow a pattern of being very easy to state, and hard to solve. I am sharing one as an example. Do try to solve it before reading through the solution. Enjoy!

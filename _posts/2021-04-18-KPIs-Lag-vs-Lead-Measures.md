@@ -1,7 +1,8 @@
 ---
 layout: post
 title: KPIs - Lag vs Lead Measures 
-category: [System Design]
+category: [Systems]
+description: "Why the measures you can act on matter as much as the results you want."
 ---
 
 [KPIs](https://en.wikipedia.org/wiki/Performance_indicator) have proven themselves as a way to ensure we stay on track and actually achieve our goals, be it at a business level (i.e. How many new clients are we getting each day?) or a personal level ( i.e. how many hours of exercise am I doing each week? ). As I read through [Cal Newport's Deep Work](https://www.calnewport.com/books/deep-work/) he distinguishes between lead and lag measures, a big enough distinction that warrants keeping in mind while designing any KPI.

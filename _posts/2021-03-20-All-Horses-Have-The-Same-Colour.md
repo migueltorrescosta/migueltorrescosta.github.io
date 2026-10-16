@@ -1,7 +1,8 @@
 ---
 layout: post
 title: All horses have the same colour
-category: [Math]
+category: [Maths]
+description: "A famous false proof by induction. Can you find the mistake?"
 ---
 
 [Mathematical Induction](https://en.wikipedia.org/wiki/Mathematical_induction) has 3 steps to it:

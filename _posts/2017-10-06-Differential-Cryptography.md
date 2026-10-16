@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Differential Cryptography
-category: [Math, Coding]
+category: [Maths, Software]
+description: "How differential privacy lets you learn about a population without exposing any individual."
 published: true
 ---
 

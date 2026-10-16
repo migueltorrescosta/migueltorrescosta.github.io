@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How to AB Test
-category: [Math]
+category: [Maths]
+description: "What AB tests are and how to use them to choose between options with confidence."
 published: true
 mathjax: true
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Nash's Equilibrium
-category: [Math]
+category: [Maths]
+description: "How much should you pay to play Rock Paper Scissors against someone who can't play Scissors?"
 published: true
 ---
 

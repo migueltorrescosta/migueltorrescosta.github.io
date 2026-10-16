@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Integrating Factors
-category: [Math]
+category: [Maths]
+description: "A short derivation of the integrating factor method for first-order linear differential equations."
 ---
 
 Integrating factors allow us to solve equations of the form $$ y' + P(x)y = Q(x) $$
