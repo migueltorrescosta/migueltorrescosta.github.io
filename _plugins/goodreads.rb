@@ -37,8 +37,7 @@ module Goodreads
           "title" => text["title"],
           "author" => text["author_name"],
           "url" => "https://www.goodreads.com/book/show/#{text["book_id"]}",
-          "cover" => text["book_medium_image_url"],
-          "cover_2x" => text["book_large_image_url"],
+          "cover" => [text["book_large_image_url"], text["book_medium_image_url"]].find { |url| !url.empty? },
         }
       end
     end
