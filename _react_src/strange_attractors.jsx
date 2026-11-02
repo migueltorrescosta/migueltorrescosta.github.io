@@ -20,7 +20,7 @@ class StrangeAttractors extends React.Component {
         let valid = !(isNaN(iterations) || iterations < 1 || iterations > 10000);
         if (!valid) {
             this.setState({
-                error_message: "The number of iterations should be a postiive integer under 10000"
+                error_message: "The number of iterations should be a positive integer up to 10000"
             })
         };
         return (valid)
@@ -64,23 +64,24 @@ class StrangeAttractors extends React.Component {
         const { iterations, pull, points, current_point } = this.state;
         let latest_current_point = current_point;
         if (this.isValidRun()) {
+            const newPoints = points.slice();
             for (let i = 0; i < iterations; i++) {
                 let random_attractor = this.pickRandomAttractor();
-                points.push(latest_current_point);
+                newPoints.push(latest_current_point);
                 latest_current_point = {
                     x: (pull * random_attractor.x + (100 - pull) * latest_current_point.x) / 100,
                     y: (pull * random_attractor.y + (100 - pull) * latest_current_point.y) / 100
                 };
-                this.setState({
-                    points: points,
-                    current_point: latest_current_point
-                })
             }
+            this.setState({
+                points: newPoints,
+                current_point: latest_current_point
+            });
         }
     }
 
     erasePoints() {
-        this.setState({ points: [] })
+        this.setState({ points: [], error_message: "" })
     }
 
 
@@ -173,13 +174,20 @@ class StrangeAttractors extends React.Component {
 
     handleAttractorSubmit(e) {
         e.preventDefault();
+        const xVal = parseFloat(this.state.new_attractor.x);
+        const yVal = parseFloat(this.state.new_attractor.y);
+        if (isNaN(xVal) || isNaN(yVal)) {
+            this.setState({ error_message: "Coordinates must be numbers" });
+            return;
+        }
         this.setState({
-            attractors: this.state.attractors.concat(this.state.new_attractor),
+            attractors: this.state.attractors.concat({ id: this.state.new_attractor.id, x: xVal, y: yVal }),
             new_attractor: {
                 id: this.state.new_attractor.id + 1,
                 x: 0,
                 y: 0
-            }
+            },
+            error_message: ""
         })
     }
 
@@ -188,9 +196,7 @@ class StrangeAttractors extends React.Component {
             const { id, x, y } = item;
             const delete_attractor = (
                 <td className='delete_button' width='20px'>
-                    <form>
-                        <button className='button' onClick={() => this.handleAttractorDelete(id)}>Delete</button>
-                    </form>
+                    <button type="button" className='button' onClick={() => this.handleAttractorDelete(id)}>Delete</button>
                 </td>
             )
             return (
