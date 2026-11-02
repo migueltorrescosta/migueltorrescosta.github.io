@@ -18,8 +18,9 @@ bundle exec jekyll build    # output in _site/
 bundle exec jekyll serve    # preview at http://localhost:4000
 ```
 
-Every build reads the Books page from the Goodreads feed (`_plugins/goodreads.rb`),
-so it needs network access and fails if the feed can't be read.
+Every build reads the Books page from the Goodreads shelf widget
+(`_plugins/goodreads.rb`). Without network access, or if Goodreads changes the
+widget, it warns and uses the snapshot in `_data/books.yml`.
 
 ## React components
 
