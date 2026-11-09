@@ -13,7 +13,7 @@ bundle exec jekyll build
 
 Verify the site builds without errors. Catches broken markdown, Liquid template errors, and missing includes.
 
-CI (`.github/workflows/ci.yml`) runs on every pull request: the Jekyll build on Ruby 3.3, and a check that `assets/react_components` matches what Babel generates from `_react_src`. Its final `ci` job is the single check the ruleset requires. CI does not deploy; `deploy.yml` does, from `main`. Both build with the same `Gemfile` and command.
+CI (`.github/workflows/ci.yml`) runs on every pull request, drafts included, and again on every push, so push only once the local gate passes: the Jekyll build on Ruby 3.3, and a check that `assets/react_components` matches what Babel generates from `_react_src`. Its final `ci` job is the single check the ruleset requires. CI does not deploy; `deploy.yml` does, from `main`. Both build with the same `Gemfile` and command.
 
 Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored).
 
@@ -26,7 +26,7 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 - `fonts/` — self-hosted woff2 fonts and their licence (`OFL.txt`)
 - `assets/` — static assets (documents, images, react_components)
 - `_react_src/` — JSX sources of the React components (not published)
-- `_plugins/goodreads.rb` — reads the Goodreads shelf widget (`goodreads_widget` in `_config.yml`) on every build into `site.data.books`; when it can't, the build warns and keeps the snapshot in `_data/books.yml` (Goodreads retired shelf RSS in October 2026)
+- `_plugins/goodreads.rb` — reads the Goodreads shelf widget (`goodreads_widget` in `_config.yml`, the public `/review/custom_widget/<id>?shelf=read` page) on every build into `site.data.books`; when it can't, the build warns and keeps the committed snapshot in `_data/books.yml`, so builds pass even if the widget breaks. The shelf RSS no longer exists. If the widget dies too, the alternatives are Hardcover (token as a GitHub secret) or Open Library
 - `_config.yml` — Jekyll configuration
 - `CNAME` — custom domain for GitHub Pages
 
@@ -35,4 +35,4 @@ Never commit `_site/`, `.sass-cache/`, `vendor/` or `.bundle/` (all git-ignored)
 - Theme: squared paper, written for this site (no theme gem). No external font or icon requests: fonts live in `fonts/`, icons are inline SVG.
 - Posts use standard Jekyll front matter: `category:` holds the post's topics (one of `topics:` in `_config.yml`) and `description:` its one-line summary.
 - The React components are loaded only on posts with a `react_component:` front-matter key. `_react_src/*.jsx` is the source; `assets/react_components/*.js` is generated from it by Babel (JSX only) and committed, because the deploy runs no build step other than Jekyll. Never edit the generated files: edit the `.jsx`, recompile with the command in `README.md`, and commit both.
-- No commits on main. Branch or worktree only.
+- Work tracking: beads, as described in ~/projects/CLAUDE.md (PR bodies name the bead ids).
